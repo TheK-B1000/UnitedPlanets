@@ -1,0 +1,48 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnitedPlanets.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\ChooseNextWaypoint.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\DealDamageNotify.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\FocusAtPoint.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\GunParent.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\GunParentProjectile.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\MyAnimInstance.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\PatrolRoute.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\PlayerCharacter.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\SetFocalNode.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\SetViewTargetBlend.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanets.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsCharacter.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsGameMode.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsHUD.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsProjectile.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\TP_ThirdPersonCharacter.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\TP_ThirdPersonGameMode.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsGameModeBase.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\ChooseNextWaypoint.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\DealDamageNotify.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\FocusAtPoint.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\GunParent.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\GunParentProjectile.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\MyAnimInstance.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\PatrolRoute.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\PlayerCharacter.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\SetFocalNode.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\SetViewTargetBlend.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\TP_ThirdPersonCharacter.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\TP_ThirdPersonGameMode.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanets.init.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsCharacter.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsGameMode.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsGameModeBase.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsHUD.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UnitedPlanetsProjectile.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\Default.rc2.res"
+/OUT:"C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets.lib"
+/INCLUDE:IMPLEMENT_MODULE_UnitedPlanets
