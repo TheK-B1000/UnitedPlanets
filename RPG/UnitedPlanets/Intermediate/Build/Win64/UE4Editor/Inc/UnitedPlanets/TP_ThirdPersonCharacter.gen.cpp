@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_UnitedPlanets();
 	UNITEDPLANETS_API UFunction* Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck();
+	UNITEDPLANETS_API UFunction* Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -27,8 +28,18 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ATP_ThirdPersonCharacter_InteractCheck),NULL);
 	}
+	static FName NAME_ATP_ThirdPersonCharacter_TraceForward = FName(TEXT("TraceForward"));
+	void ATP_ThirdPersonCharacter::TraceForward()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ATP_ThirdPersonCharacter_TraceForward),NULL);
+	}
 	void ATP_ThirdPersonCharacter::StaticRegisterNativesATP_ThirdPersonCharacter()
 	{
+		UClass* Class = ATP_ThirdPersonCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "TraceForward", &ATP_ThirdPersonCharacter::execTraceForward },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics
 	{
@@ -50,6 +61,28 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATP_ThirdPersonCharacter, nullptr, "TraceForward", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -106,6 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck, "InteractCheck" }, // 304020567
+		{ &Z_Construct_UFunction_ATP_ThirdPersonCharacter_TraceForward, "TraceForward" }, // 1487411271
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::Class_MetaDataParams[] = {
@@ -219,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATP_ThirdPersonCharacter, 2376432985);
+	IMPLEMENT_CLASS(ATP_ThirdPersonCharacter, 465858401);
 	template<> UNITEDPLANETS_API UClass* StaticClass<ATP_ThirdPersonCharacter>()
 	{
 		return ATP_ThirdPersonCharacter::StaticClass();

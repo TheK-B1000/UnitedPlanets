@@ -14,8 +14,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UNITEDPLANETS_TP_ThirdPersonCharacter_generated_h
 
 #define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_SPARSE_DATA
-#define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_RPC_WRAPPERS
-#define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_RPC_WRAPPERS \
+	virtual void TraceForward_Implementation(); \
+ \
+	DECLARE_FUNCTION(execTraceForward) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TraceForward_Implementation(); \
+		P_NATIVE_END; \
+	}
+
+
+#define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTraceForward) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TraceForward_Implementation(); \
+		P_NATIVE_END; \
+	}
+
+
 #define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_EVENT_PARMS
 #define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_CALLBACK_WRAPPERS
 #define UnitedPlanets_Source_UnitedPlanets_TP_ThirdPerson_TP_ThirdPersonCharacter_h_12_INCLASS_NO_PURE_DECLS \

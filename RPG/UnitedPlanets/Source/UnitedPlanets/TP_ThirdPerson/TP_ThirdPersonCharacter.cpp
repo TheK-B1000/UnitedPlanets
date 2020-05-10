@@ -91,19 +91,7 @@ void ATP_ThirdPersonCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVect
 		StopJumping();
 }
 
-void ATP_ThirdPersonCharacter::TurnAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
-}
-
-void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-void ATP_ThirdPersonCharacter::Interact()
+void ATP_ThirdPersonCharacter::TraceForward_Implementation()
 {
 	FVector Loc;
 	FRotator Rot;
@@ -111,7 +99,7 @@ void ATP_ThirdPersonCharacter::Interact()
 
 	GetController()->GetPlayerViewPoint
 	(
-		OUT Loc, 
+		OUT Loc,
 		OUT Rot
 	);
 
@@ -121,7 +109,7 @@ void ATP_ThirdPersonCharacter::Interact()
 
 	FCollisionQueryParams TraceParams;
 
-	GetWorld()->LineTraceSingleByChannel
+	bool bHit = GetWorld()->LineTraceSingleByChannel
 	(
 		Hit,
 		Start,
@@ -139,6 +127,36 @@ void ATP_ThirdPersonCharacter::Interact()
 		false,
 		2.0f
 	);
+
+	if (bHit)
+	{
+		DrawDebugBox
+		(
+			GetWorld(),
+			Hit.ImpactPoint,
+			FVector(5, 5, 5),
+			FColor::Emerald,
+			false, 
+			2.0f
+		);
+	}
+}
+
+void ATP_ThirdPersonCharacter::TurnAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+}
+
+void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void ATP_ThirdPersonCharacter::Interact()
+{
+	TraceForward();
 
 	// Allows InteractCheck to be built in BP
 	this->InteractCheck();

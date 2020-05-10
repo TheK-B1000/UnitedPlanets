@@ -1874,3 +1874,78 @@ Script call stack:
 [2020.05.10-18.38.06:767][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.05.10-18.38.06:779][778]LogUObjectHash: Compacting FUObjectHashTables data took   9.60ms
 [2020.05.10-18.38.06:826][779]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.05.10-18.41.07:541][101]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-18.41.12:776][404]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-18.41.16:221][559]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-18.47.58:300][302]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.05.10-18.47.58:312][302]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Arena' took 0.090
+[2020.05.10-18.47.58:315][302]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP] ([1] browsable assets)...
+[2020.05.10-18.47.58:374][302]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP]
+[2020.05.10-18.47.58:374][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP]
+[2020.05.10-18.47.58:606][302]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BP_Auto107A9F96047C926CA6A24378531DBF7DB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP_Auto1.uasset'
+[2020.05.10-18.47.58:610][302]LogFileHelpers: Auto-saving content packages took 0.298
+[2020.05.10-19.13.03:131][779]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.13.03:692][802]Candidate modules for hot reload:
+[2020.05.10-19.13.03:692][802]  UnitedPlanets
+[2020.05.10-19.13.03:693][802]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,3933 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-19.13.03:746][802]Warning: Starting HotReload took  0.1s.
+[2020.05.10-19.14.11:061][493]CompilerResultsLog: New page: Compilation - May 10, 2020, 5:14:11 AM
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-19.14.11:062][493]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 28.6879305 seconds
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade]
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: [Upgrade]
+[2020.05.10-19.14.11:062][493]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.05.10-19.14.11:062][493]CompilerResultsLog:   [1/7] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-19.14.11:062][493]CompilerResultsLog:   c1xx: error C3435: character set 'utf-8' is not supported
+[2020.05.10-19.14.11:062][493]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Inc\UnitedPlanets\TP_ThirdPersonCharacter.gen.cpp: error C2855: command-line option '/source-charset' inconsistent with precompiled header
+[2020.05.10-19.14.11:062][493]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Inc\UnitedPlanets\TP_ThirdPersonCharacter.gen.cpp: error C2855: command-line option '/execution-charset' inconsistent with precompiled header
+[2020.05.10-19.14.11:062][493]CompilerResultsLog:   [2/7] UnitedPlanets.init.gen.cpp
+[2020.05.10-19.14.11:064][493]CompilerResultsLog:   [3/7] TP_ThirdPersonGameMode.cpp
+[2020.05.10-19.14.11:064][493]CompilerResultsLog:   [4/7] TP_ThirdPersonCharacter.cpp
+[2020.05.10-19.14.11:064][493]LogMainFrame: MainFrame: Module compiling took 67.389 seconds
+[2020.05.10-19.14.11:069][493]Warning: HotReload failed, recompile failed
+[2020.05.10-19.15.04:225][649]Candidate modules for hot reload:
+[2020.05.10-19.15.04:225][649]  UnitedPlanets
+[2020.05.10-19.15.04:225][649]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,2714 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-19.15.04:236][649]Warning: Starting HotReload took  0.0s.
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog: New page: Compilation - May 10, 2020, 5:15:36 AM
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 11.3138403 seconds
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-19.15.36:001][ 23]CompilerResultsLog: [Upgrade]
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: [Upgrade]
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:   [1/5] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:   [2/5] TP_ThirdPersonCharacter.cpp
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:   [3/5] UE4Editor-UnitedPlanets-2714.lib
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-2714.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-2714.exp
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:   [4/5] UE4Editor-UnitedPlanets-2714.dll
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-2714.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-2714.suppressed.exp
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog:   [5/5] UnitedPlanetsEditor.target
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: Total time in Parallel executor: 17.94 seconds
+[2020.05.10-19.15.36:002][ 23]CompilerResultsLog: Total execution time: 31.39 seconds
+[2020.05.10-19.15.36:002][ 23]LogMainFrame: MainFrame: Module compiling took 31.790 seconds
+[2020.05.10-19.15.36:614][ 23]LogUObjectHash: Compacting FUObjectHashTables data took  17.36ms
+[2020.05.10-19.15.38:618][ 23]LogClass: Could not find existing class TP_ThirdPersonCharacter in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.05.10-19.15.38:619][ 23]LogClass: Function TraceForward is new.
+[2020.05.10-19.15.38:715][ 23]LogHotReload: Re-instancing TP_ThirdPersonCharacter after hot-reload.
+[2020.05.10-19.15.41:027][ 23]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0140 seconds. Added 5 classes and 5 folders.
+[2020.05.10-19.15.41:035][ 23]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.05.10-19.15.41:605][ 23]LogUObjectHash: Compacting FUObjectHashTables data took  57.72ms
+[2020.05.10-19.15.41:800][ 23]LogContentBrowser: Native class hierarchy populated in 0.0545 seconds. Added 3023 classes and 727 folders.
+[2020.05.10-19.15.41:800][ 23]Display: HotReload took 37.6s.
