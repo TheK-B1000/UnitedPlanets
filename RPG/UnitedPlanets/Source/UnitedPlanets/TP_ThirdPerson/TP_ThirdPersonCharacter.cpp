@@ -100,14 +100,9 @@ void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
-void ATP_ThirdPersonCharacter::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-	this->InteractCheck();
-}
-
 void ATP_ThirdPersonCharacter::Interact()
 {
+	this->InteractCheck();
 }
 
 void ATP_ThirdPersonCharacter::MoveForward(float Value)
@@ -121,6 +116,7 @@ void ATP_ThirdPersonCharacter::MoveForward(float Value)
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
+		this->InteractCheck();
 	}
 }
 

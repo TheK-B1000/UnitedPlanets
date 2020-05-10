@@ -43,8 +43,6 @@ public:
 
 protected:
 
-	void Tick(float DeltaTime);
-
 	// Interact
 	void Interact();
 
