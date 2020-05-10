@@ -1778,3 +1778,38 @@ Script call stack:
 [2020.05.10-03.25.21:154][738]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/DIalogue_HUD65E06B734518A7721B30B0813984D669.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
 [2020.05.10-03.25.21:189][738]AssetCheck: New page: Asset Save: DIalogue_HUD
 [2020.05.10-03.25.21:189][738]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
+[2020.05.10-03.26.24:613][358]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.26.24:627][359]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.26.27:026][441]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.26.40:598][605]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.26.41:584][605]LogUObjectHash: Compacting FUObjectHashTables data took  17.96ms
+[2020.05.10-03.27.10:248][876]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.27.10:330][876]LogUObjectHash: Compacting FUObjectHashTables data took   8.09ms
+[2020.05.10-03.27.11:022][909]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.27.11:070][909]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessageF72DB9D1469E5F44592D2EB7AAF12CCA.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.27.11:105][909]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.27.11:128][909]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.27.11:129][909]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.27.17:540][ 83]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.27.18:437][132]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.27.18:526][132]LogUObjectHash: Compacting FUObjectHashTables data took   8.34ms
+[2020.05.10-03.27.19:356][172]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.27.19:407][172]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage650953004C49EDB93D204BACBF30BDE3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.27.19:431][172]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.27.19:431][172]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.27.48:925][144]LogSlate: Window 'Color Picker' being destroyed
+[2020.05.10-03.27.51:490][289]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.28.03:235][982]LogSlate: Window 'Color Picker' being destroyed
+[2020.05.10-03.28.15:095][196]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.28.15:199][196]LogUObjectHash: Compacting FUObjectHashTables data took  13.57ms
+[2020.05.10-03.28.15:718][218]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.28.15:784][218]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage7F872E4F4AE33FBF62E9808BD31BD13D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.28.15:816][218]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.28.15:816][218]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.28.17:550][289]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.28.23:674][576]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.28.23:780][576]LogUObjectHash: Compacting FUObjectHashTables data took  13.10ms
+[2020.05.10-03.28.24:401][594]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.28.24:465][594]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage73715E574F5CF4CD039C3680D384E9F2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.28.24:505][594]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.28.24:505][594]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
