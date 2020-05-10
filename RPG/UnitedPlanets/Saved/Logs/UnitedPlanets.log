@@ -4037,3 +4037,36 @@ Script Stack (0 frames):
 [2020.05.10-16.33.45:492][653]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble4DC2B2A84680A41D1262AF81250D1C58.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
 [2020.05.10-16.33.45:526][653]AssetCheck: New page: Asset Save: BP_Interactble
 [2020.05.10-16.33.45:526][653]LogContentValidation: Display: Validating Blueprint /Game/BP_Interactble.BP_Interactble
+[2020.05.10-16.34.58:452][ 22]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.35.59:292][832]LogSlate: Window 'Color Picker' being destroyed
+[2020.05.10-16.36.18:753][622]BlueprintLog: New page: Compile BP_Interactble
+[2020.05.10-16.36.19:323][622]LogUObjectHash: Compacting FUObjectHashTables data took   8.40ms
+[2020.05.10-16.36.19:481][626]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.36.19:557][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Interactble" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset" SILENT=true
+[2020.05.10-16.36.19:602][626]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble785DD0174F6FD4F79248F0BC9B403621.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.36.19:634][626]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-16.36.19:634][626]LogContentValidation: Display: Validating Blueprint /Game/BP_Interactble.BP_Interactble
+[2020.05.10-16.36.22:609][778]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.36.27:752][ 80]BlueprintLog: New page: Compile BP_Interactble
+[2020.05.10-16.36.28:281][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   7.77ms
+[2020.05.10-16.36.28:533][ 87]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.36.28:576][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Interactble" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset" SILENT=true
+[2020.05.10-16.36.28:617][ 87]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_InteractbleAE9ABB084C99D513E10AB1B951F721E5.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.36.28:643][ 87]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-16.36.28:643][ 87]LogContentValidation: Display: Validating Blueprint /Game/BP_Interactble.BP_Interactble
+[2020.05.10-16.36.55:328][427]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.36.56:778][488]LogSlate: Window 'Color Picker' being destroyed
+[2020.05.10-16.37.48:981][431]BlueprintLog: New page: Compile BP_Interactble
+[2020.05.10-16.37.49:656][431]LogUObjectHash: Compacting FUObjectHashTables data took  12.68ms
+[2020.05.10-16.37.50:080][442]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.37.50:141][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Interactble" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset" SILENT=true
+[2020.05.10-16.37.50:191][442]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble551459634B87A763515252A787C56780.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.37.50:224][442]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-16.37.50:224][442]LogContentValidation: Display: Validating Blueprint /Game/BP_Interactble.BP_Interactble
+[2020.05.10-16.39.06:498][703]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-16.39.32:828][839]LogUObjectHash: Compacting FUObjectHashTables data took  14.30ms
+[2020.05.10-16.39.32:842][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Arena' took 0.220
+[2020.05.10-16.39.32:855][839]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_Interactble] ([1] browsable assets)...
+[2020.05.10-16.39.32:855][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Interactble]
+[2020.05.10-16.39.32:904][839]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble_Auto21EE9ADA7468877A2520AEBA3C1434D6D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/BP_Interactble_Auto2.uasset'
+[2020.05.10-16.39.32:909][839]LogFileHelpers: Auto-saving content packages took 0.064
