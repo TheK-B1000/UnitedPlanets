@@ -1561,3 +1561,205 @@ Script call stack:
 [2020.05.10-02.30.50:744][644]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BPEF6E6A1246D1586A301D478E2BE06278.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
 [2020.05.10-02.30.50:767][644]AssetCheck: New page: Asset Save: ThirdPersonCharacter_BP
 [2020.05.10-02.30.50:767][644]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-02.39.20:439][228]Candidate modules for hot reload:
+[2020.05.10-02.39.20:439][228]  UnitedPlanets
+[2020.05.10-02.39.20:439][228]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,921 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-02.39.20:486][228]Warning: Starting HotReload took  0.1s.
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: New page: Compilation - May 9, 2020, 12:43:08 PM
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-02.43.08:640][166]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 30.1848087 seconds
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.43.08:640][166]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.05.10-02.43.08:640][166]CompilerResultsLog:   [1/7] TP_ThirdPersonGameMode.cpp
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.05.10-02.43.08:641][166]CompilerResultsLog: 
+[2020.05.10-02.43.08:641][166]CompilerResultsLog: 
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   [2/7] UnitedPlanets.init.gen.cpp
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   [3/7] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-02.43.08:641][166]CompilerResultsLog:   [4/7] TP_ThirdPersonCharacter.cpp
+[2020.05.10-02.43.08:641][166]LogMainFrame: MainFrame: Module compiling took 228.216 seconds
+[2020.05.10-02.43.08:641][166]Warning: HotReload failed, recompile failed
+[2020.05.10-02.43.32:327][158]Candidate modules for hot reload:
+[2020.05.10-02.43.32:327][158]  UnitedPlanets
+[2020.05.10-02.43.32:328][158]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,138 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-02.43.32:355][158]Warning: Starting HotReload took  0.1s.
+[2020.05.10-02.45.35:641][447]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultGame.ini'
+[2020.05.10-02.45.42:453][814]LogSourceControl: Attempting 'p4 fstat -Or /Script/Engine'
+[2020.05.10-02.45.42:453][814]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultInput.ini'
+[2020.05.10-02.45.42:479][815]SourceControl: Path 'C:/Script/Engine' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.10-02.45.49:311][958]CompilerResultsLog: New page: Compilation - May 9, 2020, 12:45:49 PM
+[2020.05.10-02.45.49:311][958]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-02.45.49:311][958]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-02.45.49:311][958]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 28.556338 seconds
+[2020.05.10-02.45.49:311][958]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-02.45.49:311][958]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-02.45.49:311][958]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.10-02.45.49:312][958]CompilerResultsLog:   [1/4] TP_ThirdPersonGameMode.cpp
+[2020.05.10-02.45.49:312][958]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-0138.lib
+[2020.05.10-02.45.49:312][958]CompilerResultsLog:   TP_ThirdPersonCharacter.gen.cpp.obj : warning LNK4006: "protected: void __cdecl ATP_ThirdPersonCharacter::InteractCheck(void)" (?InteractCheck@ATP_ThirdPersonCharacter@@IEAAXXZ) already defined in TP_ThirdPersonCharacter.cpp.obj; second definition ignored
+[2020.05.10-02.45.49:312][958]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0138.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0138.exp
+[2020.05.10-02.45.49:312][958]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-0138.dll
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.gen.cpp.obj : error LNK2005: "protected: void __cdecl ATP_ThirdPersonCharacter::InteractCheck(void)" (?InteractCheck@ATP_ThirdPersonCharacter@@IEAAXXZ) already defined in TP_ThirdPersonCharacter.cpp.obj
+[2020.05.10-02.45.49:312][958]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0138.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0138.suppressed.exp
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ATP_ThirdPersonCharacter::InteractCheck_Implementation(void)" (?InteractCheck_Implementation@ATP_ThirdPersonCharacter@@UEAAXXZ)
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ATP_ThirdPersonCharacter::InteractCheck_Implementation(void)" (?InteractCheck_Implementation@ATP_ThirdPersonCharacter@@UEAAXXZ)
+[2020.05.10-02.45.49:312][958]CompilerResultsLog: Error:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Binaries\Win64\UE4Editor-UnitedPlanets-0138.dll : fatal error LNK1120: 1 unresolved externals
+[2020.05.10-02.45.49:312][958]LogMainFrame: MainFrame: Module compiling took 136.995 seconds
+[2020.05.10-02.45.49:312][958]Warning: HotReload failed, recompile failed
+[2020.05.10-02.46.02:625][200]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultInput.ini'
+[2020.05.10-02.46.20:434][806]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.10-02.46.20:451][806]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.10-02.48.26:869][472]Candidate modules for hot reload:
+[2020.05.10-02.48.26:869][472]  UnitedPlanets
+[2020.05.10-02.48.26:869][472]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,9131 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-02.48.26:895][472]Warning: Starting HotReload took  0.1s.
+[2020.05.10-02.50.19:890][432]CompilerResultsLog: New page: Compilation - May 9, 2020, 12:50:19 PM
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-02.50.19:896][432]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 31.2697298 seconds
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.50.19:896][432]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.10-02.50.19:901][432]CompilerResultsLog:   [1/4] TP_ThirdPersonCharacter.cpp
+[2020.05.10-02.50.19:902][432]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-9131.lib
+[2020.05.10-02.50.19:902][432]CompilerResultsLog:   TP_ThirdPersonCharacter.gen.cpp.obj : warning LNK4006: "protected: void __cdecl ATP_ThirdPersonCharacter::InteractCheck(void)" (?InteractCheck@ATP_ThirdPersonCharacter@@IEAAXXZ) already defined in TP_ThirdPersonCharacter.cpp.obj; second definition ignored
+[2020.05.10-02.50.19:902][432]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9131.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9131.exp
+[2020.05.10-02.50.19:902][432]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-9131.dll
+[2020.05.10-02.50.19:902][432]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.gen.cpp.obj : error LNK2005: "protected: void __cdecl ATP_ThirdPersonCharacter::InteractCheck(void)" (?InteractCheck@ATP_ThirdPersonCharacter@@IEAAXXZ) already defined in TP_ThirdPersonCharacter.cpp.obj
+[2020.05.10-02.50.19:902][432]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9131.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9131.suppressed.exp
+[2020.05.10-02.50.19:902][432]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ATP_ThirdPersonCharacter::InteractCheck_Implementation(void)" (?InteractCheck_Implementation@ATP_ThirdPersonCharacter@@UEAAXXZ)
+[2020.05.10-02.50.19:903][432]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ATP_ThirdPersonCharacter::InteractCheck_Implementation(void)" (?InteractCheck_Implementation@ATP_ThirdPersonCharacter@@UEAAXXZ)
+[2020.05.10-02.50.19:903][432]CompilerResultsLog: Error:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Binaries\Win64\UE4Editor-UnitedPlanets-9131.dll : fatal error LNK1120: 1 unresolved externals
+[2020.05.10-02.50.19:903][432]LogMainFrame: MainFrame: Module compiling took 113.048 seconds
+[2020.05.10-02.50.19:904][432]Warning: HotReload failed, recompile failed
+[2020.05.10-02.51.06:565][500]Candidate modules for hot reload:
+[2020.05.10-02.51.06:565][500]  UnitedPlanets
+[2020.05.10-02.51.06:565][500]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,9570 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-02.51.06:591][500]Warning: Starting HotReload took  0.1s.
+[2020.05.10-02.52.02:035][670]CompilerResultsLog: New page: Compilation - May 9, 2020, 12:52:02 PM
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-02.52.02:037][670]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 15.0532941 seconds
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.52.02:037][670]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.05.10-02.52.02:038][670]CompilerResultsLog:   [1/7] UnitedPlanets.init.gen.cpp
+[2020.05.10-02.52.02:038][670]CompilerResultsLog:   [2/7] TP_ThirdPersonGameMode.cpp
+[2020.05.10-02.52.02:038][670]CompilerResultsLog:   [3/7] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-02.52.02:038][670]CompilerResultsLog:   [4/7] TP_ThirdPersonCharacter.cpp
+[2020.05.10-02.52.02:038][670]CompilerResultsLog:   [5/7] UE4Editor-UnitedPlanets-9570.lib
+[2020.05.10-02.52.02:038][670]CompilerResultsLog:   TP_ThirdPersonCharacter.gen.cpp.obj : warning LNK4006: "public: void __cdecl ATP_ThirdPersonCharacter::InteractCheck(void)" (?InteractCheck@ATP_ThirdPersonCharacter@@QEAAXXZ) already defined in TP_ThirdPersonCharacter.cpp.obj; second definition ignored
+[2020.05.10-02.52.02:044][670]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9570.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9570.exp
+[2020.05.10-02.52.02:044][670]CompilerResultsLog:   [6/7] UE4Editor-UnitedPlanets-9570.dll
+[2020.05.10-02.52.02:046][670]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.gen.cpp.obj : error LNK2005: "public: void __cdecl ATP_ThirdPersonCharacter::InteractCheck(void)" (?InteractCheck@ATP_ThirdPersonCharacter@@QEAAXXZ) already defined in TP_ThirdPersonCharacter.cpp.obj
+[2020.05.10-02.52.02:046][670]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9570.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9570.suppressed.exp
+[2020.05.10-02.52.02:046][670]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ATP_ThirdPersonCharacter::InteractCheck_Implementation(void)" (?InteractCheck_Implementation@ATP_ThirdPersonCharacter@@UEAAXXZ)
+[2020.05.10-02.52.02:046][670]CompilerResultsLog: Error:   TP_ThirdPersonCharacter.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ATP_ThirdPersonCharacter::InteractCheck_Implementation(void)" (?InteractCheck_Implementation@ATP_ThirdPersonCharacter@@UEAAXXZ)
+[2020.05.10-02.52.02:046][670]CompilerResultsLog: Error:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Binaries\Win64\UE4Editor-UnitedPlanets-9570.dll : fatal error LNK1120: 1 unresolved externals
+[2020.05.10-02.52.02:046][670]LogMainFrame: MainFrame: Module compiling took 55.494 seconds
+[2020.05.10-02.52.02:046][670]Warning: HotReload failed, recompile failed
+[2020.05.10-03.07.34:534][286]Candidate modules for hot reload:
+[2020.05.10-03.07.34:534][286]  UnitedPlanets
+[2020.05.10-03.07.34:534][286]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,4655 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-03.07.34:565][286]Warning: Starting HotReload took  0.1s.
+[2020.05.10-03.10.07:338][ 15]CompilerResultsLog: New page: Compilation - May 9, 2020, 1:10:07 PM
+[2020.05.10-03.10.07:344][ 15]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-03.10.07:344][ 15]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-03.10.07:344][ 15]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 24.9967479 seconds
+[2020.05.10-03.10.07:345][ 15]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-03.10.07:345][ 15]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-03.10.07:345][ 15]CompilerResultsLog: [Upgrade]
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: [Upgrade]
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [1/7] UnitedPlanets.init.gen.cpp
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [2/7] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [3/7] TP_ThirdPersonGameMode.cpp
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [4/7] TP_ThirdPersonCharacter.cpp
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [5/7] UE4Editor-UnitedPlanets-4655.lib
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4655.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4655.exp
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [6/7] UE4Editor-UnitedPlanets-4655.dll
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4655.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4655.suppressed.exp
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog:   [7/7] UnitedPlanetsEditor.target
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: Total time in Parallel executor: 123.75 seconds
+[2020.05.10-03.10.07:346][ 15]CompilerResultsLog: Total execution time: 152.00 seconds
+[2020.05.10-03.10.07:346][ 15]LogMainFrame: MainFrame: Module compiling took 152.833 seconds
+[2020.05.10-03.10.08:431][ 15]LogUObjectHash: Compacting FUObjectHashTables data took  98.57ms
+[2020.05.10-03.10.10:197][ 15]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0038 seconds. Added 4 classes and 5 folders.
+[2020.05.10-03.10.10:219][ 15]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.10-03.10.11:664][ 15]LogUObjectHash: Compacting FUObjectHashTables data took  14.91ms
+[2020.05.10-03.10.11:798][ 15]LogContentBrowser: Native class hierarchy populated in 0.0639 seconds. Added 3021 classes and 725 folders.
+[2020.05.10-03.10.11:798][ 15]Display: HotReload took 157.3s.
+[2020.05.10-03.14.25:395][802]Candidate modules for hot reload:
+[2020.05.10-03.14.25:395][802]  UnitedPlanets
+[2020.05.10-03.14.25:395][802]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,5280 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-03.14.25:422][802]Warning: Starting HotReload took  0.1s.
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: New page: Compilation - May 9, 2020, 1:15:27 PM
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 18.5304113 seconds
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade]
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: [Upgrade]
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:   [1/6] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:   [2/6] TP_ThirdPersonGameMode.cpp
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:   [3/6] TP_ThirdPersonCharacter.cpp
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:   [4/6] UE4Editor-UnitedPlanets-5280.lib
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5280.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5280.exp
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:   [5/6] UE4Editor-UnitedPlanets-5280.dll
+[2020.05.10-03.15.27:321][  7]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5280.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5280.suppressed.exp
+[2020.05.10-03.15.27:325][  7]CompilerResultsLog:   [6/6] UnitedPlanetsEditor.target
+[2020.05.10-03.15.27:325][  7]CompilerResultsLog: Total time in Parallel executor: 39.44 seconds
+[2020.05.10-03.15.27:325][  7]CompilerResultsLog: Total execution time: 61.31 seconds
+[2020.05.10-03.15.27:325][  7]LogMainFrame: MainFrame: Module compiling took 61.944 seconds
+[2020.05.10-03.15.27:777][  7]LogUObjectHash: Compacting FUObjectHashTables data took  18.78ms
+[2020.05.10-03.15.28:856][  7]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0017 seconds. Added 4 classes and 5 folders.
+[2020.05.10-03.15.28:875][  7]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.10-03.15.29:796][  7]LogUObjectHash: Compacting FUObjectHashTables data took  18.93ms
+[2020.05.10-03.15.29:842][  7]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 3021 classes and 725 folders.
+[2020.05.10-03.15.29:842][  7]Display: HotReload took 64.5s.

@@ -30,6 +30,9 @@ public:
 	float BaseLookUpRate;
 
 protected:
+	// Interact
+	void Interact();
+
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
@@ -65,6 +68,9 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	//UFUNCTION(BlueprintCallable, Category = "Dialogue")
+	void InteractCheck();
 
 };
 
