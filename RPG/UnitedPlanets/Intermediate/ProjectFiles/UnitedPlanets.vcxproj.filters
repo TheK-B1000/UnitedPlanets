@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnitedPlanets.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EC30D0E2-FF2D-4C74-974D-F1FFD75D7FFF}</UniqueIdentifier>
+      <UniqueIdentifier>{37F614C6-3E20-49D6-A6AD-23B717712236}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0C332BAB-7AAB-4B36-A49E-6256C68B3025}</UniqueIdentifier>
+      <UniqueIdentifier>{864454BF-2449-495B-BB9D-0AF65FCB7A20}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnitedPlanets">
-      <UniqueIdentifier>{5C701E65-01D1-42F0-934A-E5078D06ADC8}</UniqueIdentifier>
+      <UniqueIdentifier>{5F4F4531-E94A-4669-88D2-847D3734B648}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets\UnitedPlanets.Build.cs">
       <Filter>Source\UnitedPlanets</Filter>
@@ -45,25 +45,31 @@
       <Filter>Source\UnitedPlanets</Filter>
     </ClInclude>
     <Filter Include="Source\UnitedPlanets\Private">
-      <UniqueIdentifier>{3462D42B-C45C-4B17-AB15-55ED6E0CA671}</UniqueIdentifier>
+      <UniqueIdentifier>{E2A40653-9F46-44B9-A583-52F5D5B3BE5B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\UnitedPlanets\Private\Interact">
-      <UniqueIdentifier>{DC79221E-C348-4AC9-B569-7632D00A4FE7}</UniqueIdentifier>
+      <UniqueIdentifier>{2474235B-8552-4818-9C6C-3A21999E70FB}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\Interact\InteractableBase.cpp">
+      <Filter>Source\UnitedPlanets\Private\Interact</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\Interact\InteractInterface.cpp">
       <Filter>Source\UnitedPlanets\Private\Interact</Filter>
     </ClCompile>
     <Filter Include="Source\UnitedPlanets\Public">
-      <UniqueIdentifier>{82DD3345-7F46-4366-9782-B98E2CD509C5}</UniqueIdentifier>
+      <UniqueIdentifier>{4645F1EE-5227-4EAC-8E50-CF7AAAB37649}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\UnitedPlanets\Public\Interact">
-      <UniqueIdentifier>{C53EB2B5-03F4-4990-A4A1-FEF0D4E3DCEC}</UniqueIdentifier>
+      <UniqueIdentifier>{6DCAFC81-588E-4CA6-AB3B-E51E90F12D76}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\Interact\InteractableBase.h">
+      <Filter>Source\UnitedPlanets\Public\Interact</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\Interact\InteractInterface.h">
       <Filter>Source\UnitedPlanets\Public\Interact</Filter>
     </ClInclude>
     <Filter Include="Source\UnitedPlanets\TP_ThirdPerson">
-      <UniqueIdentifier>{D6EDEC56-8C3B-4653-9422-109BE3F48A9E}</UniqueIdentifier>
+      <UniqueIdentifier>{4FAFD31B-96BB-434F-A9CC-3350864483E1}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPerson.h">
       <Filter>Source\UnitedPlanets\TP_ThirdPerson</Filter>
