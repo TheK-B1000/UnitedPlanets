@@ -2275,3 +2275,163 @@ Script call stack:
 [2020.05.10-20.11.54:882][523]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
 [2020.05.10-20.11.55:087][523]LogContentBrowser: Native class hierarchy populated in 0.0597 seconds. Added 3023 classes and 727 folders.
 [2020.05.10-20.11.55:087][523]Display: HotReload took 27.8s.
+[2020.05.10-20.19.02:942][897]BlueprintLog: New page: Compile BP_Interactble
+[2020.05.10-20.19.03:822][897]LogUObjectHash: Compacting FUObjectHashTables data took  12.68ms
+[2020.05.10-20.19.05:443][982]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-20.19.05:621][982]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble768AF2B1498498E1ECF6CB9D4C7441C2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-20.19.05:657][982]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-20.19.05:657][982]LogContentValidation: Display: Validating Blueprint /Game/Interactables/BP_Interactble.BP_Interactble
+[2020.05.10-20.19.14:019][444]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-20.19.21:980][893]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.19.22:159][893]LogUObjectHash: Compacting FUObjectHashTables data took   8.58ms
+[2020.05.10-20.19.22:742][893]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaB44269F9499FA9B88206C1B038FEFDF9.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.19.22:891][893]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-20.19.22:916][893]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltData47C3E5C746B3C5F018AC189F993B59CC.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-20.19.22:950][893]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-20.19.22:950][893]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.10-20.19.22:950][893]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.05.10-20.19.25:269][981]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-20.19.25:368][981]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble570F3707415B807FADEE1494765DAE5D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-20.19.25:399][981]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-20.19.25:399][981]LogContentValidation: Display: Validating Blueprint /Game/Interactables/BP_Interactble.BP_Interactble
+[2020.05.10-20.19.40:474][213]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-20.19.40:531][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.19.40:532][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-20.19.40:532][213]PIE: New page: PIE session: Arena (May 10, 2020, 6:19:40 AM)
+[2020.05.10-20.19.40:533][213]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-20.19.40:567][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033466s)
+[2020.05.10-20.19.40:572][213]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-20.19.40:574][213]LogPlayLevel: PIE: World Init took: (0.006835s)
+[2020.05.10-20.19.40:574][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.040720s)
+[2020.05.10-20.19.40:665][213]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-20.19.40:672][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-20.19.40:672][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-20.19.40:673][213]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-20.19.40:673][213]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-20.19.40:725][213]LogAudioMixer: Display: Channel Order:
+[2020.05.10-20.19.40:726][213]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-20.19.40:726][213]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-20.19.40:753][213]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-20.19.40:762][213]LogInit: FAudioDevice initialized.
+[2020.05.10-20.19.40:792][213]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-20.19.40:799][213]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-13.19.40
+[2020.05.10-20.19.40:800][213]LogWorld: Bringing up level for play took: 0.007136
+[2020.05.10-20.19.40:800][213]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2020.05.10-20.19.40:811][213]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena 0.826
+[2020.05.10-20.19.40:812][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.20.06:521][605]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.20.06:521][605]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.20.06:525][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.20.06:527][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-20.20.06:527][605]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-20.20.06:527][605]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.20.06:530][605]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-20.20.06:532][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-20.20.06:556][605]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-20.20.06:556][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.20.06:568][605]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-20.20.06:642][605]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.20.06:650][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-20.20.06:660][605]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.05.10-20.20.06:708][606]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2020.05.10-20.20.08:522][698]LogEditorViewport: Clicking on Actor (LMB): BP_Interactble_C (BP_Interactble4)
+[2020.05.10-20.20.08:932][714]Cmd: DELETE
+[2020.05.10-20.20.08:932][714]Cmd: ACTOR DELETE
+[2020.05.10-20.20.08:955][714]LogEditorActor: Deleted Actor: BP_Interactble_C
+[2020.05.10-20.20.09:035][714]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.05.10-20.20.09:041][714]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2020.05.10-20.20.09:068][716]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.20.10:121][758]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.20.10:234][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.05.10-20.20.10:810][758]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaE32C164A49451912BB307A898D9E26A3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.20.10:951][758]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-20.20.10:954][758]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltData54DFCC22431F28FCDF96299F2CCB842B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-20.20.11:021][758]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-20.20.11:021][758]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.10-20.20.11:021][758]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.05.10-20.22.11:186][495]BlueprintLog: New page: Compile BP_Interactble
+[2020.05.10-20.22.12:077][495]LogUObjectHash: Compacting FUObjectHashTables data took  18.61ms
+[2020.05.10-20.22.12:291][496]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.22.15:348][584]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-20.22.15:430][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.22.15:430][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-20.22.15:431][584]PIE: New page: PIE session: Arena (May 10, 2020, 6:22:15 AM)
+[2020.05.10-20.22.15:431][584]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-20.22.15:458][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027482s)
+[2020.05.10-20.22.15:461][584]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-20.22.15:461][584]LogPlayLevel: PIE: World Init took: (0.003519s)
+[2020.05.10-20.22.15:462][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.031324s)
+[2020.05.10-20.22.15:589][584]LogUObjectHash: Compacting FUObjectHashTables data took  16.00ms
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-20.22.15:593][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-20.22.15:593][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-20.22.15:594][584]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-20.22.15:594][584]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: Channel Order:
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-20.22.15:681][584]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-20.22.15:748][584]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-20.22.15:757][584]LogInit: FAudioDevice initialized.
+[2020.05.10-20.22.15:776][584]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-20.22.15:781][584]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-13.22.15
+[2020.05.10-20.22.15:782][584]LogWorld: Bringing up level for play took: 0.004744
+[2020.05.10-20.22.15:783][584]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.05.10-20.22.15:793][584]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena -0.191
+[2020.05.10-20.22.15:794][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.22.24:933][909]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.22.24:936][909]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.10-20.22.24:955][909]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.10-20.22.24:955][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.22.24:956][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-20.22.24:956][909]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-20.22.24:956][909]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.22.24:957][909]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-20.22.24:958][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-20.22.24:988][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-20.22.24:989][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-20.22.25:013][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-20.22.25:127][909]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-20.22.25:143][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-20.22.25:171][909]LogUObjectHash: Compacting FUObjectHashTables data took  26.05ms
+[2020.05.10-20.22.25:250][910]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.05.10-20.22.26:347][942]LogEditorViewport: Clicking on Actor (LMB): BP_Interactble_C (BP_Interactble3)
+[2020.05.10-20.22.27:966][994]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Interactble_C (BP_Interactble2)
+[2020.05.10-20.22.29:061][ 33]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Interactble_C (BP_Interactble)
+[2020.05.10-20.22.29:756][ 55]Cmd: DELETE
+[2020.05.10-20.22.29:756][ 55]Cmd: ACTOR DELETE
+[2020.05.10-20.22.29:761][ 55]LogEditorActor: Deleted Actor: BP_Interactble_C
+[2020.05.10-20.22.29:764][ 55]LogEditorActor: Deleted Actor: BP_Interactble_C
+[2020.05.10-20.22.29:767][ 55]LogEditorActor: Deleted Actor: BP_Interactble_C
+[2020.05.10-20.22.29:896][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.05.10-20.22.29:903][ 55]LogEditorActor: Deleted 3 Actors (0.146 secs)
+[2020.05.10-20.22.32:681][157]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.22.32:880][157]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.05.10-20.22.33:662][157]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaE35FA8D64CF6C54960324B94C2DDF688.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-20.22.33:819][157]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-20.22.33:901][157]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltData020AD0514395C79A328772844E13B3BD.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-20.22.33:992][157]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-20.22.33:992][157]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.10-20.22.33:992][157]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
