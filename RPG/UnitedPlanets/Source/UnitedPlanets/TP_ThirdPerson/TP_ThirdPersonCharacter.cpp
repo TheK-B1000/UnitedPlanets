@@ -4,6 +4,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "Engine/World.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -87,10 +88,6 @@ void ATP_ThirdPersonCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVect
 		StopJumping();
 }
 
- void ATP_ThirdPersonCharacter::InteractCheck()
-{
-}
-
 void ATP_ThirdPersonCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
@@ -101,6 +98,12 @@ void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void ATP_ThirdPersonCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	this->InteractCheck();
 }
 
 void ATP_ThirdPersonCharacter::Interact()
@@ -118,7 +121,6 @@ void ATP_ThirdPersonCharacter::MoveForward(float Value)
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
-		//InteractCheck();
 	}
 }
 

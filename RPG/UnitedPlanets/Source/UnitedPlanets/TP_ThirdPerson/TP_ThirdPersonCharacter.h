@@ -29,10 +29,24 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InteractCheck)
+	FVector PlayerStartLocation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InteractCheck)
+	FVector SphereTraceDirection;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InteractCheck)
+	FVector SphereTraceEnd;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = InteractCheck)
+	float Reach = 200;
+
 protected:
+
+	void BeginPlay();
+
 	// Interact
 	void Interact();
-
 
 	/** Called for forwards/backward input */
 	void MoveForward(float Value);
@@ -69,7 +83,7 @@ public:
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
-	//UFUNCTION(BlueprintCallable, Category = "Dialogue")
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Dialogue")
 	void InteractCheck();
 
 };

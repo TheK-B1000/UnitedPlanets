@@ -17,11 +17,41 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 	UNITEDPLANETS_API UClass* Z_Construct_UClass_ATP_ThirdPersonCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_UnitedPlanets();
+	UNITEDPLANETS_API UFunction* Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_ATP_ThirdPersonCharacter_InteractCheck = FName(TEXT("InteractCheck"));
+	void ATP_ThirdPersonCharacter::InteractCheck()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ATP_ThirdPersonCharacter_InteractCheck),NULL);
+	}
 	void ATP_ThirdPersonCharacter::StaticRegisterNativesATP_ThirdPersonCharacter()
 	{
+	}
+	struct Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Dialogue" },
+		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATP_ThirdPersonCharacter, nullptr, "InteractCheck", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ATP_ThirdPersonCharacter_NoRegister()
 	{
@@ -30,9 +60,26 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 	struct Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Reach_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Reach;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SphereTraceEnd_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SphereTraceEnd;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SphereTraceDirection_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SphereTraceDirection;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerStartLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_PlayerStartLocation;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
@@ -57,6 +104,9 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_UnitedPlanets,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATP_ThirdPersonCharacter_InteractCheck, "InteractCheck" }, // 304020567
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -64,6 +114,34 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_Reach_MetaData[] = {
+		{ "Category", "InteractCheck" },
+		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_Reach = { "Reach", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATP_ThirdPersonCharacter, Reach), METADATA_PARAMS(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_Reach_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_Reach_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceEnd_MetaData[] = {
+		{ "Category", "InteractCheck" },
+		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceEnd = { "SphereTraceEnd", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATP_ThirdPersonCharacter, SphereTraceEnd), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceEnd_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceEnd_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceDirection_MetaData[] = {
+		{ "Category", "InteractCheck" },
+		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceDirection = { "SphereTraceDirection", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATP_ThirdPersonCharacter, SphereTraceDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceDirection_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceDirection_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_PlayerStartLocation_MetaData[] = {
+		{ "Category", "InteractCheck" },
+		{ "ModuleRelativePath", "TP_ThirdPerson/TP_ThirdPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_PlayerStartLocation = { "PlayerStartLocation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATP_ThirdPersonCharacter, PlayerStartLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_PlayerStartLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_PlayerStartLocation_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -105,6 +183,10 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATP_ThirdPersonCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_Reach,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceEnd,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_SphereTraceDirection,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_PlayerStartLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::NewProp_FollowCamera,
@@ -118,11 +200,11 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ATP_ThirdPersonCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -137,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeTP_ThirdPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATP_ThirdPersonCharacter, 3500192104);
+	IMPLEMENT_CLASS(ATP_ThirdPersonCharacter, 2376432985);
 	template<> UNITEDPLANETS_API UClass* StaticClass<ATP_ThirdPersonCharacter>()
 	{
 		return ATP_ThirdPersonCharacter::StaticClass();
