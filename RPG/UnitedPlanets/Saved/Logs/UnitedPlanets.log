@@ -1763,3 +1763,18 @@ Script call stack:
 [2020.05.10-03.15.29:796][  7]LogUObjectHash: Compacting FUObjectHashTables data took  18.93ms
 [2020.05.10-03.15.29:842][  7]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 3021 classes and 725 folders.
 [2020.05.10-03.15.29:842][  7]Display: HotReload took 64.5s.
+[2020.05.10-03.24.36:909][145]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-03.24.45:090][484]BlueprintLog: New page: Compile DIalogue_HUD
+[2020.05.10-03.24.45:520][484]LogUObjectHash: Compacting FUObjectHashTables data took  25.26ms
+[2020.05.10-03.24.45:758][486]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-03.24.45:874][486]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/DIalogue_HUD6E5D30C64A76139325EDD3AB0AA6D535.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-03.24.45:923][486]AssetCheck: New page: Asset Save: DIalogue_HUD
+[2020.05.10-03.24.45:924][486]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
+[2020.05.10-03.24.47:221][529]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-03.24.54:606][802]LogSlate: Took 0.003973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.05.10-03.25.20:219][700]BlueprintLog: New page: Compile DIalogue_HUD
+[2020.05.10-03.25.20:344][700]LogUObjectHash: Compacting FUObjectHashTables data took  12.06ms
+[2020.05.10-03.25.21:103][738]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-03.25.21:154][738]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/DIalogue_HUD65E06B734518A7721B30B0813984D669.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-03.25.21:189][738]AssetCheck: New page: Asset Save: DIalogue_HUD
+[2020.05.10-03.25.21:189][738]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
