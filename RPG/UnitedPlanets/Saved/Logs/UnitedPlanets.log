@@ -1813,3 +1813,24 @@ Script call stack:
 [2020.05.10-03.28.24:465][594]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage73715E574F5CF4CD039C3680D384E9F2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
 [2020.05.10-03.28.24:505][594]AssetCheck: New page: Asset Save: InteractMessage
 [2020.05.10-03.28.24:505][594]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.29.35:651][173]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.29.45:447][746]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.29.45:529][746]LogUObjectHash: Compacting FUObjectHashTables data took  10.54ms
+[2020.05.10-03.29.45:911][762]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.29.45:957][762]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage005505574532C34D8F3A6F952D3A5725.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.29.45:978][762]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.29.45:978][762]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.29.51:146][837]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.29.51:714][851]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.29.51:873][851]LogUObjectHash: Compacting FUObjectHashTables data took  15.00ms
+[2020.05.10-03.29.52:489][864]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.29.52:562][864]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage9E5D5377400A2CCEC5006A976ABE6A01.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.29.52:588][864]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.29.52:588][864]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
+[2020.05.10-03.30.07:641][600]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.30.13:356][924]BlueprintLog: New page: Compile InteractMessage
+[2020.05.10-03.30.13:433][924]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2020.05.10-03.30.14:300][964]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.30.14:348][964]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/InteractMessage25304AD6471464FAA4D4C299ED85F042.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-03.30.14:371][964]AssetCheck: New page: Asset Save: InteractMessage
+[2020.05.10-03.30.14:371][964]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/InteractMessage.InteractMessage
