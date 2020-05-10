@@ -1949,3 +1949,329 @@ Script call stack:
 [2020.05.10-19.15.41:605][ 23]LogUObjectHash: Compacting FUObjectHashTables data took  57.72ms
 [2020.05.10-19.15.41:800][ 23]LogContentBrowser: Native class hierarchy populated in 0.0545 seconds. Added 3023 classes and 727 folders.
 [2020.05.10-19.15.41:800][ 23]Display: HotReload took 37.6s.
+[2020.05.10-19.21.06:303][894]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-19.21.07:585][894]LogUObjectHash: Compacting FUObjectHashTables data took  14.05ms
+[2020.05.10-19.21.42:094][707]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/NPC/Guard_BP.Guard_BP
+[2020.05.10-19.21.44:950][836]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Guard_BP.uasset'
+[2020.05.10-19.21.45:023][840]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-19.21.45:023][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.21.51:562][203]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-19.21.51:711][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.21.51:713][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-19.21.51:713][203]PIE: New page: PIE session: Arena (May 10, 2020, 5:21:51 AM)
+[2020.05.10-19.21.51:714][203]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-19.21.51:740][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025434s)
+[2020.05.10-19.21.51:744][203]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-19.21.51:745][203]LogPlayLevel: PIE: World Init took: (0.004785s)
+[2020.05.10-19.21.51:746][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.031545s)
+[2020.05.10-19.21.51:868][203]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-19.21.51:877][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-19.21.51:877][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-19.21.51:878][203]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-19.21.51:878][203]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: Channel Order:
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-19.21.51:919][203]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-19.21.51:938][203]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-19.21.51:943][203]LogInit: FAudioDevice initialized.
+[2020.05.10-19.21.51:968][203]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-19.21.51:973][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-12.21.51
+[2020.05.10-19.21.51:974][203]LogWorld: Bringing up level for play took: 0.004977
+[2020.05.10-19.21.51:975][203]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.05.10-19.21.51:983][203]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena -0.002
+[2020.05.10-19.21.51:984][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.22.14:109][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.22.14:130][514]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.10-19.22.14:149][514]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.10-19.22.14:153][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.22.14:153][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-19.22.14:153][514]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-19.22.14:153][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.22.14:153][514]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-19.22.14:154][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.22.14:164][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-19.22.14:164][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.22.14:171][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.22.14:223][514]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.22.14:227][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-19.22.14:235][514]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.05.10-19.22.14:263][515]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.05.10-19.22.30:368][764]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-19.22.38:384][225]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.23.02:841][652]LogStaticMesh: Building static mesh 1M_Cube...
+[2020.05.10-19.23.02:953][652]LogStaticMesh: Built static mesh [0.11s] /Game/Geometry/Meshes/1M_Cube.1M_Cube
+[2020.05.10-19.23.03:030][652]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Interactables/BP_Interactble.BP_Interactble
+[2020.05.10-19.23.06:574][810]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-19.23.06:575][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.23.08:361][911]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.05.10-19.23.08:361][911]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-19.23.08:361][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.23.09:784][973]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-19.23.11:230][ 53]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-19.24.15:721][ 61]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-19.24.16:365][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2020.05.10-19.24.16:560][ 66]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.17:892][ 66]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.05.10-19.24.17:982][ 66]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.17:982][ 66]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.18:139][ 66]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BP3CAD0466415A47C29178D080E26A3C80.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.18:174][ 66]AssetCheck: New page: Asset Save: ThirdPersonCharacter_BP
+[2020.05.10-19.24.18:174][ 66]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-19.24.25:182][455]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.44:458][574]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-19.24.45:071][574]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2020.05.10-19.24.45:614][600]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.45:737][600]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BPD3DC0CD846E1BE1324DB0C92D61EFCBE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-19.24.45:765][600]AssetCheck: New page: Asset Save: ThirdPersonCharacter_BP
+[2020.05.10-19.24.45:765][600]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-19.24.47:366][682]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-19.24.47:400][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.24.47:400][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-19.24.47:400][682]PIE: New page: PIE session: Arena (May 10, 2020, 5:24:47 AM)
+[2020.05.10-19.24.47:400][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-19.24.47:412][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012268s)
+[2020.05.10-19.24.47:414][682]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-19.24.47:414][682]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2020.05.10-19.24.47:414][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.013934s)
+[2020.05.10-19.24.47:470][682]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-19.24.47:472][682]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-19.24.47:472][682]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-19.24.47:473][682]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-19.24.47:473][682]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-19.24.47:513][682]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-19.24.47:513][682]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-19.24.47:513][682]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-19.24.47:514][682]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-19.24.47:514][682]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-19.24.47:514][682]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-19.24.47:514][682]LogAudioMixer: Display: Channel Order:
+[2020.05.10-19.24.47:514][682]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-19.24.47:514][682]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-19.24.47:533][682]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-19.24.47:536][682]LogInit: FAudioDevice initialized.
+[2020.05.10-19.24.47:545][682]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-19.24.47:548][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-12.24.47
+[2020.05.10-19.24.47:549][682]LogWorld: Bringing up level for play took: 0.003422
+[2020.05.10-19.24.47:549][682]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.05.10-19.24.47:554][682]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena -0.431
+[2020.05.10-19.24.47:555][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.25.04:564][690]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.25.04:579][690]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.10-19.25.04:599][690]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.10-19.25.04:599][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.25.04:599][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-19.25.04:599][690]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-19.25.04:599][690]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.25.04:600][690]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-19.25.04:600][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.25.04:610][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-19.25.04:611][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.25.04:617][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.25.04:665][690]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.25.04:670][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-19.25.04:676][690]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2020.05.10-19.25.04:711][691]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.05.10-19.25.08:867][902]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-19.25.14:504][216]Cmd: TRANSACTION UNDO
+[2020.05.10-19.25.14:504][216]LogEditorTransaction: Undo Scale Actors
+[2020.05.10-19.25.18:438][424]LogEditorViewport: Clicking on Actor (LMB): BP_Interactble_C (BP_Interactble)
+[2020.05.10-19.25.19:708][498]Cmd: DUPLICATE
+[2020.05.10-19.25.19:708][498]Cmd: ACTOR DUPLICATE
+[2020.05.10-19.25.22:102][637]Cmd: DUPLICATE
+[2020.05.10-19.25.22:102][637]Cmd: ACTOR DUPLICATE
+[2020.05.10-19.25.23:705][729]Cmd: DUPLICATE
+[2020.05.10-19.25.23:705][729]Cmd: ACTOR DUPLICATE
+[2020.05.10-19.25.27:713][954]LogEditorViewport: Clicking on Actor (LMB): Guard_BP_C (Guard_BP)
+[2020.05.10-19.25.30:317][ 85]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-19.25.30:419][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.05.10-19.25.30:834][ 85]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena0AB1A0E3422BF4998946079FCF4ADDB3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-19.25.30:979][ 85]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-19.25.30:979][ 85]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltDataFAAEA8C84F9B6527D78802B0ACE920F5.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-19.25.31:005][ 85]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-19.25.31:005][ 85]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.10-19.25.31:005][ 85]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.05.10-19.25.31:809][119]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-19.25.31:851][119]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.25.31:851][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-19.25.31:851][119]PIE: New page: PIE session: Arena (May 10, 2020, 5:25:31 AM)
+[2020.05.10-19.25.31:852][119]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-19.25.31:864][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012082s)
+[2020.05.10-19.25.31:865][119]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-19.25.31:865][119]LogPlayLevel: PIE: World Init took: (0.001484s)
+[2020.05.10-19.25.31:865][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.013796s)
+[2020.05.10-19.25.31:922][119]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-19.25.31:923][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-19.25.31:923][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-19.25.31:924][119]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-19.25.31:924][119]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: Channel Order:
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-19.25.31:981][119]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-19.25.32:004][119]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-19.25.32:010][119]LogInit: FAudioDevice initialized.
+[2020.05.10-19.25.32:024][119]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-19.25.32:028][119]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-12.25.32
+[2020.05.10-19.25.32:029][119]LogWorld: Bringing up level for play took: 0.003583
+[2020.05.10-19.25.32:029][119]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.05.10-19.25.32:036][119]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena 0.051
+[2020.05.10-19.25.32:037][119]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.26.07:477][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.26.07:477][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.26.07:477][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.26.07:478][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-19.26.07:478][231]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-19.26.07:479][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.26.07:479][231]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-19.26.07:481][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.26.07:497][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-19.26.07:497][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-19.26.07:504][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-19.26.07:548][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-19.26.07:552][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-19.26.07:559][231]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2020.05.10-19.26.07:588][232]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.05.10-19.26.09:605][346]LogEditorViewport: Clicking on Actor (LMB): BP_Interactble_C (BP_Interactble3)
+[2020.05.10-19.26.10:454][394]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Interactble_C (BP_Interactble2)
+[2020.05.10-19.26.10:670][405]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-19.26.11:671][463]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Interactble_C (BP_Interactble)
+[2020.05.10-19.26.12:295][498]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Interactble_C (BP_Interactble4)
+[2020.05.10-19.26.13:184][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cone)
+[2020.05.10-19.26.13:261][549]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2020.05.10-19.26.14:780][635]LogEditorViewport: Clicking on Actor (LMB): BP_Interactble_C (BP_Interactble)
+[2020.05.10-19.26.15:370][668]Cmd: TRANSACTION UNDO
+[2020.05.10-19.26.15:374][668]LogEditorTransaction: Undo Clicking on Components
+[2020.05.10-19.26.15:667][675]Cmd: TRANSACTION UNDO
+[2020.05.10-19.26.15:667][675]LogEditorTransaction: Undo Move Actors
+[2020.05.10-19.26.18:704][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.10-19.26.19:937][913]LogEditorViewport: Clicking on Actor (LMB): BP_Interactble_C (BP_Interactble3)
+[2020.05.10-19.26.21:366][991]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Interactables/BP_Interactble.BP_Interactble
+[2020.05.10-19.26.47:999][501]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-19.26.49:367][501]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.05.10-19.26.49:447][501]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-19.26.49:448][501]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-19.26.49:598][501]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_InteractbleDFEE987643A183455F952799D0C60D92.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Interactables/BP_Interactble.uasset'
+[2020.05.10-19.26.49:621][501]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-19.26.49:621][501]LogContentValidation: Display: Validating Blueprint /Game/Interactables/BP_Interactble.BP_Interactble
+[2020.05.10-19.26.57:286][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2020.05.10-19.36.06:670][681]LogUObjectHash: Compacting FUObjectHashTables data took  17.51ms
+[2020.05.10-19.36.14:552][681]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_Auto2FB963072430320662AEC3DB9DB9A53CB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/Maps/Arena_Auto2.umap'
+[2020.05.10-19.36.14:616][681]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Arena' took 8.177
+[2020.05.10-19.36.14:616][681]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.177
+[2020.05.10-19.36.14:618][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/NPC/Guard_BP] ([1] browsable assets)...
+[2020.05.10-19.36.14:685][681]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/NPC/Guard_BP.Guard_BP]
+[2020.05.10-19.36.14:685][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPC/Guard_BP]
+[2020.05.10-19.36.15:268][681]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Guard_BP_Auto297557B22405A83DCD39DD9BAD5008029.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/NPC/Guard_BP_Auto2.uasset'
+[2020.05.10-19.36.15:286][681]LogFileHelpers: Auto-saving content packages took 0.671
+[2020.05.10-20.05.45:464][638]Candidate modules for hot reload:
+[2020.05.10-20.05.45:464][638]  UnitedPlanets
+[2020.05.10-20.05.45:465][638]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,3415 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-20.05.45:563][638]Warning: Starting HotReload took  0.3s.
+[2020.05.10-20.07.07:553][887]CompilerResultsLog: New page: Compilation - May 10, 2020, 6:07:07 AM
+[2020.05.10-20.07.07:554][887]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-20.07.07:556][887]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 23.6526728 seconds
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade]
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: [Upgrade]
+[2020.05.10-20.07.07:556][887]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.10-20.07.07:556][887]CompilerResultsLog:   [1/6] TP_ThirdPersonCharacter.cpp
+[2020.05.10-20.07.07:569][887]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp(146) : error C2374: 'Interface': redefinition; multiple initialization
+[2020.05.10-20.07.07:571][887]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp(137): note: see declaration of 'Interface'
+[2020.05.10-20.07.07:571][887]CompilerResultsLog:   [2/6] TP_ThirdPersonGameMode.cpp
+[2020.05.10-20.07.07:571][887]CompilerResultsLog:   [3/6] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-20.07.07:571][887]LogMainFrame: MainFrame: Module compiling took 82.135 seconds
+[2020.05.10-20.07.07:572][887]Warning: HotReload failed, recompile failed
+[2020.05.10-20.09.02:615][829]Candidate modules for hot reload:
+[2020.05.10-20.09.02:615][829]  UnitedPlanets
+[2020.05.10-20.09.02:615][829]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,1795 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-20.09.02:630][829]Warning: Starting HotReload took  0.0s.
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: New page: Compilation - May 10, 2020, 6:09:24 AM
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-20.09.24:259][915]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 13.2740144 seconds
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade]
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: [Upgrade]
+[2020.05.10-20.09.24:259][915]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.10-20.09.24:259][915]CompilerResultsLog:   [1/4] TP_ThirdPersonCharacter.cpp
+[2020.05.10-20.09.24:259][915]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp(174) : error C2059: syntax error: '}'
+[2020.05.10-20.09.24:260][915]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp(174) : error C2143: syntax error: missing ';' before '}'
+[2020.05.10-20.09.24:261][915]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp(177) : error C2143: syntax error: missing ';' before '{'
+[2020.05.10-20.09.24:261][915]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp(177) : error C2447: '{': missing function header (old-style formal list?)
+[2020.05.10-20.09.24:261][915]LogMainFrame: MainFrame: Module compiling took 21.662 seconds
+[2020.05.10-20.09.24:261][915]Warning: HotReload failed, recompile failed
+[2020.05.10-20.11.27:332][441]Candidate modules for hot reload:
+[2020.05.10-20.11.27:332][441]  UnitedPlanets
+[2020.05.10-20.11.27:332][441]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,7910 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-20.11.27:354][441]Warning: Starting HotReload took  0.1s.
+[2020.05.10-20.11.52:517][523]CompilerResultsLog: New page: Compilation - May 10, 2020, 6:11:52 AM
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 13.6972835 seconds
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade]
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: [Upgrade]
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:   [1/4] TP_ThirdPersonCharacter.cpp
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-7910.lib
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7910.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7910.exp
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-7910.dll
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7910.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7910.suppressed.exp
+[2020.05.10-20.11.52:519][523]CompilerResultsLog:   [4/4] UnitedPlanetsEditor.target
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Total time in Parallel executor: 8.69 seconds
+[2020.05.10-20.11.52:519][523]CompilerResultsLog: Total execution time: 24.59 seconds
+[2020.05.10-20.11.52:519][523]LogMainFrame: MainFrame: Module compiling took 25.201 seconds
+[2020.05.10-20.11.53:206][523]LogUObjectHash: Compacting FUObjectHashTables data took  35.61ms
+[2020.05.10-20.11.54:288][523]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0141 seconds. Added 5 classes and 5 folders.
+[2020.05.10-20.11.54:304][523]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.10-20.11.54:882][523]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
+[2020.05.10-20.11.55:087][523]LogContentBrowser: Native class hierarchy populated in 0.0597 seconds. Added 3023 classes and 727 folders.
+[2020.05.10-20.11.55:087][523]Display: HotReload took 27.8s.

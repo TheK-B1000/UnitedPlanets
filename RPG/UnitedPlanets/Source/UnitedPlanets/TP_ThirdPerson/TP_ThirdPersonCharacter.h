@@ -88,5 +88,7 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Dialogue")
 	void InteractCheck();
 
+private:
+	AActor* FocusedActor;
 };
 

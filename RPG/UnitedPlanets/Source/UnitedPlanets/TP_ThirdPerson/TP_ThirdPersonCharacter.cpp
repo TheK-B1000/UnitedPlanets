@@ -9,6 +9,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "InteractInterface.h"
 
 #define OUT
 
@@ -118,27 +119,56 @@ void ATP_ThirdPersonCharacter::TraceForward_Implementation()
 		TraceParams
 	);
 
-	DrawDebugLine
-	(
-		GetWorld(),
-		Start,
-		End,
-		FColor::FColor(255, 215, 0),
-		false,
-		2.0f
-	);
-
 	if (bHit)
 	{
-		DrawDebugBox
-		(
-			GetWorld(),
-			Hit.ImpactPoint,
-			FVector(5, 5, 5),
-			FColor::Emerald,
-			false, 
-			2.0f
-		);
+		// Create an Interactable
+		AActor* Interactable = Hit.GetActor();
+
+		// Check if there is an Interactable
+		if (Interactable) 
+		{
+			// Check to make sure the FocusedActor does not equal the Interactable
+			if (Interactable != FocusedActor)
+			{
+				// Check to make sure there is a Focused Actor
+				if (FocusedActor)
+				{
+					// Create a cast to the InteractInterface with object reference FocusedActor
+					IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
+					// Check to see if there is an Interface
+					if (Interface)
+					{
+						// Get the End Focus and Execute
+						Interface->Execute_EndFocus(FocusedActor);
+					}
+				}
+					// Create a cast to the InteractInterface with object reference Interactable
+					IInteractInterface* Interface = Cast<IInteractInterface>(Interactable);
+					// Check to see if there is an Interface
+					if (Interface)
+					{
+						// Get the Start Focus and Execute
+						Interface->Execute_StartFocus(Interactable);
+					}
+					FocusedActor = Interactable;
+			}
+		}
+		else
+		{
+			if (FocusedActor)
+			{
+				// Create a cast to the InteractInterface with object reference FocusedActor
+				IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
+				// Check to see if there is an Interface
+				if (Interface)
+				{
+					// Get the End Focus and Execute
+					Interface->Execute_EndFocus(FocusedActor);
+				}
+			}
+			// The focused actor is empty
+			FocusedActor = nullptr;
+		}
 	}
 }
 
@@ -157,6 +187,18 @@ void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
 void ATP_ThirdPersonCharacter::Interact()
 {
 	TraceForward();
+
+	if (FocusedActor)
+	{
+		// Create a cast to the InteractInterface with object reference FocusedActor
+		IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
+		// Check to see if there is an Interface
+		if (Interface)
+		{
+			// Get the End Focus and Execute
+			Interface->Execute_OnInteract(FocusedActor, this);
+		}
+	}
 
 	// Allows InteractCheck to be built in BP
 	this->InteractCheck();
