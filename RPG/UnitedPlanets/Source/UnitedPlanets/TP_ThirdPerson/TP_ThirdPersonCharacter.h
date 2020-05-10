@@ -43,7 +43,7 @@ public:
 
 protected:
 
-	void BeginPlay();
+	void Tick(float DeltaTime);
 
 	// Interact
 	void Interact();

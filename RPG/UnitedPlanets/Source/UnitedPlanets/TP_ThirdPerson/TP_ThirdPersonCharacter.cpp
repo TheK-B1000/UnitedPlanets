@@ -100,9 +100,9 @@ void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
-void ATP_ThirdPersonCharacter::BeginPlay()
+void ATP_ThirdPersonCharacter::Tick(float DeltaTime)
 {
-	Super::BeginPlay();
+	Super::Tick(DeltaTime);
 	this->InteractCheck();
 }
 
