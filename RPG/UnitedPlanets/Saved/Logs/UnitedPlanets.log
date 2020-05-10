@@ -1255,3 +1255,487 @@ Script call stack:
 [2020.05.10-17.54.06:675][478]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Wraith_AnimBlueprint89B0AA614E1B6808819E3B8CBC2A03B4.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
 [2020.05.10-17.54.06:697][478]AssetCheck: New page: Asset Save: Wraith_AnimBlueprint
 [2020.05.10-17.54.06:697][478]LogContentValidation: Display: Validating AnimBlueprint /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint
+[2020.05.10-17.55.55:784][816]LogRenderer: Reallocating scene render targets to support 1108x376 Format 10 NumSamples 1 (Frame:5336).
+[2020.05.10-17.55.56:117][826]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.55.56:117][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.55.56:123][826]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.55.56:124][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.55.56:334][826]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.55.56:334][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.55.57:658][896]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-17.55.57:762][896]LogUObjectHash: Compacting FUObjectHashTables data took   7.61ms
+[2020.05.10-17.55.58:170][896]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaD62E2BC644C5E32B7B499F8B692C07D3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-17.55.58:291][896]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-17.55.58:291][896]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltData57E67D2D4054D72A6556218272DF6FCB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-17.55.58:319][896]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-17.55.58:319][896]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.10-17.55.58:319][896]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.05.10-17.56.02:923][ 67]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-17.56.04:034][115]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
+[2020.05.10-17.56.05:637][120]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.10-17.56.15:107][415]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.56.20:062][583]BlueprintLog: New page: Compile DIalogue_HUD
+[2020.05.10-17.56.20:233][583]LogUObjectHash: Compacting FUObjectHashTables data took  12.79ms
+[2020.05.10-17.56.21:074][607]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.56.21:142][607]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/DIalogue_HUD824C3D444A1FAFDC9CF4D4A1FFC6CF03.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.56.21:176][607]AssetCheck: New page: Asset Save: DIalogue_HUD
+[2020.05.10-17.56.21:176][607]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
+[2020.05.10-17.56.21:855][630]LogSlate: Window 'DIalogue_HUD' being destroyed
+[2020.05.10-17.56.23:913][721]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-17.56.23:947][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.23:948][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-17.56.23:948][721]PIE: New page: PIE session: Arena (May 10, 2020, 3:56:23 AM)
+[2020.05.10-17.56.23:948][721]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.56.23:962][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013689s)
+[2020.05.10-17.56.23:963][721]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-17.56.23:963][721]LogPlayLevel: PIE: World Init took: (0.001618s)
+[2020.05.10-17.56.23:963][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.015521s)
+[2020.05.10-17.56.24:045][721]LogUObjectHash: Compacting FUObjectHashTables data took  17.79ms
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-17.56.24:049][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-17.56.24:049][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-17.56.24:050][721]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-17.56.24:050][721]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: Channel Order:
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-17.56.24:109][721]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-17.56.24:163][721]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.56.24:166][721]LogInit: FAudioDevice initialized.
+[2020.05.10-17.56.24:177][721]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-17.56.24:180][721]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-10.56.24
+[2020.05.10-17.56.24:181][721]LogWorld: Bringing up level for play took: 0.002747
+[2020.05.10-17.56.24:181][721]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.05.10-17.56.24:188][721]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena 0.204
+[2020.05.10-17.56.24:189][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.25:208][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.25:209][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.25:209][772]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.25:209][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.56.25:209][772]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.56.25:209][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.25:209][772]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.56.25:210][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.56.25:223][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-17.56.25:223][772]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.25:233][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.56.25:295][772]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.25:302][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.56.25:312][772]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.05.10-17.56.25:346][773]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.05.10-17.56.31:097][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-17.56.31:128][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.31:128][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-17.56.31:129][ 44]PIE: New page: PIE session: Arena (May 10, 2020, 3:56:31 AM)
+[2020.05.10-17.56.31:129][ 44]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.56.31:142][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012995s)
+[2020.05.10-17.56.31:143][ 44]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-17.56.31:143][ 44]LogPlayLevel: PIE: World Init took: (0.001594s)
+[2020.05.10-17.56.31:144][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.014816s)
+[2020.05.10-17.56.31:201][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.05.10-17.56.31:256][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-17.56.31:257][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-17.56.31:257][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-17.56.31:257][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-17.56.31:257][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-17.56.31:257][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-17.56.31:257][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-17.56.31:257][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-17.56.31:258][ 44]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-17.56.31:258][ 44]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: Channel Order:
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-17.56.31:331][ 44]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-17.56.31:355][ 44]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.56.31:358][ 44]LogInit: FAudioDevice initialized.
+[2020.05.10-17.56.31:373][ 44]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-17.56.31:377][ 44]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-10.56.31
+[2020.05.10-17.56.31:378][ 44]LogWorld: Bringing up level for play took: 0.003822
+[2020.05.10-17.56.31:378][ 44]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.05.10-17.56.31:387][ 44]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena -0.597
+[2020.05.10-17.56.31:388][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.32:030][ 67]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:049][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:074][ 69]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:091][ 70]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:111][ 71]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:136][ 72]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:154][ 73]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:176][ 74]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:195][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:215][ 76]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:239][ 77]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:255][ 78]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:272][ 79]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:294][ 80]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:311][ 81]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:338][ 82]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:355][ 83]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:377][ 84]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:400][ 85]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:419][ 86]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:441][ 87]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:459][ 88]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:475][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:499][ 90]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:519][ 91]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:541][ 92]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:562][ 93]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:579][ 94]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:603][ 95]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:619][ 96]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:639][ 97]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:664][ 98]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:679][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:696][100]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:716][101]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:733][102]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:751][103]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:769][104]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:790][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:808][106]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:828][107]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:847][108]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:864][109]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:882][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:900][111]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:918][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:936][113]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:965][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.32:990][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:007][116]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:033][117]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:058][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:073][119]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:093][120]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:113][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:131][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:151][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:167][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:187][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:202][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:224][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:241][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:261][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:280][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:295][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:316][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:339][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:356][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:371][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:398][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:417][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:436][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:456][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:477][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:495][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:514][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:535][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:553][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:572][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:593][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:614][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:637][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:654][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:671][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:690][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:711][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:731][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:749][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:769][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:789][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:806][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:826][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:847][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:864][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:886][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:909][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:932][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:951][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.33:974][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:730][319]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:752][320]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:764][321]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:784][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:800][323]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:821][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:837][325]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:857][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:876][327]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:894][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:914][329]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:930][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:952][331]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:965][332]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.36:987][333]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:005][334]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:026][335]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:043][336]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:057][337]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:079][338]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:101][339]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:118][340]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:138][341]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:157][342]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:172][343]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:192][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:208][345]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:227][346]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:244][347]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.37:265][348]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:500][417]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:523][418]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:541][419]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:562][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:581][421]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:598][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:619][423]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:635][424]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:654][425]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:675][426]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:696][427]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:777][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:801][432]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:818][433]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:837][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.38:865][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.39:545][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.40:887][547]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.40:905][548]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.40:927][549]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.40:948][550]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.40:965][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.40:985][552]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:003][553]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:023][554]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:041][555]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:232][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:247][567]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:265][568]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:284][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:301][570]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:319][571]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:337][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:356][573]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:375][574]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:394][575]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:409][576]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.41:431][577]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  DIalogue_HUD Function:  Display Message Graph:  Display Message Node:  Remove from Parent
+[2020.05.10-17.56.44:269][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.44:270][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.44:270][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.44:276][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.56.44:277][734]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.56.44:277][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.44:277][734]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.56.44:279][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.56.44:293][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-17.56.44:294][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.56.44:310][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.56.44:370][734]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.56.44:376][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.56.44:388][734]LogUObjectHash: Compacting FUObjectHashTables data took  10.57ms
+[2020.05.10-17.56.44:510][735]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.05.10-17.56.53:697][ 44]LogEditorTransaction: Undo Create Pin Link
+[2020.05.10-17.56.53:865][ 45]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.58.08:966][812]BlueprintLog: New page: Compile DIalogue_HUD
+[2020.05.10-17.58.09:057][812]LogUObjectHash: Compacting FUObjectHashTables data took   9.80ms
+[2020.05.10-17.58.25:480][732]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.58.25:548][732]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/DIalogue_HUD312F85404B099130D0D5BCA7B5925C84.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.58.25:581][732]AssetCheck: New page: Asset Save: DIalogue_HUD
+[2020.05.10-17.58.25:582][732]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
+[2020.05.10-17.58.28:736][881]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-17.58.28:764][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.28:765][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-17.58.28:765][881]PIE: New page: PIE session: Arena (May 10, 2020, 3:58:28 AM)
+[2020.05.10-17.58.28:765][881]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.58.28:784][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018034s)
+[2020.05.10-17.58.28:784][881]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-17.58.28:785][881]LogPlayLevel: PIE: World Init took: (0.001789s)
+[2020.05.10-17.58.28:785][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.020234s)
+[2020.05.10-17.58.28:856][881]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-17.58.28:857][881]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-17.58.28:857][881]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-17.58.28:858][881]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-17.58.28:858][881]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: Channel Order:
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-17.58.28:909][881]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-17.58.28:940][881]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.58.28:944][881]LogInit: FAudioDevice initialized.
+[2020.05.10-17.58.28:957][881]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-17.58.28:964][881]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-10.58.28
+[2020.05.10-17.58.28:965][881]LogWorld: Bringing up level for play took: 0.007191
+[2020.05.10-17.58.28:966][881]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.05.10-17.58.28:971][881]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena 0.986
+[2020.05.10-17.58.28:972][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.30:772][967]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.30:775][967]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.10-17.58.30:795][967]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.10-17.58.30:796][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.30:796][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.58.30:796][967]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.58.30:796][967]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.30:797][967]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.58.30:799][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.58.30:814][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-17.58.30:815][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.30:827][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.58.30:883][967]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.30:887][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.58.30:898][967]LogUObjectHash: Compacting FUObjectHashTables data took   9.36ms
+[2020.05.10-17.58.30:931][968]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.05.10-17.58.35:362][202]LogRenderer: Reallocating scene render targets to support 1108x400 Format 10 NumSamples 1 (Frame:6928).
+[2020.05.10-17.58.35:410][203]LogRenderer: Reallocating scene render targets to support 1108x416 Format 10 NumSamples 1 (Frame:6930).
+[2020.05.10-17.58.37:655][308]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-17.58.37:686][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.37:686][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-17.58.37:686][308]PIE: New page: PIE session: Arena (May 10, 2020, 3:58:37 AM)
+[2020.05.10-17.58.37:686][308]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.58.37:701][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013639s)
+[2020.05.10-17.58.37:702][308]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-17.58.37:703][308]LogPlayLevel: PIE: World Init took: (0.001547s)
+[2020.05.10-17.58.37:703][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.015702s)
+[2020.05.10-17.58.37:762][308]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2020.05.10-17.58.37:763][308]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-17.58.37:764][308]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-17.58.37:764][308]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-17.58.37:764][308]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-17.58.37:805][308]LogAudioMixer: Display: Channel Order:
+[2020.05.10-17.58.37:806][308]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-17.58.37:806][308]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-17.58.37:828][308]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.58.37:830][308]LogInit: FAudioDevice initialized.
+[2020.05.10-17.58.37:847][308]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-17.58.37:851][308]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-10.58.37
+[2020.05.10-17.58.37:852][308]LogWorld: Bringing up level for play took: 0.004042
+[2020.05.10-17.58.37:852][308]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.05.10-17.58.37:861][308]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena -0.124
+[2020.05.10-17.58.37:862][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.54:934][294]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.54:935][294]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.54:935][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.54:935][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.58.54:935][294]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.58.54:936][294]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.54:936][294]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.58.54:938][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.58.54:957][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-17.58.54:957][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.58.54:965][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.58.55:023][294]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-17.58.55:028][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-17.58.55:033][294]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.05.10-17.58.55:074][295]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.05.10-17.59.06:346][693]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.59.10:969][963]BlueprintLog: New page: Compile DIalogue_HUD
+[2020.05.10-17.59.11:033][963]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2020.05.10-17.59.11:643][990]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.59.11:701][990]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/DIalogue_HUD2B1284B3406A532ED6A429B775643F67.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset'
+[2020.05.10-17.59.11:725][990]AssetCheck: New page: Asset Save: DIalogue_HUD
+[2020.05.10-17.59.11:725][990]LogContentValidation: Display: Validating WidgetBlueprint /Game/Dialogue/DIalogue_HUD.DIalogue_HUD
+[2020.05.10-17.59.13:481][ 90]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-17.59.13:504][ 90]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.59.13:504][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-17.59.13:504][ 90]PIE: New page: PIE session: Arena (May 10, 2020, 3:59:13 AM)
+[2020.05.10-17.59.13:504][ 90]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-17.59.13:515][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010600s)
+[2020.05.10-17.59.13:516][ 90]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-17.59.13:516][ 90]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2020.05.10-17.59.13:516][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.012286s)
+[2020.05.10-17.59.13:566][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-17.59.13:567][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-17.59.13:567][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-17.59.13:568][ 90]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-17.59.13:568][ 90]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-17.59.13:610][ 90]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-17.59.13:610][ 90]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: Channel Order:
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-17.59.13:611][ 90]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-17.59.13:629][ 90]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-17.59.13:632][ 90]LogInit: FAudioDevice initialized.
+[2020.05.10-17.59.13:645][ 90]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-17.59.13:648][ 90]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.10-10.59.13
+[2020.05.10-17.59.13:649][ 90]LogWorld: Bringing up level for play took: 0.003170
+[2020.05.10-17.59.13:649][ 90]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.05.10-17.59.13:653][ 90]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Arena -0.332
+[2020.05.10-17.59.13:654][ 90]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-17.59.24:862][751]Cmd: LevelEditor.ToggleImmersive
+[2020.05.10-17.59.24:951][752]LogRenderer: Reallocating scene render targets to support 1176x572 Format 10 NumSamples 1 (Frame:663).
+[2020.05.10-17.59.25:002][753]LogRenderer: Reallocating scene render targets to support 1528x820 Format 10 NumSamples 1 (Frame:665).
+[2020.05.10-17.59.25:058][754]LogRenderer: Reallocating scene render targets to support 1540x828 Format 10 NumSamples 1 (Frame:667).
+[2020.05.10-18.00.16:921][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-18.00.16:925][861]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.10-18.00.16:944][861]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.10-18.00.16:945][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-18.00.16:945][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-18.00.16:945][861]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.05.10-18.00.16:945][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-18.00.16:945][861]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-18.00.16:946][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-18.00.16:968][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-18.00.16:968][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Arena.Arena:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Arena.Arena:PersistentLevel.Arena' with GeneratedClass '/Game/Maps/Arena.Arena_C' with ClassGeneratedBy '/Game/Maps/Arena.Arena:PersistentLevel.Arena'
+[2020.05.10-18.00.16:974][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-18.00.17:020][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-18.00.17:027][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-18.00.17:033][861]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2020.05.10-18.00.17:064][862]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.05.10-18.00.19:945][ 13]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-18.00.20:036][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.10-18.00.20:416][ 13]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena64602FD1459A27FB1785D08E507FD091.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.10-18.00.20:521][ 13]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-18.00.20:521][ 13]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltDataC0D78B3E448360605507F1BFEFD0838E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.10-18.00.20:547][ 13]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-18.00.20:547][ 13]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.10-18.00.20:547][ 13]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
