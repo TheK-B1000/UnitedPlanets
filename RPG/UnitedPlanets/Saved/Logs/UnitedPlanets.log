@@ -792,3 +792,602 @@ Script call stack:
 [2020.05.10-01.50.14:331][351]LogUObjectHash: Compacting FUObjectHashTables data took   7.47ms
 [2020.05.10-01.50.14:365][351]LogContentBrowser: Native class hierarchy populated in 0.0255 seconds. Added 3021 classes and 725 folders.
 [2020.05.10-01.50.14:365][351]Display: HotReload took 81.3s.
+[2020.05.10-01.57.20:707][ 79]LogSourceControl: Attempting 'p4 fstat -Or C:/Program Files/Epic Games/UE_4.24/Engine/Content/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject'
+[2020.05.10-01.57.20:708][ 79]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.10-01.57.50:352][ 79]LogSlate: Window 'Submit Files' being destroyed
+[2020.05.10-01.57.50:408][ 79]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultGame.ini C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPerson/Blueprints/ThirdPersonCharacter_BP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-01.57.50:408][ 79]LogSourceControl: Attempting 'p4 diff -sa C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultGame.ini C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPerson/Blueprints/ThirdPersonCharacter_BP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-01.57.50:408][ 79]SourceControl: C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultGame.ini - file(s) not opened for edit.
+
+[2020.05.10-01.57.50:408][ 79]SourceControl: C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset - file(s) not opened for edit.
+
+[2020.05.10-01.57.50:553][ 79]LogSourceControl: Attempting 'p4 reopen -c 31 C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultGame.ini C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPerson/Blueprints/ThirdPersonCharacter_BP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-01.57.50:553][ 79]LogSourceControl: Attempting 'p4 submit -c 31'
+[2020.05.10-01.57.50:564][ 79]SourceControl: Submitted changelist 31
+[2020.05.10-02.00.11:185][417]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-02.00.11:733][417]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 121 classes and 0 folders.
+[2020.05.10-02.00.13:306][417]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.17:272][502]LogSlate: Window 'ThirdPersonCharacter_BP' being destroyed
+[2020.05.10-02.00.18:051][533]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.00.18:051][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.00.18:149][533]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-02.00.18:820][533]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.20:908][597]LogSlate: Took 0.002348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.10-02.00.26:404][810]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.10-02.00.29:306][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.29:310][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.29:383][927]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.00.30:601][965]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-02.00.30:630][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.30:636][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.30:640][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.30:650][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.31:050][965]LogUObjectHash: Compacting FUObjectHashTables data took   7.81ms
+[2020.05.10-02.00.31:059][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.31:060][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.31:065][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.31:072][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.31:073][965]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.00.31:521][977]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.00.33:777][977]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.05.10-02.00.33:882][977]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.00.33:882][977]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.00.34:040][977]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BP10619D4147782E1B5FE6ED8C1E982E36.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.00.34:076][977]AssetCheck: New page: Asset Save: ThirdPersonCharacter_BP
+[2020.05.10-02.00.34:076][977]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-02.01.37:695][594]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.02.01:260][360]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.02.01:262][360]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:336][257]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-02.04.02:357][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:362][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:364][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:369][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:768][257]LogUObjectHash: Compacting FUObjectHashTables data took   6.85ms
+[2020.05.10-02.04.02:772][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:774][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:776][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:784][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.02:785][257]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.04.03:016][263]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.04.03:107][263]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BP6993CFEC48D5B3B4AAD911852A1B359F.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.04.03:125][263]AssetCheck: New page: Asset Save: ThirdPersonCharacter_BP
+[2020.05.10-02.04.03:125][263]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-02.06.53:283][856]LogSlate: Window 'ThirdPersonCharacter_BP' being destroyed
+[2020.05.10-02.06.55:003][943]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-02.06.55:049][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-02.06.55:049][943]PIE: New page: PIE session: Arena (May 9, 2020, 12:06:55 PM)
+[2020.05.10-02.06.55:064][943]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.10-02.06.55:066][943]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.10-02.06.55:067][943]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Arena
+[2020.05.10-02.06.55:087][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019287s)
+[2020.05.10-02.06.55:090][943]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-02.06.55:093][943]LogPlayLevel: PIE: World Init took: (0.006059s)
+[2020.05.10-02.06.55:093][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Arena.Arena to /Game/UEDPIE_0_Arena.Arena (0.026138s)
+[2020.05.10-02.06.55:152][943]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-02.06.55:159][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-02.06.55:159][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-02.06.55:160][943]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-02.06.55:160][943]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: Channel Order:
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-02.06.55:214][943]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-02.06.55:237][943]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-02.06.55:245][943]LogInit: FAudioDevice initialized.
+[2020.05.10-02.06.55:301][943]LogLoad: Game class is 'UnitedPlanetsGameModeBase'
+[2020.05.10-02.06.55:318][943]LogWorld: Bringing World /Game/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.09-19.06.55
+[2020.05.10-02.06.55:320][943]LogWorld: Bringing up level for play took: 0.004658
+[2020.05.10-02.06.55:321][943]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.05.10-02.06.55:362][943]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.05.10-02.06.55:370][943]PIE: Play in editor start time for /Game/UEDPIE_0_Arena 0.403
+[2020.05.10-02.06.57:174][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.06.57:174][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.06.57:182][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.06.57:183][  0]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Arena
+[2020.05.10-02.06.57:183][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.06.57:184][  0]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.06.57:185][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.06.57:199][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-02.06.57:208][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.06.57:262][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.06.57:266][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.06.57:315][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.51ms
+[2020.05.10-02.06.57:341][  1]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.05.10-02.07.07:707][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.10-02.07.21:032][900]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.07.32:260][302]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.10-02.07.55:365][323]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena_BuiltData.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCharacter_BP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset'
+[2020.05.10-02.07.58:049][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:051][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:051][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:052][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:052][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:052][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:052][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:052][450]LogLinker: Warning: Unable to load Default__UnitedPlanetsGameMode_BP_C with outer Package /Game/UnitedPlanetsGameMode_BP because its class does not exist
+[2020.05.10-02.07.58:053][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:054][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:055][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:056][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:056][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:056][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:057][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:057][450]LoadErrors: Failed to load /Game/Dialogue/UserInterface/HeadsUpDisplay.HeadsUpDisplay_C Referenced by UnitedPlanetsGameMode_BP
+[2020.05.10-02.07.58:057][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:058][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:059][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:059][450]LoadErrors: Failed to load /Game/Dialogue/UserInterface/HeadsUpDisplay.HeadsUpDisplay_C Referenced by K2Node_CreateWidget_0
+[2020.05.10-02.07.58:059][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:060][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:060][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:061][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:061][450]LoadErrors: Failed to load /Game/Dialogue/UserInterface/HeadsUpDisplay.HeadsUpDisplay_C Referenced by K2Node_VariableSet_0
+[2020.05.10-02.07.58:061][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:061][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:062][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:062][450]LogLinker: Warning: While loading '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset' failed to load '/Game/Dialogue/UserInterface/HeadsUpDisplay': Can't find file.
+[2020.05.10-02.07.58:062][450]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.07.58:110][450]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP
+[2020.05.10-02.08.05:490][450]LogSlate: Window 'Message' being destroyed
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HeadsUpDisplay': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_UnitedPlanetsGameMode_BP': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Create_ReturnValue': Function /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C:ExecuteUbergraph_UnitedPlanetsGameMode_BP
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C:ExecuteUbergraph_UnitedPlanetsGameMode_BP
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ReceiveBeginPlay': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C
+[2020.05.10-02.08.05:558][450]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/UnitedPlanetsGameMode_BP.UnitedPlanetsGameMode_BP_C:SimpleConstructionScript_0
+[2020.05.10-02.08.09:237][590]LogUObjectHash: Compacting FUObjectHashTables data took   8.08ms
+[2020.05.10-02.08.11:308][590]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.10-02.08.11:487][590]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset'
+[2020.05.10-02.08.11:604][590]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2020.05.10-02.08.11:676][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.05.10-02.08.11:735][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.05.10-02.08.11:787][590]LogSourceControl: Attempting 'p4 delete C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameMode_BP.uasset'
+[2020.05.10-02.08.16:127][780]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.10-02.08.16:127][780]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.10-02.08.24:101][149]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UnitedPlanetsGameModeBase_BP.UnitedPlanetsGameModeBase_BP
+[2020.05.10-02.08.24:720][149]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.05.10-02.08.24:764][149]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-02.08.26:881][256]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.10-02.08.32:467][541]BlueprintLog: New page: Compile UnitedPlanetsGameModeBase_BP
+[2020.05.10-02.08.32:952][541]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2020.05.10-02.08.33:403][561]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-02.08.33:460][561]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/UnitedPlanetsGameModeBase_BP30EFAEC848189497785E448205F5077A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-02.08.33:508][561]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-02.08.33:537][561]AssetCheck: New page: Asset Save: UnitedPlanetsGameModeBase_BP
+[2020.05.10-02.08.33:538][561]LogContentValidation: Display: Validating Blueprint /Game/UnitedPlanetsGameModeBase_BP.UnitedPlanetsGameModeBase_BP
+[2020.05.10-02.08.35:618][662]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-02.08.35:652][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-02.08.35:652][662]PIE: New page: PIE session: Arena (May 9, 2020, 12:08:35 PM)
+[2020.05.10-02.08.35:652][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Arena
+[2020.05.10-02.08.35:664][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011544s)
+[2020.05.10-02.08.35:669][662]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-02.08.35:669][662]LogPlayLevel: PIE: World Init took: (0.005246s)
+[2020.05.10-02.08.35:669][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Arena.Arena to /Game/UEDPIE_0_Arena.Arena (0.016988s)
+[2020.05.10-02.08.35:730][662]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-02.08.35:732][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-02.08.35:732][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-02.08.35:733][662]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-02.08.35:733][662]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: Channel Order:
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-02.08.35:776][662]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-02.08.35:795][662]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-02.08.35:797][662]LogInit: FAudioDevice initialized.
+[2020.05.10-02.08.35:812][662]LogLoad: Game class is 'UnitedPlanetsGameModeBase'
+[2020.05.10-02.08.35:816][662]LogWorld: Bringing World /Game/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.09-19.08.35
+[2020.05.10-02.08.35:816][662]LogWorld: Bringing up level for play took: 0.001869
+[2020.05.10-02.08.35:816][662]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.05.10-02.08.35:825][662]PIE: Play in editor start time for /Game/UEDPIE_0_Arena 0.858
+[2020.05.10-02.08.38:899][802]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.08.38:899][802]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.08.38:899][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.08.38:900][802]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Arena
+[2020.05.10-02.08.38:901][802]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.08.38:901][802]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.08.38:902][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.08.38:917][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-02.08.38:930][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.08.38:991][802]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.08.38:994][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.08.38:999][802]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2020.05.10-02.08.39:026][803]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.05.10-02.08.41:311][895]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/Weapon_Pack/Blueprints/Lightshaft/BP_GodRay.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/NPC_AI_BP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonRampage/Characters/Heroes/Rampage/RampagePlayerCharacter.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/SetFocus.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/UpdateLastLocation.uasset'
+[2020.05.10-02.09.09:694][408]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.10-02.09.12:641][467]LogSlate: Window 'Create GameMode Blueprint' being destroyed
+[2020.05.10-02.09.30:477][214]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.10-02.09.30:477][214]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.10-02.09.39:165][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.10-02.09.40:411][603]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap'
+[2020.05.10-02.09.40:524][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.05.10-02.09.40:585][603]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaEF3D43C54971750CFA2AE0AB9CD5A905.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap'
+[2020.05.10-02.09.40:660][603]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena_BuiltData.uasset'
+[2020.05.10-02.09.40:673][603]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltData4D48B0FE4CEC1C5D21DF14B3C3C3A7F8.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena_BuiltData.uasset'
+[2020.05.10-02.09.40:677][603]LogFileHelpers: Warning: The following assets are writable on disk but not checked out from source control:
+/Game/Arena_BuiltData
+[2020.05.10-02.09.42:521][603]LogSlate: Window 'Writable Assets Not Checked Out' being destroyed
+[2020.05.10-02.09.42:564][603]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.10-02.09.42:564][603]LogContentValidation: Display: Validating World /Game/Arena.Arena
+[2020.05.10-02.09.42:564][603]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Arena_BuiltData.Arena_BuiltData
+[2020.05.10-02.09.43:264][627]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.10-02.09.43:302][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.10-02.09.43:302][627]PIE: New page: PIE session: Arena (May 9, 2020, 12:09:43 PM)
+[2020.05.10-02.09.43:302][627]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Arena
+[2020.05.10-02.09.43:312][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009813s)
+[2020.05.10-02.09.43:314][627]LogAIModule: Creating AISystem for world Arena
+[2020.05.10-02.09.43:315][627]LogPlayLevel: PIE: World Init took: (0.002357s)
+[2020.05.10-02.09.43:315][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Arena.Arena to /Game/UEDPIE_0_Arena.Arena (0.012688s)
+[2020.05.10-02.09.43:382][627]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-02.09.43:387][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-02.09.43:387][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-02.09.43:388][627]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-02.09.43:388][627]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Name: Speakers (Yeti Stereo Microphone)
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: Channel Order:
+[2020.05.10-02.09.43:436][627]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-02.09.43:437][627]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-02.09.43:461][627]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.05.10-02.09.43:463][627]LogInit: FAudioDevice initialized.
+[2020.05.10-02.09.43:475][627]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.10-02.09.43:477][627]LogWorld: Bringing World /Game/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.05.09-19.09.43
+[2020.05.10-02.09.43:478][627]LogWorld: Bringing up level for play took: 0.001832
+[2020.05.10-02.09.43:478][627]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.05.10-02.09.43:491][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.09.43:502][627]PIE: Play in editor start time for /Game/UEDPIE_0_Arena 0.535
+[2020.05.10-02.10.05:038][688]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.10.05:038][688]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.10.05:039][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.10.05:039][688]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Arena
+[2020.05.10-02.10.05:039][688]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.10.05:039][688]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-02.10.05:039][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.10.05:056][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.10-02.10.05:073][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-02.10.05:135][688]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-02.10.05:140][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-02.10.05:152][688]LogUObjectHash: Compacting FUObjectHashTables data took   9.19ms
+[2020.05.10-02.10.05:196][689]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.05.10-02.13.30:600][699]LogSlate: Window 'Message' being destroyed
+[2020.05.10-02.13.30:618][699]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.30:620][699]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.30:632][699]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.30:633][699]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.30:677][700]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.13.33:263][845]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.33:265][845]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:161][946]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-02.13.35:172][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:176][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:180][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:182][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:672][946]LogUObjectHash: Compacting FUObjectHashTables data took   7.74ms
+[2020.05.10-02.13.35:676][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:677][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:678][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:682][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.13.35:683][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:160][690]BlueprintLog: New page: Compile ThirdPersonCharacter_BP
+[2020.05.10-02.14.33:166][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:171][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:172][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:173][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:574][690]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.05.10-02.14.33:578][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:578][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:579][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:584][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:584][690]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-02.14.33:829][700]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.14.33:928][700]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ThirdPersonCharacter_BP6B4515004E76AFC5A91D3E9DFF104CC6.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.uasset'
+[2020.05.10-02.14.33:948][700]AssetCheck: New page: Asset Save: ThirdPersonCharacter_BP
+[2020.05.10-02.14.33:948][700]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_BP.ThirdPersonCharacter_BP
+[2020.05.10-02.23.27:819][ 29]Candidate modules for hot reload:
+[2020.05.10-02.23.27:819][ 29]  UnitedPlanets
+[2020.05.10-02.23.27:819][ 29]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,3949 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-02.23.27:886][ 29]Warning: Starting HotReload took  0.1s.
+[2020.05.10-02.24.27:928][169]CompilerResultsLog: New page: Compilation - May 9, 2020, 12:24:27 PM
+[2020.05.10-02.24.27:928][169]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-02.24.27:928][169]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-02.24.27:928][169]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 21.6296598 seconds
+[2020.05.10-02.24.27:928][169]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-02.24.27:928][169]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.24.27:929][169]CompilerResultsLog: Building 8 actions with 4 processes...
+[2020.05.10-02.24.27:929][169]CompilerResultsLog:   [1/8] InteractInterface.gen.cpp
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.05.10-02.24.27:930][169]CompilerResultsLog: 
+[2020.05.10-02.24.27:930][169]CompilerResultsLog: 
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   [2/8] TP_ThirdPersonCharacter.cpp
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.05.10-02.24.27:930][169]CompilerResultsLog: 
+[2020.05.10-02.24.27:930][169]CompilerResultsLog: 
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   [3/8] InteractInterface.cpp
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   [4/8] TP_ThirdPersonGameMode.cpp
+[2020.05.10-02.24.27:930][169]CompilerResultsLog:   [5/8] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.10-02.24.27:930][169]LogMainFrame: MainFrame: Module compiling took 60.128 seconds
+[2020.05.10-02.24.27:931][169]Warning: HotReload failed, recompile failed
+[2020.05.10-02.25.57:625][190]Candidate modules for hot reload:
+[2020.05.10-02.25.57:625][190]  UnitedPlanets
+[2020.05.10-02.25.57:625][190]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,7099 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.10-02.25.57:642][190]Warning: Starting HotReload took  0.1s.
+[2020.05.10-02.27.31:326][675]CompilerResultsLog: New page: Compilation - May 9, 2020, 12:27:31 PM
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.10-02.27.31:327][675]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 21.8814544 seconds
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: [Upgrade]
+[2020.05.10-02.27.31:327][675]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:   [1/5] InteractInterface.gen.cpp
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:   [2/5] TP_ThirdPersonCharacter.cpp
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:   [3/5] UE4Editor-UnitedPlanets-7099.lib
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7099.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7099.exp
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:   [4/5] UE4Editor-UnitedPlanets-7099.dll
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7099.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-7099.suppressed.exp
+[2020.05.10-02.27.31:328][675]CompilerResultsLog:   [5/5] UnitedPlanetsEditor.target
+[2020.05.10-02.27.31:328][675]CompilerResultsLog: Total time in Parallel executor: 66.81 seconds
+[2020.05.10-02.27.31:328][675]CompilerResultsLog: Total execution time: 93.16 seconds
+[2020.05.10-02.27.31:328][675]LogMainFrame: MainFrame: Module compiling took 93.718 seconds
+[2020.05.10-02.27.31:486][675]LogUObjectHash: Compacting FUObjectHashTables data took  16.52ms
+[2020.05.10-02.27.32:629][675]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0023 seconds. Added 4 classes and 5 folders.
+[2020.05.10-02.27.32:640][675]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.10-02.27.32:951][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.05.10-02.27.33:043][675]LogContentBrowser: Native class hierarchy populated in 0.0594 seconds. Added 3021 classes and 725 folders.
+[2020.05.10-02.27.33:044][675]Display: HotReload took 95.5s.
