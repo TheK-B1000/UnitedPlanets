@@ -14,8 +14,8 @@ class AActor;
 #endif
 #define UNITEDPLANETS_InteractInterface_generated_h
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_SPARSE_DATA
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_SPARSE_DATA
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_RPC_WRAPPERS \
 	virtual void EndFocus_Implementation() {}; \
 	virtual void StartFocus_Implementation() {}; \
 	virtual void OnInteract_Implementation(AActor* Caller) {}; \
@@ -46,7 +46,7 @@ class AActor;
 	}
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void EndFocus_Implementation() {}; \
 	virtual void StartFocus_Implementation() {}; \
 	virtual void OnInteract_Implementation(AActor* Caller) {}; \
@@ -77,15 +77,15 @@ class AActor;
 	}
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_EVENT_PARMS \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_EVENT_PARMS \
 	struct InteractInterface_eventOnInteract_Parms \
 	{ \
 		AActor* Caller; \
 	};
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_CALLBACK_WRAPPERS
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_STANDARD_CONSTRUCTORS \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_CALLBACK_WRAPPERS
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	UNITEDPLANETS_API UInteractInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInteractInterface) \
@@ -98,7 +98,7 @@ private: \
 public:
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_ENHANCED_CONSTRUCTORS \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	UNITEDPLANETS_API UInteractInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -111,7 +111,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInteractInterface); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInteractInterface)
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_GENERATED_UINTERFACE_BODY() \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUInteractInterface(); \
 	friend struct Z_Construct_UClass_UInteractInterface_Statics; \
@@ -120,22 +120,22 @@ public: \
 	DECLARE_SERIALIZER(UInteractInterface)
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_GENERATED_BODY_LEGACY \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_GENERATED_UINTERFACE_BODY() \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_STANDARD_CONSTRUCTORS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_GENERATED_UINTERFACE_BODY() \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_GENERATED_BODY \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_GENERATED_UINTERFACE_BODY() \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_ENHANCED_CONSTRUCTORS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_GENERATED_UINTERFACE_BODY() \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IInteractInterface() {} \
 public: \
@@ -147,7 +147,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_INCLASS_IINTERFACE \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IInteractInterface() {} \
 public: \
@@ -159,28 +159,28 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_10_PROLOG \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_EVENT_PARMS
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_11_PROLOG \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_EVENT_PARMS
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_21_GENERATED_BODY_LEGACY \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_22_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_SPARSE_DATA \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_CALLBACK_WRAPPERS \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_INCLASS_IINTERFACE \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_SPARSE_DATA \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_RPC_WRAPPERS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_CALLBACK_WRAPPERS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_21_GENERATED_BODY \
+#define UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_SPARSE_DATA \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_CALLBACK_WRAPPERS \
-	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_SPARSE_DATA \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_CALLBACK_WRAPPERS \
+	UnitedPlanets_Source_UnitedPlanets_Public_Interact_InteractInterface_h_14_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
