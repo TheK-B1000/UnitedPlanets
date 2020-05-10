@@ -4,10 +4,13 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "DrawDebugHelpers.h"
 #include "Engine/World.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+
+#define OUT
 
 //////////////////////////////////////////////////////////////////////////
 // ATP_ThirdPersonCharacter
@@ -102,6 +105,42 @@ void ATP_ThirdPersonCharacter::LookUpAtRate(float Rate)
 
 void ATP_ThirdPersonCharacter::Interact()
 {
+	FVector Loc;
+	FRotator Rot;
+	FHitResult Hit;
+
+	GetController()->GetPlayerViewPoint
+	(
+		OUT Loc, 
+		OUT Rot
+	);
+
+	FVector Start = Loc;
+	FVector Direction = Rot.Vector() * Reach;
+	FVector End = Start + Direction;
+
+	FCollisionQueryParams TraceParams;
+
+	GetWorld()->LineTraceSingleByChannel
+	(
+		Hit,
+		Start,
+		End,
+		ECC_Visibility,
+		TraceParams
+	);
+
+	DrawDebugLine
+	(
+		GetWorld(),
+		Start,
+		End,
+		FColor::FColor(255, 215, 0),
+		false,
+		2.0f
+	);
+
+	// Allows InteractCheck to be built in BP
 	this->InteractCheck();
 }
 
