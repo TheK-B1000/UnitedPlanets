@@ -4070,3 +4070,31 @@ Script Stack (0 frames):
 [2020.05.10-16.39.32:855][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Interactble]
 [2020.05.10-16.39.32:904][839]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_Interactble_Auto21EE9ADA7468877A2520AEBA3C1434D6D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/BP_Interactble_Auto2.uasset'
 [2020.05.10-16.39.32:909][839]LogFileHelpers: Auto-saving content packages took 0.064
+[2020.05.10-17.04.16:611][586]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint_C:ExecuteUbergraph_Wraith_AnimBlueprint
+
+[2020.05.10-17.05.40:727][ 28]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.10-17.05.42:393][101]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Arena.Arena:PersistentLevel.Arena
+[2020.05.10-17.05.50:178][473]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.05.50:180][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-17.05.55:205][693]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/UnitedPlanetsGameModeBase_BP.UnitedPlanetsGameModeBase_BP
+[2020.05.10-17.06.09:920][451]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.10-17.06.41:116][927]LogUObjectHash: Compacting FUObjectHashTables data took  10.38ms
+[2020.05.10-17.06.41:123][927]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Arena' took 0.280
+[2020.05.10-17.06.41:126][927]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UnitedPlanetsGameModeBase_BP] ([1] browsable assets)...
+[2020.05.10-17.06.41:126][927]OBJ SavePackage: Finished generating thumbnails for package [/Game/UnitedPlanetsGameModeBase_BP]
+[2020.05.10-17.06.41:161][927]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/UnitedPlanetsGameModeBase_BP_Aut41C5662C43C17ACC89782C8EC84EDBC2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/UnitedPlanetsGameModeBase_BP_Auto3.uasset'
+[2020.05.10-17.06.41:168][927]LogFileHelpers: Auto-saving content packages took 0.043
+[2020.05.10-17.06.47:089][114]LogRenderer: Reallocating scene render targets to support 1428x852 Format 10 NumSamples 1 (Frame:21335).
+[2020.05.10-17.06.49:236][214]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.10-17.07.20:510][ 87]BlueprintLog: New page: Compile BP_Interactble
+[2020.05.10-17.07.21:075][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2020.05.10-17.07.21:464][ 95]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-17.07.21:512][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Interactble" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset" SILENT=true
+[2020.05.10-17.07.21:562][ 95]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_InteractbleAD5E42EA47CA64950531C2BCBD34766C.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Interactble.uasset'
+[2020.05.10-17.07.21:587][ 95]AssetCheck: New page: Asset Save: BP_Interactble
+[2020.05.10-17.07.21:587][ 95]LogContentValidation: Display: Validating Blueprint /Game/BP_Interactble.BP_Interactble
+[2020.05.10-17.07.42:493][295]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-17.07.42:493][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
