@@ -28,4 +28,6 @@ public:
 
 private:
 	void MoveForward(float AxisValue);
+	void MoveRight(float AxisValue);
+	void Jump();
 };
