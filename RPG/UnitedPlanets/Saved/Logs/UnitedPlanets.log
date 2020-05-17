@@ -1180,3 +1180,220 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.17-03.09.34:076][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
 [2020.05.17-03.09.34:118][538]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 3024 classes and 725 folders.
 [2020.05.17-03.09.34:118][538]Display: HotReload took 72.0s.
+[2020.05.17-03.19.54:334][798]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.17-03.19.54:537][798]LogUObjectHash: Compacting FUObjectHashTables data took   8.34ms
+[2020.05.17-03.19.55:081][798]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaFF87F44948066B9469F7C6BEE99E4916.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.17-03.19.55:219][798]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.17-03.19.55:248][798]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltDataBB0B03F24298E3E9894A86914FC0657A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.17-03.19.55:328][798]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.17-03.19.55:328][798]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.17-03.19.55:328][798]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.05.17-11.55.39:297][872]LogHttp: Warning: 000001302AEF9300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-11.55.39:298][872]LogHttp: Warning: 000001302AEF9300: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x12fd3417f70 [can pipeline])
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 1 (Re-using existing connection! (#39) with host datarouter.ol.epicgames.com)
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.226.40.58) port 443 (#39))
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.17-11.55.39:299][872]LogHttp: Warning: 000001302AEF9300: libcurl info message cache 7 (Closing connection 39)
+[2020.05.17-11.55.39:300][872]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-12.02.06:478][118]Candidate modules for hot reload:
+[2020.05.17-12.02.06:478][118]  UnitedPlanets
+[2020.05.17-12.02.06:480][118]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,102 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.17-12.02.06:538][118]Warning: Starting HotReload took  0.2s.
+[2020.05.17-12.04.40:501][309]CompilerResultsLog: New page: Compilation - May 17, 2020, 4:04:40 AM
+[2020.05.17-12.04.40:509][309]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.17-12.04.40:510][309]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 30.1530604 seconds
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: [Upgrade]
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.17-12.04.40:510][309]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.17-12.04.40:512][309]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.17-12.04.40:512][309]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.17-12.04.40:512][309]CompilerResultsLog: [Upgrade]
+[2020.05.17-12.04.40:512][309]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.17-12.04.40:512][309]CompilerResultsLog:   [1/6] UnitedPlanets.init.gen.cpp
+[2020.05.17-12.04.40:512][309]CompilerResultsLog:   [2/6] ShooterCharacter.gen.cpp
+[2020.05.17-12.04.40:512][309]CompilerResultsLog:   [3/6] ShooterCharacter.cpp
+[2020.05.17-12.04.40:512][309]CompilerResultsLog:   [4/6] UE4Editor-UnitedPlanets-0102.lib
+[2020.05.17-12.04.40:513][309]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0102.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0102.exp
+[2020.05.17-12.04.40:513][309]CompilerResultsLog:   [5/6] UE4Editor-UnitedPlanets-0102.dll
+[2020.05.17-12.04.40:513][309]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0102.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-0102.suppressed.exp
+[2020.05.17-12.04.40:513][309]CompilerResultsLog:   [6/6] UnitedPlanetsEditor.target
+[2020.05.17-12.04.40:513][309]CompilerResultsLog: Total time in Parallel executor: 114.77 seconds
+[2020.05.17-12.04.40:513][309]CompilerResultsLog: Total execution time: 152.25 seconds
+[2020.05.17-12.04.40:514][309]LogMainFrame: MainFrame: Module compiling took 154.100 seconds
+[2020.05.17-12.04.41:219][309]LogUObjectHash: Compacting FUObjectHashTables data took  27.47ms
+[2020.05.17-12.04.41:389][309]LogContentBrowser: Native class hierarchy populated in 0.0530 seconds. Added 3024 classes and 725 folders.
+[2020.05.17-12.04.41:402][309]Display: HotReload took 155.1s.
+[2020.05.17-12.17.59:002][685]Candidate modules for hot reload:
+[2020.05.17-12.17.59:002][685]  UnitedPlanets
+[2020.05.17-12.17.59:002][685]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,5455 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.17-12.17.59:022][685]Warning: Starting HotReload took  0.1s.
+[2020.05.17-12.18.49:323][859]CompilerResultsLog: New page: Compilation - May 17, 2020, 4:18:49 AM
+[2020.05.17-12.18.49:323][859]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.17-12.18.49:323][859]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 16.2531994 seconds
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade]
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: [Upgrade]
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:   [1/5] ShooterCharacter.gen.cpp
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:   [2/5] ShooterCharacter.cpp
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:   [3/5] UE4Editor-UnitedPlanets-5455.lib
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5455.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5455.exp
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:   [4/5] UE4Editor-UnitedPlanets-5455.dll
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5455.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5455.suppressed.exp
+[2020.05.17-12.18.49:324][859]CompilerResultsLog:   [5/5] UnitedPlanetsEditor.target
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: Total time in Parallel executor: 29.34 seconds
+[2020.05.17-12.18.49:324][859]CompilerResultsLog: Total execution time: 49.77 seconds
+[2020.05.17-12.18.49:324][859]LogMainFrame: MainFrame: Module compiling took 50.341 seconds
+[2020.05.17-12.18.49:934][859]LogUObjectHash: Compacting FUObjectHashTables data took  16.17ms
+[2020.05.17-12.18.51:482][859]LogClass: Could not find existing class ShooterCharacter in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.05.17-12.18.51:549][859]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2020.05.17-12.18.53:645][859]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0052 seconds. Added 7 classes and 5 folders.
+[2020.05.17-12.18.53:673][859]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.17-12.18.54:451][859]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2020.05.17-12.18.54:488][859]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 3024 classes and 725 folders.
+[2020.05.17-12.18.54:488][859]Display: HotReload took 55.5s.
+[2020.05.17-13.05.21:758][302]LogHttp: Warning: 0000013040FC3C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-13.05.21:763][302]LogHttp: Warning: 0000013040FC3C40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x12fd3417f70 [can pipeline])
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 1 (Re-using existing connection! (#64) with host datarouter.ol.epicgames.com)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.20.196.177) port 443 (#64))
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 7 (Closing connection 64)
+[2020.05.17-13.05.21:764][302]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 0 (Connection 66 seems to be dead!)
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 1 (Closing connection 66)
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.05.17-13.11.33:742][413]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 4 (Closing connection 67)
+[2020.05.17-13.11.34:087][414]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-14.30.42:035][295]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.05.17-14.30.44:634][297]LogHttp: Warning: 0000013040FC3C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-14.30.44:634][297]LogHttp: Warning: 0000013040FC3C40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.17-14.30.44:635][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x12fd3417f70 [can pipeline])
+[2020.05.17-14.30.44:635][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 1 (Re-using existing connection! (#101) with host datarouter.ol.epicgames.com)
+[2020.05.17-14.30.44:635][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.2.21.201) port 443 (#101))
+[2020.05.17-14.30.44:635][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.17-14.30.44:635][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.17-14.30.44:636][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.17-14.30.44:636][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.17-14.30.44:636][297]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 7 (Closing connection 101)
+[2020.05.17-14.30.44:975][298]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-15.31.43:238][197]LogHttp: Warning: 0000013040FC3C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-15.31.43:238][197]LogHttp: Warning: 0000013040FC3C40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.17-15.31.43:238][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x12fd3417f70 [can pipeline])
+[2020.05.17-15.31.43:238][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 1 (Re-using existing connection! (#116) with host datarouter.ol.epicgames.com)
+[2020.05.17-15.31.43:238][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.0.25.43) port 443 (#116))
+[2020.05.17-15.31.43:239][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.17-15.31.43:243][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.17-15.31.43:243][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.17-15.31.43:243][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.17-15.31.43:243][197]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 7 (Closing connection 116)
+[2020.05.17-15.31.43:571][198]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-15.47.33:582][ 25]LogHttp: Warning: 0000013040FC3C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-15.47.33:587][ 25]LogHttp: Warning: 0000013040FC3C40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.05.17-15.47.33:587][ 25]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 0 (Connection 120 seems to be dead!)
+[2020.05.17-15.47.33:587][ 25]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 1 (Closing connection 120)
+[2020.05.17-15.47.33:587][ 25]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.05.17-15.47.33:588][ 25]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.05.17-15.47.33:588][ 25]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 4 (Closing connection 121)
+[2020.05.17-15.47.33:923][ 26]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-15.59.29:463][ 87]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2020.05.17-15.59.49:645][134]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.17-16.02.21:817][580]LogHttp: Warning: 0000013040FC3C40: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.17-16.02.21:817][580]LogHttp: Warning: 0000013040FC3C40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.17-16.02.21:817][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x12fd3417f70 [can pipeline])
+[2020.05.17-16.02.21:817][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 1 (Re-using existing connection! (#126) with host datarouter.ol.epicgames.com)
+[2020.05.17-16.02.21:817][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.201.200.142) port 443 (#126))
+[2020.05.17-16.02.21:818][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.17-16.02.21:818][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.17-16.02.21:818][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.17-16.02.21:818][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.17-16.02.21:819][580]LogHttp: Warning: 0000013040FC3C40: libcurl info message cache 7 (Closing connection 126)
+[2020.05.17-16.02.21:819][580]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A1833EE-4320-A718-0158-62B741AB65DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.17-16.07.08:645][500]Candidate modules for hot reload:
+[2020.05.17-16.07.08:645][500]  UnitedPlanets
+[2020.05.17-16.07.08:652][500]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,1816 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.17-16.07.08:698][500]Warning: Starting HotReload took  0.3s.
+[2020.05.17-16.07.48:509][732]CompilerResultsLog: New page: Compilation - May 17, 2020, 8:07:48 AM
+[2020.05.17-16.07.48:527][732]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.17-16.07.48:528][732]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 20.7835053 seconds
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: [Upgrade]
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.17-16.07.48:528][732]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.17-16.07.48:529][732]CompilerResultsLog: [Upgrade]
+[2020.05.17-16.07.48:529][732]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.05.17-16.07.48:533][732]LogMainFrame: MainFrame: Module compiling took 40.064 seconds
+[2020.05.17-16.07.48:543][732]Warning: HotReload failed, recompile failed
+[2020.05.17-16.07.59:641][853]Candidate modules for hot reload:
+[2020.05.17-16.07.59:641][853]  UnitedPlanets
+[2020.05.17-16.07.59:641][853]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,3093 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.17-16.07.59:670][853]Warning: Starting HotReload took  0.1s.
+[2020.05.17-16.08.05:335][894]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.17-16.08.44:546][  3]CompilerResultsLog: New page: Compilation - May 17, 2020, 8:08:44 AM
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 19.2576011 seconds
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: [Upgrade]
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.17-16.08.44:547][  3]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog: [Upgrade]
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:   [1/5] ShooterCharacter.gen.cpp
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:   [2/5] ShooterCharacter.cpp
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:   [3/5] UE4Editor-UnitedPlanets-3093.lib
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3093.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3093.exp
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:   [4/5] UE4Editor-UnitedPlanets-3093.dll
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3093.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3093.suppressed.exp
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog:   [5/5] UnitedPlanetsEditor.target
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog: Total time in Parallel executor: 19.61 seconds
+[2020.05.17-16.08.44:548][  3]CompilerResultsLog: Total execution time: 44.00 seconds
+[2020.05.17-16.08.44:548][  3]LogMainFrame: MainFrame: Module compiling took 44.934 seconds
+[2020.05.17-16.08.47:390][  3]LogUObjectHash: Compacting FUObjectHashTables data took  99.21ms
+[2020.05.17-16.08.49:924][  3]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2020.05.17-16.08.51:179][  3]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0203 seconds. Added 7 classes and 5 folders.
+[2020.05.17-16.08.51:190][  3]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.17-16.08.51:751][  3]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2020.05.17-16.08.52:014][  3]LogContentBrowser: Native class hierarchy populated in 0.0349 seconds. Added 3024 classes and 725 folders.
+[2020.05.17-16.08.52:016][  3]Display: HotReload took 52.4s.
+[2020.05.17-16.08.57:274][141]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.17-16.08.57:274][141]SourceControl: Error: The filesystem 'P4LOG' has only 197.6M free, but the server configuration requires at least 250M available.
+
+[2020.05.17-16.08.57:716][141]LogUObjectHash: Compacting FUObjectHashTables data took   7.51ms
+[2020.05.17-16.08.58:301][141]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena2EC364AE4646C923D22D7FAC10DC6742.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.05.17-16.08.58:403][141]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.17-16.08.58:518][141]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena_BuiltDataE4ADFFFF4EB18A310D28E1A066D3B553.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.17-16.08.58:558][141]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.17-16.08.58:558][141]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.05.17-16.08.58:558][141]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Arena_BuiltData.Arena_BuiltData
+[2020.05.17-16.08.58:626][144]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
