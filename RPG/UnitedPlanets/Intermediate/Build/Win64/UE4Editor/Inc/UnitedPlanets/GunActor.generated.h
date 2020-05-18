@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGunActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGunActor)
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_GunActor_h_12_PRIVATE_PROPERTY_OFFSET
+#define UnitedPlanets_Source_UnitedPlanets_Public_GunActor_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(AGunActor, Root); } \
+	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AGunActor, Mesh); }
+
+
 #define UnitedPlanets_Source_UnitedPlanets_Public_GunActor_h_9_PROLOG
 #define UnitedPlanets_Source_UnitedPlanets_Public_GunActor_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
