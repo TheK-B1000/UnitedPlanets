@@ -1,6 +1,7 @@
 // Social Cube Media 2020
 
 #include "ShooterCharacter.h"
+#include "GunActor.h"
 #include "Engine/World.h"
 
 // Sets default values
@@ -16,6 +17,7 @@ void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	Gun = GetWorld()->SpawnActor<AGunActor>(GunClass);
 }
 
 // Called every frame

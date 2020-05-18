@@ -24,7 +24,7 @@ AGunActor::AGunActor()
 void AGunActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame

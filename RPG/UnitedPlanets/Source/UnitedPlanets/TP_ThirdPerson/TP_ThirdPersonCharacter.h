@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "TP_ThirdPersonCharacter.generated.h"
 
+class AGunActor;
+
 UCLASS(config=Game)
 class ATP_ThirdPersonCharacter : public ACharacter
 {
@@ -79,6 +81,9 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
@@ -90,5 +95,14 @@ public:
 
 private:
 	AActor* FocusedActor;
+
+	UPROPERTY(EditAnywhere)
+	float RotationRate = 50;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AGunActor> GunClass;
+
+	UPROPERTY()
+	AGunActor* Gun;
 };
 
