@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnitedPlanets.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{80532205-E241-42EA-B9FE-93121EB5782B}</UniqueIdentifier>
+      <UniqueIdentifier>{599A149D-F87E-485B-ABBC-6E755B71723F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4D546BE0-35AF-4B88-BCD4-B98A100474F9}</UniqueIdentifier>
+      <UniqueIdentifier>{051EA71F-9549-45EB-A7B7-41065A10EBB1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnitedPlanets">
-      <UniqueIdentifier>{88E4E36E-F769-4F4A-8C45-9FCCC9C2CCB1}</UniqueIdentifier>
+      <UniqueIdentifier>{07E8EBCA-4504-4470-B30B-859C29822119}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets\UnitedPlanets.Build.cs">
       <Filter>Source\UnitedPlanets</Filter>
@@ -45,13 +45,19 @@
       <Filter>Source\UnitedPlanets</Filter>
     </ClInclude>
     <Filter Include="Source\UnitedPlanets\Private">
-      <UniqueIdentifier>{F7D3AD95-C23C-434B-98FC-091B8F56F398}</UniqueIdentifier>
+      <UniqueIdentifier>{F118B239-0701-4958-A5CD-5FDC0E1E5B40}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\GunActor.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyPawn.cpp">
       <Filter>Source\UnitedPlanets\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\ShooterCharacter.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\UnitedPlanets\Private\Interact">
-      <UniqueIdentifier>{5FDBA3CA-60B1-44C1-8366-D1F206860268}</UniqueIdentifier>
+      <UniqueIdentifier>{BA410F39-5422-49F0-8498-BEC19A697A8C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\Interact\InteractableBase.cpp">
       <Filter>Source\UnitedPlanets\Private\Interact</Filter>
@@ -60,13 +66,19 @@
       <Filter>Source\UnitedPlanets\Private\Interact</Filter>
     </ClCompile>
     <Filter Include="Source\UnitedPlanets\Public">
-      <UniqueIdentifier>{873E8FB7-1F54-484F-A8D4-B3EB8B2EC6FE}</UniqueIdentifier>
+      <UniqueIdentifier>{6445668A-7F18-4CA3-9778-D3FD6D96FD5B}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\GunActor.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyPawn.h">
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\ShooterCharacter.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\UnitedPlanets\Public\Interact">
-      <UniqueIdentifier>{509E14B7-EE7E-403E-86EA-D1DB16B91447}</UniqueIdentifier>
+      <UniqueIdentifier>{9CB677FB-C392-48D8-8D0D-1502BAF2F220}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\Interact\InteractableBase.h">
       <Filter>Source\UnitedPlanets\Public\Interact</Filter>
@@ -75,7 +87,7 @@
       <Filter>Source\UnitedPlanets\Public\Interact</Filter>
     </ClInclude>
     <Filter Include="Source\UnitedPlanets\TP_ThirdPerson">
-      <UniqueIdentifier>{43D279BD-7F83-42C1-AA7A-B2768221CE06}</UniqueIdentifier>
+      <UniqueIdentifier>{F1401220-126F-4E7F-8DAB-C3FE7789E1DF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPerson.h">
       <Filter>Source\UnitedPlanets\TP_ThirdPerson</Filter>
@@ -92,15 +104,5 @@
     <ClInclude Include="..\..\Source\UnitedPlanets\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
       <Filter>Source\UnitedPlanets\TP_ThirdPerson</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\UnitedPlanets\Public\ShooterCharacter.h">
-      <Filter>Source\UnitedPlanets\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\UnitedPlanets\Private\ShooterCharacter.cpp">
-      <Filter>Source\UnitedPlanets\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

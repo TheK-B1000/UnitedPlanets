@@ -793,3 +793,183 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.18-13.35.55:721][353]MapCheck: New page: ArenaShooter - May 18, 2020, 5:35:55 AM
 [2020.05.18-13.35.55:723][353]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.564ms to complete.
 [2020.05.18-13.35.56:068][355]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter_BuiltData.uasset'
+[2020.05.18-13.45.08:712][970]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2020.05.18-13.45.09:458][970]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaShooter_Auto1F56E64D24A8FE91E6AD42A85D3FC7736.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/Maps/ArenaShooter_Auto1.umap'
+[2020.05.18-13.45.09:463][970]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.832
+[2020.05.18-13.45.09:463][970]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.832
+[2020.05.18-13.55.09:975][757]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2020.05.18-13.55.09:976][757]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.051
+[2020.05.18-13.57.59:055][553]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/ThirdPersonCPP/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2020.05.18-13.58.02:197][711]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2020.05.18-13.58.02:607][711]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 121 classes and 0 folders.
+[2020.05.18-13.58.04:118][711]LogSlate: Took 0.001301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.18-13.58.04:258][712]LogSlate: Took 0.003002 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.18-13.58.56:206][593]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2020.05.18-13.58.56:233][594]LogRenderer: Reallocating scene render targets to support 1112x460 Format 10 NumSamples 1 (Frame:2614).
+[2020.05.18-13.58.59:292][738]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPerson_Jump.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPersonIdle.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPersonJump_End.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPersonRun.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Mannequin/Animations/ThirdPersonWalk.uasset'
+[2020.05.18-13.59.04:238][998]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Guard_BP.uasset'
+[2020.05.18-13.59.06:247][ 95]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/Chase.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/GuardBehaviour.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/NPC_AI_BP.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/PatrolData.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/Recon.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/SetFocus.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/Suspicion.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/AI/UpdateLastLocation.uasset'
+[2020.05.18-13.59.08:269][195]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter.umap C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter_BuiltData.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena_BuiltData.uasset'
+[2020.05.18-13.59.10:239][304]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/DIalogue_HUD.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Dialogue/InteractMessage.uasset'
+[2020.05.18-13.59.17:064][665]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-13.59.17:803][693]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint
+[2020.05.18-13.59.17:839][693]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.05.18-13.59.18:257][693]LogLinker: Warning: Failed to load '/Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Meshes/WraithBasePreviewMeshCollection': Can't find file.
+[2020.05.18-13.59.18:257][693]LogLinker: Warning: Failed to load '/Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Meshes/WraithBasePreviewMeshCollection': Can't find file.
+[2020.05.18-13.59.18:257][693]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Meshes/WraithBasePreviewMeshCollection.WraithBasePreviewMeshCollection'
+[2020.05.18-13.59.18:271][693]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.05.18-13.59.18:284][693]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0015 seconds. Added 1 classes and 0 folders.
+[2020.05.18-13.59.18:760][693]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.05.18-14.05.10:718][884]LogUObjectHash: Compacting FUObjectHashTables data took  10.48ms
+[2020.05.18-14.05.10:722][884]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.118
+[2020.05.18-14.06.23:456][239]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.06.36:962][645]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.06.38:725][645]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.05.18-14.06.38:846][645]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.06.38:846][645]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.06.39:172][645]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Wraith_AnimBlueprint0BA5043045FF33A6FC490C8DC42397BD.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.06.39:208][645]AssetCheck: New page: Asset Save: Wraith_AnimBlueprint
+[2020.05.18-14.06.39:208][645]LogContentValidation: Display: Validating AnimBlueprint /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint
+[2020.05.18-14.09.49:695][251]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.05.18-14.09.50:682][282]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_Q_Fire.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_R.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_R_Montage.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Ability_RMB_Walk_Fwd.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Fire_A_Fast_V1.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Fire_A_Slow.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Fire_A_Slow_Montage.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Idle_NonCombat.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Jog_Fwd.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/VictoryPose_1.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Animations/Blendspaces/WraithAI_IdleRun.uasset'
+[2020.05.18-14.09.52:064][326]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.09.59:173][559]LogEditorTransaction: Undo Create Pin Link
+[2020.05.18-14.09.59:384][559]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.05.18-14.10.01:586][595]LogEditorTransaction: Undo Move Node
+[2020.05.18-14.10.01:715][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.05.18-14.10.04:548][723]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.10.04:686][723]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Wraith_AnimBlueprint73FD7CC64741AE4E5192E896D11F2423.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.uasset'
+[2020.05.18-14.10.04:712][723]AssetCheck: New page: Asset Save: Wraith_AnimBlueprint
+[2020.05.18-14.10.04:712][723]LogContentValidation: Display: Validating AnimBlueprint /Game/NPC/Character/ParagonWraith/Characters/Heroes/Wraith/Wraith_AnimBlueprint.Wraith_AnimBlueprint
+[2020.05.18-14.15.11:253][655]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2020.05.18-14.15.11:258][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.086
+[2020.05.18-14.25.11:924][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.18-14.25.11:925][450]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.077
+[2020.05.18-14.35.12:767][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.05.18-14.35.12:768][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.069
+[2020.05.18-14.45.13:413][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.05.18-14.45.13:414][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.112
+[2020.05.18-14.55.13:891][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.05.18-14.55.13:892][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.068
+[2020.05.18-15.05.14:485][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.05.18-15.05.14:486][459]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.052
+[2020.05.18-15.15.15:102][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.05.18-15.15.15:102][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.045
+[2020.05.18-15.25.15:946][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.05.18-15.25.15:947][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.045
+[2020.05.18-15.35.16:406][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.05.18-15.35.16:407][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.045
+[2020.05.18-15.45.17:036][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.05.18-15.45.17:037][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.051
+[2020.05.18-15.55.17:817][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.05.18-15.55.17:818][401]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.045
+[2020.05.18-16.05.18:569][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.05.18-16.05.18:574][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.053
+[2020.05.18-17.02.08:880][516]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D392CF9-4306-22FC-2E86-B8B962A508BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d6f7e4ff70 [can pipeline])
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 1 (Re-using existing connection! (#57) with host datarouter.ol.epicgames.com)
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.211.254.83) port 443 (#57))
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.18-17.02.09:452][518]LogHttp: Warning: 000001D76FFE9580: libcurl info message cache 7 (Closing connection 57)
+[2020.05.18-17.02.09:474][518]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D392CF9-4306-22FC-2E86-B8B962A508BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.18-17.02.19:392][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.05.18-17.02.19:393][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.090
+[2020.05.18-17.12.19:696][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.05.18-17.12.19:697][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.065
+[2020.05.18-17.22.21:258][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.05.18-17.22.21:260][113]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.064
+[2020.05.18-17.32.21:857][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.05.18-17.32.21:859][904]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.081
+[2020.05.18-17.42.22:389][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.05.18-17.42.22:395][693]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaShooter' took 0.079
+[2020.05.18-17.44.34:804][138]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter.umap'
+[2020.05.18-17.44.34:940][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.05.18-17.44.36:610][138]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaShooter1E0EFDD440E2FD4A52F13EB44F401538.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter.umap'
+[2020.05.18-17.44.36:871][138]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter_BuiltData.uasset'
+[2020.05.18-17.44.36:871][138]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaShooter_BuiltDataE78662944E67587143B149B5DA972823.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter_BuiltData.uasset'
+[2020.05.18-17.44.36:929][138]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/ArenaShooter_BuiltData.uasset'
+[2020.05.18-17.44.36:981][138]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.18-17.44.36:983][138]LogContentValidation: Display: Validating World /Game/Maps/ArenaShooter.ArenaShooter
+[2020.05.18-17.44.36:984][138]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ArenaShooter_BuiltData.ArenaShooter_BuiltData
+[2020.05.18-17.44.40:983][293]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.18-17.44.40:984][293]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.18-17.44.43:281][360]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.18-17.44.50:312][695]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject'
+[2020.05.18-17.44.50:312][695]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" -game -rocket -progress
+[2020.05.18-17.44.51:370][695]Discovering modules, targets and source code for project...
+[2020.05.18-17.44.54:934][695]Binding IntelliSense data...
+[2020.05.18-17.45.01:923][695]Binding IntelliSense data... 100%
+[2020.05.18-17.45.01:923][695]Writing project files...
+[2020.05.18-17.45.08:816][695]Writing project files... 100%
+[2020.05.18-17.45.08:978][695]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Source/UnitedPlanets/Public/GunActor.h C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Source/UnitedPlanets/Private/GunActor.cpp'
+[2020.05.18-17.45.08:978][695]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.18-17.45.09:017][695]Candidate modules for hot reload:
+[2020.05.18-17.45.09:017][695]  UnitedPlanets
+[2020.05.18-17.45.09:019][695]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,9803 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.18-17.46.04:905][695]CompilerResultsLog: New page: Compilation - May 18, 2020, 9:46:04 AM
+[2020.05.18-17.46.04:907][695]CompilerResultsLog: Creating makefile for UnitedPlanetsEditor (no existing makefile)
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.18-17.46.04:908][695]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 15.3587644 seconds
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade]
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: [Upgrade]
+[2020.05.18-17.46.04:908][695]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.18-17.46.04:908][695]CompilerResultsLog:   [1/6] GunActor.cpp
+[2020.05.18-17.46.04:908][695]CompilerResultsLog:   [2/6] UnitedPlanets.init.gen.cpp
+[2020.05.18-17.46.04:908][695]CompilerResultsLog:   [3/6] GunActor.gen.cpp
+[2020.05.18-17.46.04:908][695]CompilerResultsLog:   [4/6] UE4Editor-UnitedPlanets-9803.lib
+[2020.05.18-17.46.04:908][695]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9803.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9803.exp
+[2020.05.18-17.46.04:909][695]CompilerResultsLog:   [5/6] UE4Editor-UnitedPlanets-9803.dll
+[2020.05.18-17.46.04:909][695]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9803.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-9803.suppressed.exp
+[2020.05.18-17.46.04:909][695]CompilerResultsLog:   [6/6] UnitedPlanetsEditor.target
+[2020.05.18-17.46.04:909][695]CompilerResultsLog: Total time in Parallel executor: 35.83 seconds
+[2020.05.18-17.46.04:909][695]CompilerResultsLog: Total execution time: 55.66 seconds
+[2020.05.18-17.46.04:909][695]LogMainFrame: MainFrame: Module compiling took 55.931 seconds
+[2020.05.18-17.46.05:039][695]LogUObjectHash: Compacting FUObjectHashTables data took  19.59ms
+[2020.05.18-17.46.12:569][695]LogClass: Could not find existing class GunActor in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.05.18-17.46.12:669][695]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0019 seconds. Added 8 classes and 5 folders.
+[2020.05.18-17.46.12:677][695]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.18-17.46.13:026][695]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2020.05.18-17.46.13:176][695]LogContentBrowser: Native class hierarchy populated in 0.0575 seconds. Added 3026 classes and 727 folders.
+[2020.05.18-17.46.13:178][695]Display: HotReload took 64.2s.
+[2020.05.18-17.46.13:185][695]Warning: HotReload operation took 64.2s.
+[2020.05.18-17.46.13:527][695]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.18-17.46.14:969][695]LogHotReload: New module detected: UE4Editor-UnitedPlanets-9803.dll
+[2020.05.18-17.46.15:194][696]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.18-17.46.15:775][696]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.05.18-17.46.15:798][696]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0046 seconds. Added 8 classes and 5 folders.
+[2020.05.18-17.46.15:807][696]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.18-17.46.15:991][696]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2020.05.18-17.46.16:027][696]LogContentBrowser: Native class hierarchy populated in 0.0195 seconds. Added 3026 classes and 727 folders.
+[2020.05.18-17.46.16:048][696]Display: HotReload took  0.9s.
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D392CF9-4306-22FC-2E86-B8B962A508BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: libcurl info message cache 0 (Connection 70 seems to be dead!)
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: libcurl info message cache 1 (Closing connection 70)
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: 000001D78149BD80: libcurl info message cache 4 (Closing connection 71)
+[2020.05.18-17.46.16:856][698]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D392CF9-4306-22FC-2E86-B8B962A508BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.18-17.53.37:046][894]LogHttp: Warning: 000001D7A76D5940: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D392CF9-4306-22FC-2E86-B8B962A508BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d6f7e4ff70 [can pipeline])
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 1 (Re-using existing connection! (#73) with host datarouter.ol.epicgames.com)
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.9.217) port 443 (#73))
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.18-17.53.37:047][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.18-17.53.37:048][894]LogHttp: Warning: 000001D7A76D5940: libcurl info message cache 7 (Closing connection 73)
+[2020.05.18-17.53.37:048][894]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0D392CF9-4306-22FC-2E86-B8B962A508BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
