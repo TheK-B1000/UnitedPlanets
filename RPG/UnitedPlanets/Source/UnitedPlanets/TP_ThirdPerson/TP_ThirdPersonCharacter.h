@@ -94,6 +94,8 @@ public:
 	void InteractCheck();
 
 private:
+	void Shoot();
+	
 	AActor* FocusedActor;
 
 	UPROPERTY(EditAnywhere)

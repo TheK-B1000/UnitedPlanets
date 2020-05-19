@@ -20,6 +20,11 @@ AGunActor::AGunActor()
 
 }
 
+void AGunActor::PullTrigger()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Gun Fired!"));
+}
+
 // Called when the game starts or when spawned
 void AGunActor::BeginPlay()
 {

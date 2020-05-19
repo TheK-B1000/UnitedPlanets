@@ -63,6 +63,11 @@ void ATP_ThirdPersonCharacter::BeginPlay()
 	Gun->SetOwner(this);
 }
 
+void ATP_ThirdPersonCharacter::Shoot()
+{
+	Gun->PullTrigger();
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -75,6 +80,7 @@ void ATP_ThirdPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 
 	// Interact
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ATP_ThirdPersonCharacter::Interact);
+	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ATP_ThirdPersonCharacter::Shoot);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ATP_ThirdPersonCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ATP_ThirdPersonCharacter::MoveRight);

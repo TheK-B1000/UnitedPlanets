@@ -765,3 +765,351 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.19-17.25.16:615][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
 [2020.05.19-17.25.17:594][ 62]LogContentBrowser: Native class hierarchy populated in 0.1792 seconds. Added 3026 classes and 727 folders.
 [2020.05.19-17.25.17:595][ 62]Display: HotReload took 43.5s.
+[2020.05.19-17.26.45:246][481]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultGame.ini'
+[2020.05.19-17.26.46:224][511]LogSourceControl: Attempting 'p4 fstat -Or /Script/EngineSettings'
+[2020.05.19-17.26.46:227][511]SourceControl: Path 'C:/Script/EngineSettings' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.19-17.26.47:448][549]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultInput.ini'
+[2020.05.19-17.26.48:452][585]LogSourceControl: Attempting 'p4 fstat -Or /Script/Engine'
+[2020.05.19-17.26.48:458][585]SourceControl: Path 'C:/Script/Engine' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.19-17.26.50:864][668]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultInput.ini'
+[2020.05.19-17.29.06:142][269]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.19-17.29.06:158][269]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.19-17.31.17:549][698]Candidate modules for hot reload:
+[2020.05.19-17.31.17:550][698]  UnitedPlanets
+[2020.05.19-17.31.17:550][698]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,6863 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.19-17.31.17:595][698]Warning: Starting HotReload took  0.1s.
+[2020.05.19-17.32.07:975][852]CompilerResultsLog: New page: Compilation - May 19, 2020, 9:32:07 AM
+[2020.05.19-17.32.07:975][852]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.19-17.32.07:977][852]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.19-17.32.07:977][852]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 23.3627277 seconds
+[2020.05.19-17.32.07:982][852]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade]
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.19-17.32.07:984][852]CompilerResultsLog: [Upgrade]
+[2020.05.19-17.32.07:985][852]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   [1/7] TP_ThirdPersonCharacter.cpp
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.05.19-17.32.07:985][852]CompilerResultsLog: 
+[2020.05.19-17.32.07:985][852]CompilerResultsLog: 
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   [2/7] GunActor.cpp
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   [3/7] GunActor.gen.cpp
+[2020.05.19-17.32.07:985][852]CompilerResultsLog:   [4/7] ShooterCharacter.cpp
+[2020.05.19-17.32.07:985][852]LogMainFrame: MainFrame: Module compiling took 50.449 seconds
+[2020.05.19-17.32.07:985][852]Warning: HotReload failed, recompile failed
+[2020.05.19-17.33.03:267][ 28]Candidate modules for hot reload:
+[2020.05.19-17.33.03:270][ 28]  UnitedPlanets
+[2020.05.19-17.33.03:271][ 28]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,5358 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.19-17.33.03:305][ 28]Warning: Starting HotReload took  0.1s.
+[2020.05.19-17.34.10:117][224]CompilerResultsLog: New page: Compilation - May 19, 2020, 9:34:10 AM
+[2020.05.19-17.34.10:117][224]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.19-17.34.10:117][224]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 20.6046166 seconds
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade]
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: [Upgrade]
+[2020.05.19-17.34.10:119][224]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:   [1/6] TP_ThirdPersonGameMode.cpp
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:   [2/6] TP_ThirdPersonCharacter.gen.cpp
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:   [3/6] TP_ThirdPersonCharacter.cpp
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:   [4/6] UE4Editor-UnitedPlanets-5358.lib
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5358.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5358.exp
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:   [5/6] UE4Editor-UnitedPlanets-5358.dll
+[2020.05.19-17.34.10:119][224]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5358.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-5358.suppressed.exp
+[2020.05.19-17.34.10:122][224]CompilerResultsLog:   [6/6] UnitedPlanetsEditor.target
+[2020.05.19-17.34.10:123][224]CompilerResultsLog: Total time in Parallel executor: 38.47 seconds
+[2020.05.19-17.34.10:123][224]CompilerResultsLog: Total execution time: 66.19 seconds
+[2020.05.19-17.34.10:123][224]LogMainFrame: MainFrame: Module compiling took 66.872 seconds
+[2020.05.19-17.34.10:264][224]LogUObjectHash: Compacting FUObjectHashTables data took  16.08ms
+[2020.05.19-17.34.12:919][224]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.2053 seconds. Added 8 classes and 5 folders.
+[2020.05.19-17.34.12:928][224]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.19-17.34.13:326][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.05.19-17.34.13:529][224]LogContentBrowser: Native class hierarchy populated in 0.1690 seconds. Added 3026 classes and 727 folders.
+[2020.05.19-17.34.13:529][224]Display: HotReload took 70.3s.
+[2020.05.19-17.35.02:169][574]LogRenderer: Reallocating scene render targets to support 1140x836 Format 10 NumSamples 1 (Frame:1743).
+[2020.05.19-17.35.02:789][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.05.19-17.35.04:935][660]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.19-17.35.05:011][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.05:018][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.19-17.35.05:022][660]PIE: New page: PIE session: ArenaShooter (May 19, 2020, 9:35:05 AM)
+[2020.05.19-17.35.05:061][660]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.19-17.35.05:068][660]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.19-17.35.05:074][660]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.35.05:210][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134072s)
+[2020.05.19-17.35.05:258][660]LogAIModule: Creating AISystem for world ArenaShooter
+[2020.05.19-17.35.05:271][660]LogPlayLevel: PIE: World Init took: (0.062300s)
+[2020.05.19-17.35.05:273][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaShooter.ArenaShooter to /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter (0.199805s)
+[2020.05.19-17.35.05:318][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.19-17.35.05:346][660]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.19-17.35.05:346][660]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.19-17.35.05:349][660]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.19-17.35.05:350][660]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.19-17.35.05:395][660]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.19-17.35.05:395][660]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.19-17.35.05:395][660]LogAudioMixer: Display: Is Default: Yes
+[2020.05.19-17.35.05:395][660]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.19-17.35.05:396][660]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.19-17.35.05:396][660]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.19-17.35.05:396][660]LogAudioMixer: Display: Channel Order:
+[2020.05.19-17.35.05:396][660]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.19-17.35.05:396][660]LogAudioMixer: Display: 1: FrontRight
+[2020.05.19-17.35.05:541][660]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.19-17.35.05:567][660]LogInit: FAudioDevice initialized.
+[2020.05.19-17.35.05:649][660]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.19-17.35.05:712][660]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter up for play (max tick rate 60) at 2020.05.19-13.35.05
+[2020.05.19-17.35.05:747][660]LogWorld: Bringing up level for play took: 0.088274
+[2020.05.19-17.35.05:757][660]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.05.19-17.35.05:838][660]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2020.05.19-17.35.05:884][660]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ArenaShooter 0.681
+[2020.05.19-17.35.05:892][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.06:600][685]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.09:144][816]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.10:600][885]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.10:914][902]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.11:092][911]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.11:287][921]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.11:467][930]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.11:782][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.35.11:796][946]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.19-17.35.11:826][946]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.19-17.35.11:829][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.11:832][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.35.11:833][946]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.35.11:838][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.35.11:840][946]LogWorld: UWorld::CleanupWorld for ArenaShooter, bSessionEnded=true, bCleanupResources=true
+[2020.05.19-17.35.11:844][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.35.11:856][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.19-17.35.11:857][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.11:863][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.35.11:906][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.35.11:911][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.35.11:938][946]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.05.19-17.35.11:981][947]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.05.19-17.35.12:442][957]LogSlate: Took 0.003419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.05.19-17.35.15:671][ 99]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.19-17.35.15:693][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.15:694][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.19-17.35.15:694][ 99]PIE: New page: PIE session: ArenaShooter (May 19, 2020, 9:35:15 AM)
+[2020.05.19-17.35.15:694][ 99]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.35.15:709][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015327s)
+[2020.05.19-17.35.15:711][ 99]LogAIModule: Creating AISystem for world ArenaShooter
+[2020.05.19-17.35.15:711][ 99]LogPlayLevel: PIE: World Init took: (0.001861s)
+[2020.05.19-17.35.15:711][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaShooter.ArenaShooter to /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter (0.017443s)
+[2020.05.19-17.35.15:747][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.05.19-17.35.15:750][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.19-17.35.15:751][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.19-17.35.15:751][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.19-17.35.15:751][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.19-17.35.15:751][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.19-17.35.15:751][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.19-17.35.15:751][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.19-17.35.15:751][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.19-17.35.15:753][ 99]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.19-17.35.15:753][ 99]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Is Default: Yes
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: Channel Order:
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.19-17.35.15:789][ 99]LogAudioMixer: Display: 1: FrontRight
+[2020.05.19-17.35.15:920][ 99]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.19-17.35.15:930][ 99]LogInit: FAudioDevice initialized.
+[2020.05.19-17.35.15:940][ 99]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.19-17.35.15:943][ 99]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter up for play (max tick rate 60) at 2020.05.19-13.35.15
+[2020.05.19-17.35.15:944][ 99]LogWorld: Bringing up level for play took: 0.002768
+[2020.05.19-17.35.15:944][ 99]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.05.19-17.35.15:952][ 99]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ArenaShooter 0.751
+[2020.05.19-17.35.15:953][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.16:146][102]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.16:942][144]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.17:872][194]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.18:531][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.35.18:537][231]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.19-17.35.18:556][231]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.19-17.35.18:556][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.18:557][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.35.18:557][231]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.35.18:557][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.35.18:557][231]LogWorld: UWorld::CleanupWorld for ArenaShooter, bSessionEnded=true, bCleanupResources=true
+[2020.05.19-17.35.18:559][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.35.18:571][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.19-17.35.18:571][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.18:574][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.35.18:608][231]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.35.18:615][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.35.18:623][231]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.05.19-17.35.18:645][232]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.05.19-17.35.21:174][359]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.19-17.35.21:194][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.21:194][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.19-17.35.21:195][359]PIE: New page: PIE session: ArenaShooter (May 19, 2020, 9:35:21 AM)
+[2020.05.19-17.35.21:195][359]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.35.21:208][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013611s)
+[2020.05.19-17.35.21:210][359]LogAIModule: Creating AISystem for world ArenaShooter
+[2020.05.19-17.35.21:210][359]LogPlayLevel: PIE: World Init took: (0.001693s)
+[2020.05.19-17.35.21:210][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaShooter.ArenaShooter to /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter (0.015532s)
+[2020.05.19-17.35.21:239][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.05.19-17.35.21:240][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.19-17.35.21:241][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.19-17.35.21:241][359]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.19-17.35.21:241][359]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Is Default: Yes
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: Channel Order:
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.19-17.35.21:271][359]LogAudioMixer: Display: 1: FrontRight
+[2020.05.19-17.35.21:394][359]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.19-17.35.21:397][359]LogInit: FAudioDevice initialized.
+[2020.05.19-17.35.21:407][359]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.19-17.35.21:411][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter up for play (max tick rate 60) at 2020.05.19-13.35.21
+[2020.05.19-17.35.21:412][359]LogWorld: Bringing up level for play took: 0.003308
+[2020.05.19-17.35.21:412][359]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.05.19-17.35.21:420][359]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ArenaShooter 0.219
+[2020.05.19-17.35.21:420][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.35.21:610][362]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.22:044][382]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.22:260][393]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.24:919][539]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.25:106][549]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.25:561][573]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.25:755][583]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.35.41:127][340]LogEditorViewport: Clicking on Actor (LMB): BP_Gun_C (BP_Gun)
+[2020.05.19-17.35.45:159][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.19-17.35.46:443][531]LogEditorViewport: Clicking on Actor (LMB): BP_Gun_C (BP_Gun)
+[2020.05.19-17.36.04:580][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.19-17.36.05:631][311]LogEditorViewport: Clicking on Actor (LMB): BP_Gun_C (BP_Gun)
+[2020.05.19-17.36.08:154][406]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder)
+[2020.05.19-17.36.09:096][438]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder)
+[2020.05.19-17.36.14:506][644]LogEditorViewport: Clicking on Actor (LMB): BP_Gun_C (BP_Gun)
+[2020.05.19-17.36.42:096][791]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_MyPawn.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/UnitedPlanetsGameModeBase_BP.uasset'
+[2020.05.19-17.36.47:793][ 27]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/BP_Gun.BP_Gun
+[2020.05.19-17.36.48:331][ 27]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.05.19-17.36.51:435][ 93]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.05.19-17.36.51:435][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.36.51:508][ 93]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Weapons/BP_Gun.BP_Gun
+[2020.05.19-17.36.52:026][ 93]LogSlate: Took 0.002035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.19-17.36.53:234][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.36.53:235][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.36.53:236][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.36.53:238][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.36.53:238][144]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.36.53:243][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.36.53:249][144]LogWorld: UWorld::CleanupWorld for ArenaShooter, bSessionEnded=true, bCleanupResources=true
+[2020.05.19-17.36.53:250][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.36.53:274][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.19-17.36.53:274][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.36.53:281][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.36.53:330][144]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.36.53:343][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.36.53:358][144]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2020.05.19-17.36.53:419][145]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.05.19-17.36.56:231][299]LogSlate: Took 0.002169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.19-17.37.01:006][500]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.02:192][537]BlueprintLog: New page: Compile BP_Gun
+[2020.05.19-17.37.02:698][537]LogUObjectHash: Compacting FUObjectHashTables data took   7.03ms
+[2020.05.19-17.37.02:843][538]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.04:293][538]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.05.19-17.37.04:407][538]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.04:407][538]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.04:503][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Gun" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset" SILENT=true
+[2020.05.19-17.37.04:571][538]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_GunCB5FE130467CDD01248549817F49BC09.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.04:621][538]AssetCheck: New page: Asset Save: BP_Gun
+[2020.05.19-17.37.04:621][538]LogContentValidation: Display: Validating Blueprint /Game/Weapons/BP_Gun.BP_Gun
+[2020.05.19-17.37.07:153][647]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.19-17.37.07:191][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.37.07:191][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.19-17.37.07:191][647]PIE: New page: PIE session: ArenaShooter (May 19, 2020, 9:37:07 AM)
+[2020.05.19-17.37.07:192][647]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.37.07:206][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015335s)
+[2020.05.19-17.37.07:207][647]LogAIModule: Creating AISystem for world ArenaShooter
+[2020.05.19-17.37.07:208][647]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2020.05.19-17.37.07:208][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaShooter.ArenaShooter to /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter (0.016987s)
+[2020.05.19-17.37.07:264][647]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2020.05.19-17.37.07:271][647]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.19-17.37.07:271][647]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.19-17.37.07:271][647]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.19-17.37.07:271][647]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.19-17.37.07:272][647]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.19-17.37.07:272][647]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.19-17.37.07:272][647]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.19-17.37.07:272][647]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.19-17.37.07:272][647]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.19-17.37.07:272][647]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.19-17.37.07:303][647]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: Is Default: Yes
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: Channel Order:
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.19-17.37.07:304][647]LogAudioMixer: Display: 1: FrontRight
+[2020.05.19-17.37.07:457][647]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.19-17.37.07:460][647]LogInit: FAudioDevice initialized.
+[2020.05.19-17.37.07:475][647]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.19-17.37.07:481][647]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter up for play (max tick rate 60) at 2020.05.19-13.37.07
+[2020.05.19-17.37.07:482][647]LogWorld: Bringing up level for play took: 0.006042
+[2020.05.19-17.37.07:482][647]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.05.19-17.37.07:487][647]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ArenaShooter 0.285
+[2020.05.19-17.37.07:487][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.37.08:451][684]LogTemp: Warning: Gun Fired!
+[2020.05.19-17.37.12:927][871]LogEditorViewport: Clicking on Actor (LMB): BP_Gun_C (BP_Gun)
+[2020.05.19-17.37.16:969][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.19-17.37.18:328][ 66]LogEditorViewport: Clicking on Actor (LMB): BP_Gun_C (BP_Gun)
+[2020.05.19-17.37.21:482][211]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.37.21:482][211]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.37.21:482][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.37.21:486][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.37.21:486][211]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.19-17.37.21:489][211]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.37.21:489][211]LogWorld: UWorld::CleanupWorld for ArenaShooter, bSessionEnded=true, bCleanupResources=true
+[2020.05.19-17.37.21:493][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.37.21:503][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.19-17.37.21:504][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.19-17.37.21:516][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.19-17.37.21:566][211]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.19-17.37.21:573][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.19-17.37.21:582][211]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.05.19-17.37.21:604][212]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.05.19-17.37.26:479][448]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.27:683][501]BlueprintLog: New page: Compile BP_Gun
+[2020.05.19-17.37.28:104][501]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.05.19-17.37.28:290][506]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.28:333][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/BP_Gun" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset" SILENT=true
+[2020.05.19-17.37.28:376][506]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_GunF62919F0493C8D5F9DCC428A53FD0532.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Weapons/BP_Gun.uasset'
+[2020.05.19-17.37.28:398][506]AssetCheck: New page: Asset Save: BP_Gun
+[2020.05.19-17.37.28:398][506]LogContentValidation: Display: Validating Blueprint /Game/Weapons/BP_Gun.BP_Gun
