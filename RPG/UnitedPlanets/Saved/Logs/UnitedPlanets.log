@@ -1197,3 +1197,267 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.20-00.04.35:917][151]  UnitedPlanets
 [2020.05.20-00.04.35:922][151]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,8372 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
 [2020.05.20-00.04.35:965][151]Warning: Starting HotReload took  0.2s.
+[2020.05.20-00.06.10:375][400]CompilerResultsLog: New page: Compilation - May 19, 2020, 4:06:09 PM
+[2020.05.20-00.06.10:655][400]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.20-00.06.10:676][400]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 27.9754818 seconds
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.20-00.06.10:676][400]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.20-00.06.10:689][400]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.20-00.06.10:689][400]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.20-00.06.10:689][400]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.06.10:689][400]CompilerResultsLog: Building 8 actions with 4 processes...
+[2020.05.20-00.06.10:689][400]CompilerResultsLog:   [1/8] UnitedPlanets.init.gen.cpp
+[2020.05.20-00.06.10:689][400]CompilerResultsLog:   [2/8] ShooterCharacter.cpp
+[2020.05.20-00.06.10:689][400]CompilerResultsLog:   [3/8] GunActor.gen.cpp
+[2020.05.20-00.06.10:689][400]CompilerResultsLog:   [4/8] TP_ThirdPersonCharacter.cpp
+[2020.05.20-00.06.10:689][400]CompilerResultsLog:   [5/8] GunActor.cpp
+[2020.05.20-00.06.10:729][400]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(45) : error C2065: 'Hit': undeclared identifier
+[2020.05.20-00.06.10:729][400]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(45) : error C2513: 'FHitResult': no variable declared before '='
+[2020.05.20-00.06.10:780][400]LogMainFrame: MainFrame: Module compiling took 94.909 seconds
+[2020.05.20-00.06.10:897][400]Warning: HotReload failed, recompile failed
+[2020.05.20-00.10.51:696][266]Candidate modules for hot reload:
+[2020.05.20-00.10.51:696][266]  UnitedPlanets
+[2020.05.20-00.10.51:696][266]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,6497 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.20-00.10.51:721][266]Warning: Starting HotReload took  0.2s.
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: New page: Compilation - May 19, 2020, 4:12:17 PM
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.20-00.12.17:740][553]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 21.0126522 seconds
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.20-00.12.17:740][553]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.20-00.12.17:745][553]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.20-00.12.17:746][553]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.20-00.12.17:746][553]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.20-00.12.17:746][553]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.12.17:746][553]CompilerResultsLog: Building 8 actions with 4 processes...
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   [1/8] UnitedPlanets.init.gen.cpp
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   [2/8] GunActor.gen.cpp
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   [3/8] ShooterCharacter.cpp
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   [4/8] TP_ThirdPersonCharacter.cpp
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   [5/8] GunActor.cpp
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(51) : error C2064: term does not evaluate to a function taking 0 arguments
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(51) : error C2664: 'void DrawDebugPoint(const UWorld *,const FVector &,float,const FColor &,bool,float,uint8)': cannot convert argument 2 from 'int' to 'const FVector &'
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(51): note: Reason: cannot convert from 'int' to 'const FVector'
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(51): note: Constructor for struct 'FVector' is declared 'explicit'
+[2020.05.20-00.12.17:746][553]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h(22): note: see declaration of 'DrawDebugPoint'
+[2020.05.20-00.12.17:746][553]LogMainFrame: MainFrame: Module compiling took 86.064 seconds
+[2020.05.20-00.12.17:756][553]Warning: HotReload failed, recompile failed
+[2020.05.20-00.13.49:970][ 26]Candidate modules for hot reload:
+[2020.05.20-00.13.49:970][ 26]  UnitedPlanets
+[2020.05.20-00.13.49:970][ 26]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,8031 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.20-00.13.49:983][ 26]Warning: Starting HotReload took  0.0s.
+[2020.05.20-00.14.26:394][147]CompilerResultsLog: New page: Compilation - May 19, 2020, 4:14:26 PM
+[2020.05.20-00.14.26:396][147]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.20-00.14.26:396][147]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 16.6582524 seconds
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.20-00.14.26:397][147]CompilerResultsLog:   [1/4] GunActor.cpp
+[2020.05.20-00.14.26:397][147]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-8031.lib
+[2020.05.20-00.14.26:397][147]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8031.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8031.exp
+[2020.05.20-00.14.26:397][147]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-8031.dll
+[2020.05.20-00.14.26:397][147]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8031.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8031.suppressed.exp
+[2020.05.20-00.14.26:397][147]CompilerResultsLog:   [4/4] UnitedPlanetsEditor.target
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: Total time in Parallel executor: 17.04 seconds
+[2020.05.20-00.14.26:397][147]CompilerResultsLog: Total execution time: 36.07 seconds
+[2020.05.20-00.14.26:397][147]LogMainFrame: MainFrame: Module compiling took 36.439 seconds
+[2020.05.20-00.14.29:132][147]LogUObjectHash: Compacting FUObjectHashTables data took 114.09ms
+[2020.05.20-00.14.30:966][147]LogClass: Could not find existing class GunActor in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.05.20-00.14.31:261][147]LogHotReload: Re-instancing GunActor after hot-reload.
+[2020.05.20-00.14.34:666][147]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0294 seconds. Added 8 classes and 5 folders.
+[2020.05.20-00.14.34:682][147]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.20-00.14.35:121][147]LogUObjectHash: Compacting FUObjectHashTables data took  16.84ms
+[2020.05.20-00.14.35:466][147]LogContentBrowser: Native class hierarchy populated in 0.0704 seconds. Added 3026 classes and 727 folders.
+[2020.05.20-00.14.35:472][147]Display: HotReload took 45.5s.
+[2020.05.20-00.21.20:355][426]Candidate modules for hot reload:
+[2020.05.20-00.21.20:355][426]  UnitedPlanets
+[2020.05.20-00.21.20:355][426]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,6865 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.20-00.21.20:391][426]Warning: Starting HotReload took  0.1s.
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: New page: Compilation - May 19, 2020, 4:22:03 PM
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.20-00.22.03:298][955]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 12.9640405 seconds
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.20-00.22.03:298][955]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.20-00.22.03:299][955]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.20-00.22.03:299][955]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.20-00.22.03:299][955]CompilerResultsLog: [Upgrade]
+[2020.05.20-00.22.03:299][955]CompilerResultsLog: Building 8 actions with 4 processes...
+[2020.05.20-00.22.03:299][955]CompilerResultsLog:   [1/8] UnitedPlanets.init.gen.cpp
+[2020.05.20-00.22.03:299][955]CompilerResultsLog:   [2/8] GunActor.gen.cpp
+[2020.05.20-00.22.03:299][955]CompilerResultsLog:   [3/8] ShooterCharacter.cpp
+[2020.05.20-00.22.03:299][955]CompilerResultsLog:   [4/8] TP_ThirdPersonCharacter.cpp
+[2020.05.20-00.22.03:299][955]CompilerResultsLog:   [5/8] GunActor.cpp
+[2020.05.20-00.22.03:299][955]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\GunActor.cpp(57)  : error C4700: uninitialized local variable 'HitActor' used
+[2020.05.20-00.22.03:299][955]LogMainFrame: MainFrame: Module compiling took 42.957 seconds
+[2020.05.20-00.22.03:300][955]Warning: HotReload failed, recompile failed
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFCA71DFD-4B4E-7B32-29FE-359C02CA532E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x238c5eeff70 [can pipeline])
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 1 (Re-using existing connection! (#231) with host datarouter.ol.epicgames.com)
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.86.70.22) port 443 (#231))
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.20-03.39.38:594][839]LogHttp: Warning: 0000023996243B00: libcurl info message cache 7 (Closing connection 231)
+[2020.05.20-03.39.38:610][840]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFCA71DFD-4B4E-7B32-29FE-359C02CA532E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.05.20-04.09.37:763][ 58]Candidate modules for hot reload:
+[2020.05.20-04.09.37:763][ 58]  UnitedPlanets
+[2020.05.20-04.09.37:763][ 58]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,6221 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.05.20-04.09.37:808][ 58]Warning: Starting HotReload took  0.2s.
+[2020.05.20-04.10.12:181][188]CompilerResultsLog: New page: Compilation - May 19, 2020, 8:10:12 PM
+[2020.05.20-04.10.12:182][188]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.05.20-04.10.12:182][188]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.20-04.10.12:182][188]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 14.1006427 seconds
+[2020.05.20-04.10.12:182][188]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.05.20-04.10.12:182][188]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade]
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in UnitedPlanetsEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: [Upgrade]
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.20-04.10.12:183][188]CompilerResultsLog:   [1/4] GunActor.cpp
+[2020.05.20-04.10.12:183][188]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-6221.lib
+[2020.05.20-04.10.12:183][188]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6221.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6221.exp
+[2020.05.20-04.10.12:183][188]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-6221.dll
+[2020.05.20-04.10.12:183][188]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6221.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6221.suppressed.exp
+[2020.05.20-04.10.12:183][188]CompilerResultsLog:   [4/4] UnitedPlanetsEditor.target
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: Total time in Parallel executor: 16.83 seconds
+[2020.05.20-04.10.12:183][188]CompilerResultsLog: Total execution time: 34.09 seconds
+[2020.05.20-04.10.12:183][188]LogMainFrame: MainFrame: Module compiling took 34.514 seconds
+[2020.05.20-04.10.13:197][188]LogUObjectHash: Compacting FUObjectHashTables data took  29.87ms
+[2020.05.20-04.10.14:631][188]LogClass: Could not find existing class GunActor in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.05.20-04.10.14:673][188]LogHotReload: Re-instancing GunActor after hot-reload.
+[2020.05.20-04.10.15:745][188]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0011 seconds. Added 8 classes and 5 folders.
+[2020.05.20-04.10.15:752][188]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2020.05.20-04.10.16:098][188]LogUObjectHash: Compacting FUObjectHashTables data took   8.13ms
+[2020.05.20-04.10.16:141][188]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 3026 classes and 727 folders.
+[2020.05.20-04.10.16:141][188]Display: HotReload took 38.5s.
+[2020.05.20-04.10.42:739][317]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-04.10.42:832][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.10.42:839][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-04.10.42:839][317]PIE: New page: PIE session: ArenaShooter (May 19, 2020, 8:10:42 PM)
+[2020.05.20-04.10.42:852][317]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.20-04.10.42:979][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121080s)
+[2020.05.20-04.10.43:039][317]LogAIModule: Creating AISystem for world ArenaShooter
+[2020.05.20-04.10.43:054][317]LogPlayLevel: PIE: World Init took: (0.075939s)
+[2020.05.20-04.10.43:056][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaShooter.ArenaShooter to /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter (0.205553s)
+[2020.05.20-04.10.43:319][317]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-04.10.43:350][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-04.10.43:351][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-04.10.43:355][317]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-04.10.43:356][317]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-04.10.43:394][317]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.20-04.10.43:394][317]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.20-04.10.43:394][317]LogAudioMixer: Display: Is Default: Yes
+[2020.05.20-04.10.43:395][317]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.20-04.10.43:395][317]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.20-04.10.43:395][317]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.20-04.10.43:395][317]LogAudioMixer: Display: Channel Order:
+[2020.05.20-04.10.43:395][317]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-04.10.43:395][317]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-04.10.43:526][317]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.20-04.10.43:561][317]LogInit: FAudioDevice initialized.
+[2020.05.20-04.10.43:640][317]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.20-04.10.43:714][317]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter up for play (max tick rate 60) at 2020.05.20-00.10.43
+[2020.05.20-04.10.43:738][317]LogWorld: Bringing up level for play took: 0.088819
+[2020.05.20-04.10.43:751][317]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.05.20-04.10.43:831][317]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ArenaShooter 0.64
+[2020.05.20-04.10.43:833][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.10.54:794][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.10.54:794][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.10.54:803][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.10.54:809][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-04.10.54:810][637]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.20-04.10.54:816][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.10.54:819][637]LogWorld: UWorld::CleanupWorld for ArenaShooter, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-04.10.54:823][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-04.10.54:873][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-04.10.54:874][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.10.54:885][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-04.10.54:959][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.10.54:964][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-04.10.55:025][637]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.05.20-04.10.55:084][638]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.05.20-04.11.06:329][931]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-04.11.06:366][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.11.06:366][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-04.11.06:366][931]PIE: New page: PIE session: ArenaShooter (May 19, 2020, 8:11:06 PM)
+[2020.05.20-04.11.06:366][931]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.20-04.11.06:395][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028322s)
+[2020.05.20-04.11.06:397][931]LogAIModule: Creating AISystem for world ArenaShooter
+[2020.05.20-04.11.06:397][931]LogPlayLevel: PIE: World Init took: (0.002684s)
+[2020.05.20-04.11.06:397][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaShooter.ArenaShooter to /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter (0.031339s)
+[2020.05.20-04.11.06:457][931]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-04.11.06:464][931]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-04.11.06:464][931]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-04.11.06:464][931]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Is Default: Yes
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: Channel Order:
+[2020.05.20-04.11.06:491][931]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-04.11.06:492][931]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-04.11.06:597][931]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.20-04.11.06:616][931]LogInit: FAudioDevice initialized.
+[2020.05.20-04.11.06:631][931]LogLoad: Game class is 'UnitedPlanetsGameModeBase_BP_C'
+[2020.05.20-04.11.06:637][931]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaShooter.ArenaShooter up for play (max tick rate 60) at 2020.05.20-00.11.06
+[2020.05.20-04.11.06:638][931]LogWorld: Bringing up level for play took: 0.004024
+[2020.05.20-04.11.06:638][931]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.05.20-04.11.06:643][931]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ArenaShooter -0.547
+[2020.05.20-04.11.06:643][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.11.20:384][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.11.20:384][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.11.20:384][341]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.11.20:384][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-04.11.20:384][341]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ArenaShooter
+[2020.05.20-04.11.20:385][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.11.20:385][341]LogWorld: UWorld::CleanupWorld for ArenaShooter, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-04.11.20:385][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-04.11.20:456][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-04.11.20:456][341]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter' with GeneratedClass '/Game/Maps/ArenaShooter.ArenaShooter_C' with ClassGeneratedBy '/Game/Maps/ArenaShooter.ArenaShooter:PersistentLevel.ArenaShooter'
+[2020.05.20-04.11.20:462][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-04.11.20:520][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-04.11.20:526][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-04.11.20:531][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.05.20-04.11.20:556][342]LogPlayLevel: Display: Destroying online subsystem :Context_17

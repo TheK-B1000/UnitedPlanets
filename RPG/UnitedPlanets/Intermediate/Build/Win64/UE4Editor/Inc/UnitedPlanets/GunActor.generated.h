@@ -61,7 +61,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGunActor); \
 #define UnitedPlanets_Source_UnitedPlanets_Public_GunActor_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(AGunActor, Root); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AGunActor, Mesh); } \
-	FORCEINLINE static uint32 __PPO__MaxRange() { return STRUCT_OFFSET(AGunActor, MaxRange); }
+	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AGunActor, MuzzleFlash); } \
+	FORCEINLINE static uint32 __PPO__ImpactEffect() { return STRUCT_OFFSET(AGunActor, ImpactEffect); } \
+	FORCEINLINE static uint32 __PPO__MaxRange() { return STRUCT_OFFSET(AGunActor, MaxRange); } \
+	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AGunActor, Damage); }
 
 
 #define UnitedPlanets_Source_UnitedPlanets_Public_GunActor_h_9_PROLOG
