@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeGunActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxRange;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
@@ -56,6 +60,13 @@ void EmptyLinkFunctionForGeneratedCodeGunActor() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunActor_Statics::NewProp_MaxRange_MetaData[] = {
+		{ "Category", "GunActor" },
+		{ "ModuleRelativePath", "Public/GunActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGunActor_Statics::NewProp_MaxRange = { "MaxRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunActor, MaxRange), METADATA_PARAMS(Z_Construct_UClass_AGunActor_Statics::NewProp_MaxRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunActor_Statics::NewProp_MaxRange_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunActor_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "GunActor" },
 		{ "EditInline", "true" },
@@ -72,6 +83,7 @@ void EmptyLinkFunctionForGeneratedCodeGunActor() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunActor_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunActor, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunActor_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunActor_Statics::NewProp_Root_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunActor_Statics::NewProp_MaxRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunActor_Statics::NewProp_Mesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunActor_Statics::NewProp_Root,
 	};
@@ -102,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeGunActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGunActor, 1036095478);
+	IMPLEMENT_CLASS(AGunActor, 3570158552);
 	template<> UNITEDPLANETS_API UClass* StaticClass<AGunActor>()
 	{
 		return AGunActor::StaticClass();

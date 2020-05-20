@@ -39,7 +39,11 @@ void AGunActor::PullTrigger()
 		OUT Rotation
 	);
 
-	DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Red, true);
+	FVector End = Location + Rotation.Vector() * MaxRange;
+
+	// TODO: LineTrace
+
+	DrawDebugPoint(GetWorld(), Location, 20, FColor::Red, true);
 }
 
 // Called when the game starts or when spawned
