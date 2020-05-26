@@ -1,7 +1,7 @@
 {
-	"BuildId": "10570792",
+	"BuildId": "13144385",
 	"Modules": 
 	{
-		"UnitedPlanets": "UE4Editor-UnitedPlanets-6221.dll"
+		"UnitedPlanets": "UE4Editor-UnitedPlanets.dll"
 	}
 }
