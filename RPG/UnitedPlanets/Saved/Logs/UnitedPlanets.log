@@ -705,3 +705,282 @@ connect: 127.0.0.1:514: WSAECONNREFUSED
 [2020.05.26-16.24.04:338][189]LogTemp: IOS device listing is disabled (too many failed attempts)!
 [2020.05.26-16.25.16:600][400]LogTemp: IOS device listing is disabled (too many failed attempts)!
 [2020.05.26-16.37.15:689][684]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_Cave_Rock_Large_01a.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_Cave_Rock_Med_01a.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_GDC_Landscape_Peakmesh_01.uasset'
+[2020.05.26-16.38.55:078][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.26-16.38.56:436][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2020.05.26-16.38.57:869][ 89]Cmd: DELETE
+[2020.05.26-16.38.57:869][ 89]Cmd: ACTOR DELETE
+[2020.05.26-16.38.57:948][ 89]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.26-16.38.58:016][ 89]LogUObjectHash: Compacting FUObjectHashTables data took  10.74ms
+[2020.05.26-16.38.58:075][ 89]LogEditorActor: Deleted 1 Actors (0.186 secs)
+[2020.05.26-16.38.58:214][ 93]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.26-16.38.58:540][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2020.05.26-16.38.58:765][113]Cmd: DELETE
+[2020.05.26-16.38.58:765][113]Cmd: ACTOR DELETE
+[2020.05.26-16.38.58:772][113]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.26-16.38.58:784][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.05.26-16.38.58:793][113]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2020.05.26-16.38.59:206][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2020.05.26-16.38.59:298][139]Cmd: DELETE
+[2020.05.26-16.38.59:298][139]Cmd: ACTOR DELETE
+[2020.05.26-16.38.59:301][139]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.26-16.38.59:314][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.05.26-16.38.59:317][139]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2020.05.26-16.39.00:246][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2020.05.26-16.39.00:465][202]Cmd: DELETE
+[2020.05.26-16.39.00:465][202]Cmd: ACTOR DELETE
+[2020.05.26-16.39.00:467][202]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.26-16.39.00:479][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.05.26-16.39.00:483][202]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2020.05.26-16.39.03:183][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.26-16.39.05:791][498]LogActorFactory: Actor Factory created Cylinder
+[2020.05.26-16.39.09:204][684]LogActorFactory: Actor Factory created Cylinder
+[2020.05.26-16.40.01:511][541]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.26-16.40.05:318][757]Cmd: TRANSACTION UNDO
+[2020.05.26-16.40.05:318][757]LogEditorTransaction: Undo Move Actors
+[2020.05.26-16.40.05:807][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.26-16.40.17:787][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.26-16.40.38:147][477]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.05.26-16.40.55:722][355]Cmd: TRANSACTION UNDO
+[2020.05.26-16.40.55:722][355]LogEditorTransaction: Undo Set Location
+[2020.05.26-16.41.08:049][986]LogActorFactory: Actor Factory created Cylinder
+[2020.05.26-16.41.09:041][ 40]LogActorFactory: Actor Factory created Cylinder
+[2020.05.26-16.41.21:317][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.41.51:859][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.05.26-16.41.52:075][548]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/FirstPersonExampleMap_Auto131C5B9484583F71B56AB0D8ED4F653E5.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.05.26-16.41.52:079][548]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.234
+[2020.05.26-16.41.52:079][548]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.234
+[2020.05.26-16.42.33:138][967]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.05.26-16.43.30:918][630]Cmd: DUPLICATE
+[2020.05.26-16.43.30:918][630]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.43.36:719][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.43.42:179][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.43.42:651][ 94]Cmd: DUPLICATE
+[2020.05.26-16.43.42:651][ 94]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.43.43:503][124]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.05.26-16.43.49:681][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.43.54:637][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.43.58:714][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.43.59:906][784]Cmd: DUPLICATE
+[2020.05.26-16.43.59:906][784]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.44.05:617][ 16]Cmd: DUPLICATE
+[2020.05.26-16.44.05:618][ 16]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.44.16:700][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2020.05.26-16.44.24:201][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.44.27:203][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.26-16.44.29:185][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2020.05.26-16.44.33:429][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.44.38:648][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.26-16.44.39:348][398]Cmd: DUPLICATE
+[2020.05.26-16.44.39:348][398]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.44.44:176][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2020.05.26-16.44.47:318][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.26-16.44.47:991][758]Cmd: DUPLICATE
+[2020.05.26-16.44.47:991][758]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.44.52:571][941]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.05.26-16.44.53:188][967]Cmd: DUPLICATE
+[2020.05.26-16.44.53:188][967]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.44.57:543][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
+[2020.05.26-16.45.01:189][286]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.26-16.45.03:832][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.45.06:824][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder6)
+[2020.05.26-16.45.07:590][535]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.26-16.45.08:058][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2020.05.26-16.45.08:917][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.45.10:869][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
+[2020.05.26-16.45.12:982][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
+[2020.05.26-16.45.14:023][778]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder9)
+[2020.05.26-16.45.14:937][810]Cmd: DUPLICATE
+[2020.05.26-16.45.14:938][810]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.45.25:468][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder9)
+[2020.05.26-16.45.26:381][272]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder11)
+[2020.05.26-16.45.27:157][301]Cmd: DUPLICATE
+[2020.05.26-16.45.27:157][301]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.45.29:989][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder13)
+[2020.05.26-16.45.41:288][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.26-16.45.42:084][876]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.45.42:726][899]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.45.43:301][918]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.26-16.45.44:168][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder5)
+[2020.05.26-16.45.44:926][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.26-16.45.45:673][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.45.47:006][ 53]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder5)
+[2020.05.26-16.45.48:031][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.26-16.45.48:963][128]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder3)
+[2020.05.26-16.45.49:679][155]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.45.50:353][179]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder5)
+[2020.05.26-16.45.51:076][205]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder6)
+[2020.05.26-16.45.51:663][225]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cylinder7)
+[2020.05.26-16.45.53:136][280]Cmd: DUPLICATE
+[2020.05.26-16.45.53:136][280]Cmd: ACTOR DUPLICATE
+[2020.05.26-16.46.01:614][598]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.05.26-16.46.21:816][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder17)
+[2020.05.26-16.46.22:676][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.26-16.46.27:560][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder12)
+[2020.05.26-16.46.27:962][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder19)
+[2020.05.26-16.46.28:824][644]Cmd: DELETE
+[2020.05.26-16.46.28:824][644]Cmd: ACTOR DELETE
+[2020.05.26-16.46.28:827][644]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.26-16.46.28:850][644]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.05.26-16.46.28:858][644]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.05.26-16.46.31:759][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder12)
+[2020.05.26-16.46.34:076][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder16)
+[2020.05.26-16.46.35:495][927]Cmd: DELETE
+[2020.05.26-16.46.35:495][927]Cmd: ACTOR DELETE
+[2020.05.26-16.46.35:500][927]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.26-16.46.35:521][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.05.26-16.46.35:526][927]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2020.05.26-16.46.42:229][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder12)
+[2020.05.26-16.46.45:346][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder9)
+[2020.05.26-16.46.51:469][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder8)
+[2020.05.26-16.46.56:727][809]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.26-16.46.57:379][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder11)
+[2020.05.26-16.46.59:427][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder13)
+[2020.05.26-16.47.11:880][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder10)
+[2020.05.26-16.47.15:896][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
+[2020.05.26-16.47.18:088][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder2)
+[2020.05.26-16.47.21:679][760]Cmd: TRANSACTION UNDO
+[2020.05.26-16.47.21:680][760]LogEditorTransaction: Undo Move Actors
+[2020.05.26-16.47.27:505][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder7)
+[2020.05.26-16.47.33:954][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder10)
+[2020.05.26-16.47.35:479][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder11)
+[2020.05.26-16.47.37:280][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder13)
+[2020.05.26-16.47.41:647][539]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.05.26-16.47.42:787][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder11)
+[2020.05.26-16.47.48:279][798]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2020.05.26-16.47.48:349][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.05.26-16.47.48:493][798]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/FirstPersonExampleMapA330CBA745FCD3BB772AAAAEEFD15A6E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2020.05.26-16.47.48:578][798]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.05.26-16.47.50:730][798]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/FirstPersonExampleMap_BuiltDataF0769E3749AB2C40A54595BDE5C8829A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.05.26-16.47.50:800][798]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.26-16.47.50:800][798]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.05.26-16.47.50:801][798]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2020.05.26-16.47.52:826][856]LogSourceControl: Attempting 'p4 fstat -Or C:/Program Files/Epic Games/UE_4.25/Engine/Content/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject'
+[2020.05.26-16.47.52:866][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:867][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:868][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:868][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:868][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:868][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.47.52:868][857]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.05.26-16.48.11:002][857]LogSlate: Window 'Submit Files' being destroyed
+[2020.05.26-16.48.13:421][857]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.26-16.48.13:421][857]LogSourceControl: Attempting 'p4 diff -sa C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.26-16.48.13:421][857]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_Cave_Rock_Large_01a.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_Cave_Rock_Med_01a.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_GDC_Landscape_Peakmesh_01.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.05.26-16.48.13:421][857]LogSourceControl: Attempting 'p4 reopen -c 40 C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_Cave_Rock_Large_01a.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_Cave_Rock_Med_01a.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/UE4_Assets/Environment_A/Meshes/SM_GDC_Landscape_Peakmesh_01.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.05.26-16.48.13:421][857]LogSourceControl: Attempting 'p4 submit -c 40'
+[2020.05.26-16.48.13:434][857]SourceControl: Submitted changelist 40
+[2020.05.26-16.48.14:615][901]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.26-16.48.14:660][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.26-16.48.14:704][901]PIE: New page: PIE session: FirstPersonExampleMap (May 26, 2020, 8:48:14 AM)
+[2020.05.26-16.48.14:751][901]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.26-16.48.14:758][901]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.26-16.48.14:774][901]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.26-16.48.14:917][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141737s)
+[2020.05.26-16.48.14:992][901]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.26-16.48.14:998][901]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AA60B82200), frame # 35901
+[2020.05.26-16.48.15:005][901]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AA912D6700), frame # 35901
+[2020.05.26-16.48.15:011][901]LogPlayLevel: PIE: World Init took: (0.093642s)
+[2020.05.26-16.48.15:012][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.238513s)
+[2020.05.26-16.48.15:034][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.05.26-16.48.15:049][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.26-16.48.15:049][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.26-16.48.15:049][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.26-16.48.15:049][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.26-16.48.15:049][901]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.26-16.48.15:049][901]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.26-16.48.15:050][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.26-16.48.15:050][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.26-16.48.15:059][901]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.26-16.48.15:059][901]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.26-16.48.15:076][901]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.26-16.48.15:076][901]LogAudioMixer: Display: 1: FrontRight
+[2020.05.26-16.48.15:267][901]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.26-16.48.15:272][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.26-16.48.15:272][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.26-16.48.15:272][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.26-16.48.15:278][901]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.26-16.48.15:305][901]LogInit: FAudioDevice initialized.
+[2020.05.26-16.48.15:376][901]LogLoad: Game class is 'UnitedPlanetsGameMode'
+[2020.05.26-16.48.15:454][901]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2020.05.26-12.48.15
+[2020.05.26-16.48.15:460][901]LogWorld: Bringing up level for play took: 0.058865
+[2020.05.26-16.48.15:467][901]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.26-16.48.15:552][901]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0204 seconds. Added 20 classes and 0 folders.
+[2020.05.26-16.48.15:568][901]PIE: Server logged in
+[2020.05.26-16.48.15:821][901]PIE: Play in editor total start time 1.178 seconds.
+[2020.05.26-16.48.31:795][571]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.26-16.48.31:803][571]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.26-16.48.31:825][571]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.26-16.48.31:833][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.26-16.48.31:833][571]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.26-16.48.31:836][571]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.26-16.48.31:838][571]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.26-16.48.31:841][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.26-16.48.31:852][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.26-16.48.31:855][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.26-16.48.31:869][571]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.26-16.48.31:906][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.26-16.48.31:933][571]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AA60B82200), frame # 36571
+[2020.05.26-16.48.31:933][571]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AA912D6700), frame # 36571
+[2020.05.26-16.48.31:935][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.26-16.48.31:982][572]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.26-16.48.49:579][183]LogSlate: Window 'Save Level As' being destroyed
+[2020.05.26-16.49.05:706][559]LogSlate: Window 'Save Level As' being destroyed
+[2020.05.26-16.49.05:925][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.26-16.49.05:989][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.05.26-16.49.06:057][559]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaFC9303F64C9F24C3690160AB1EF39E8A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap'
+[2020.05.26-16.49.06:104][559]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap'
+[2020.05.26-16.49.06:120][559]LogFileHelpers: Saving map 'Arena' took 0.394
+[2020.05.26-16.49.06:121][559]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.26-16.49.06:160][559]LightingResults: New page: Lighting Build
+[2020.05.26-16.49.06:165][559]LoadErrors: New page: Loading map: Arena.umap
+[2020.05.26-16.49.06:174][559]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.26-16.49.06:174][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.26-16.49.06:175][559]MapCheck: New page: Map Check
+[2020.05.26-16.49.06:175][559]LightingResults: New page: Lighting Build
+[2020.05.26-16.49.06:290][559]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AA3C7BFE00), frame # 37559
+[2020.05.26-16.49.06:290][559]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AA315B8680), frame # 37559
+[2020.05.26-16.49.06:292][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.05.26-16.49.06:340][559]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.05.26-16.49.06:340][559]LogAIModule: Creating AISystem for world Arena
+[2020.05.26-16.49.06:340][559]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AA3C79BA00), frame # 37559
+[2020.05.26-16.49.06:341][559]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AA78CA8F40), frame # 37559
+[2020.05.26-16.49.06:357][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.05.26-16.49.06:393][559]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.26-16.49.06:394][559]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.295ms to complete.
+[2020.05.26-16.49.06:395][559]LogFileHelpers: Loading map 'Arena' took 0.276
+[2020.05.26-16.49.06:406][559]AssetCheck: New page: Asset Save: Arena
+[2020.05.26-16.49.06:406][559]LogContentValidation: Display: Validating World /Game/Arena.Arena
+[2020.05.26-16.49.08:374][608]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap'
+[2020.05.26-16.49.08:435][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.05.26-16.49.08:513][608]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaB8CD9A664D29D84C5142BA8435BC7052.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Arena.umap'
+[2020.05.26-16.49.08:547][608]AssetCheck: New page: Asset Save: Arena
+[2020.05.26-16.49.08:547][608]LogContentValidation: Display: Validating World /Game/Arena.Arena
