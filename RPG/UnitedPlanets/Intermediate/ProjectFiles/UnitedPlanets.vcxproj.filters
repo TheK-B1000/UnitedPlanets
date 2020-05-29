@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnitedPlanets.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{026277DF-F10B-4A6A-B316-EAE9A4D14E3C}</UniqueIdentifier>
+      <UniqueIdentifier>{06BB1839-0748-4730-BC90-75774016C75D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DA274FD0-6BD6-4D34-9F83-DB87525407BC}</UniqueIdentifier>
+      <UniqueIdentifier>{E85BFD2A-F796-497A-B841-FF51112E57B8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnitedPlanets">
-      <UniqueIdentifier>{EE924816-5B09-43EF-867D-E610F382A19B}</UniqueIdentifier>
+      <UniqueIdentifier>{FFE6A196-C53F-4BC7-956B-C57C84901FF6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets\UnitedPlanets.Build.cs">
       <Filter>Source\UnitedPlanets</Filter>
@@ -65,5 +65,27 @@
     <ClInclude Include="..\..\Source\UnitedPlanets\UnitedPlanetsProjectile.h">
       <Filter>Source\UnitedPlanets</Filter>
     </ClInclude>
+    <Filter Include="Source\UnitedPlanets\Private">
+      <UniqueIdentifier>{7E74C789-0550-48A9-900F-C234AF79E313}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyPawn.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnitedPlanets\Public">
+      <UniqueIdentifier>{A76122DA-A390-43F7-B042-F5730BB42B19}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyPawn.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\ShooterCharacter.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\ShooterCharacter.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

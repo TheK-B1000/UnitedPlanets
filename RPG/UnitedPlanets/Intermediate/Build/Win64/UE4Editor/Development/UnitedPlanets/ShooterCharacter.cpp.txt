@@ -1,0 +1,7 @@
+C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\Definitions.UnitedPlanets.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Public\ShooterCharacter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Inc\UnitedPlanets\ShooterCharacter.generated.h
