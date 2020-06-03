@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUnitedPlanets_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x664F4E11,
+				0xB05F04A4,
 				0x2CECCA70,
 				METADATA_PARAMS(nullptr, 0)
 			};
