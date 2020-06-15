@@ -1,6 +1,7 @@
 // 2020 Social Cube Media
 
 #include "ShooterCharacter.h"
+#include "Gun.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter()
