@@ -21,8 +21,7 @@ AGun::AGun()
 void AGun::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	//Gun = GetWorld()->SpawnActor<AGun>(GunClass);
+
 }
 
 // Called every frame

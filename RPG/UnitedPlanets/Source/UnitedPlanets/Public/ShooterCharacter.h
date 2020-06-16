@@ -37,6 +37,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 75;
 
+private:
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<AGun> GunClass;
 
