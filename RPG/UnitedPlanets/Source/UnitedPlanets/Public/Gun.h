@@ -25,6 +25,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	float Direction = 100.f;
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
@@ -34,4 +36,5 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	UParticleSystem* MuzzleFlash;
+
 };
