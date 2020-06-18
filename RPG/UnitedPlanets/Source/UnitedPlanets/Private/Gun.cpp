@@ -39,9 +39,6 @@ void AGun::PullTrigger()
 		OUT Location,
 		OUT Rotation
 	);
-
-	// Create reference cameras
-	//DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Orange,true);
 	
 	FVector LineTraceEnd = Location + Rotation.Vector() * Direction;
 	FHitResult Hit;
@@ -55,8 +52,9 @@ void AGun::PullTrigger()
 
 	if (bLineTraceHit)
 	{
-		DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Red, true);
+		FVector ShotDirection = -Rotation.Vector();
 		UE_LOG(LogTemp, Warning, TEXT("You Hit Something!"));
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpact, Hit.Location, ShotDirection.Rotation());
 	}
 }
 
