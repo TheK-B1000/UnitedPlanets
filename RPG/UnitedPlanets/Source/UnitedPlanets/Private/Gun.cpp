@@ -40,17 +40,24 @@ void AGun::PullTrigger()
 		OUT Rotation
 	);
 
-	DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Orange,true);
+	// Create reference cameras
+	//DrawDebugCamera(GetWorld(), Location, Rotation, 90, 2, FColor::Orange,true);
 	
 	FVector LineTraceEnd = Location + Rotation.Vector() * Direction;
 	FHitResult Hit;
-	GetWorld()->LineTraceSingleByChannel
+	bool bLineTraceHit = GetWorld()->LineTraceSingleByChannel
 	(
 		Hit,
 		Location,
 		LineTraceEnd,
-		ECollisionChannel::ECC_EngineTraceChannel1
+		ECollisionChannel::ECC_GameTraceChannel1
 	);
+
+	if (bLineTraceHit)
+	{
+		DrawDebugPoint(GetWorld(), Hit.Location, 20, FColor::Red, true);
+		UE_LOG(LogTemp, Warning, TEXT("You Hit Something!"));
+	}
 }
 
 // Called when the game starts or when spawned

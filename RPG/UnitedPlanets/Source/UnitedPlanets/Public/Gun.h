@@ -25,7 +25,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	float Direction = 100.f;
+	float Direction = 10000.0f;
 
 private:
 	UPROPERTY(VisibleAnywhere)
