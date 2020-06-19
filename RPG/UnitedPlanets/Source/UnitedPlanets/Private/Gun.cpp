@@ -55,6 +55,10 @@ void AGun::PullTrigger()
 		FVector ShotDirection = -Rotation.Vector();
 		UE_LOG(LogTemp, Warning, TEXT("You Hit Something!"));
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpact, Hit.Location, ShotDirection.Rotation());
+		FPointDamageEvent DamageEvent(DamageAmount, Hit, ShotDirection, nullptr);
+		AActor* HitActor = Hit.GetActor();
+		if (HitActor != nullptr) return;
+		Hit.GetActor()->TakeDamage(DamageAmount, DamageEvent, OwnerController, this);
 	}
 }
 

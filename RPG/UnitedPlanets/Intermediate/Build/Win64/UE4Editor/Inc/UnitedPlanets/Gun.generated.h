@@ -62,7 +62,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGun); \
 	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(AGun, Root); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AGun, Mesh); } \
 	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AGun, MuzzleFlash); } \
-	FORCEINLINE static uint32 __PPO__BulletImpact() { return STRUCT_OFFSET(AGun, BulletImpact); }
+	FORCEINLINE static uint32 __PPO__BulletImpact() { return STRUCT_OFFSET(AGun, BulletImpact); } \
+	FORCEINLINE static uint32 __PPO__Direction() { return STRUCT_OFFSET(AGun, Direction); } \
+	FORCEINLINE static uint32 __PPO__DamageAmount() { return STRUCT_OFFSET(AGun, DamageAmount); }
 
 
 #define UnitedPlanets_Source_UnitedPlanets_Public_Gun_h_9_PROLOG

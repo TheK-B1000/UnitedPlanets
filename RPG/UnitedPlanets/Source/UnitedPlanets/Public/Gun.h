@@ -25,8 +25,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	float Direction = 10000.0f;
-
 private:
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
@@ -40,4 +38,9 @@ private:
 	UPROPERTY(EditAnywhere)
 	UParticleSystem* BulletImpact;
 
+	UPROPERTY(EditAnywhere)
+	float Direction = 10000.0f;
+
+	UPROPERTY(EditAnywhere)
+	float DamageAmount = 20;
 };

@@ -1,0 +1,1261 @@
+﻿Log file open, 06/18/20 16:40:05
+LogInit: Display: Running engine for game: UnitedPlanets
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.422245
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:512][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.18-23.40.06:512][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.18-23.40.06:513][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:513][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:536][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.18-23.40.06:536][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.18-23.40.06:537][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.18-23.40.06:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.18-23.40.06:539][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.18-23.40.06:539][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.18-23.40.06:540][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.18-23.40.06:540][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.18-23.40.06:540][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.18-23.40.06:541][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:541][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.18-23.40.06:541][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.18-23.40.06:541][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:541][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.18-23.40.06:541][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:541][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.18-23.40.06:542][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.18-23.40.06:543][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.18-23.40.06:544][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:544][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.18-23.40.06:545][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.06.18-23.40.06:545][  0]LogInit: Computer: LAPTOP-7TARG8CR
+[2020.06.18-23.40.06:545][  0]LogInit: User: TheKB1000
+[2020.06.18-23.40.06:545][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.18-23.40.06:545][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.18-23.40.06:546][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.18-23.40.06:546][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.18-23.40.06:546][  0]LogMemory: Process Physical Memory: 115.09 MB used, 115.10 MB peak
+[2020.06.18-23.40.06:546][  0]LogMemory: Process Virtual Memory: 97.83 MB used, 97.83 MB peak
+[2020.06.18-23.40.06:546][  0]LogMemory: Physical Memory: 4201.65 MB used,  3868.57 MB free, 8070.22 MB total
+[2020.06.18-23.40.06:546][  0]LogMemory: Virtual Memory: 5129.81 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.06.18-23.40.06:604][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.18-23.40.06:852][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.18-23.40.06:857][  0]LogInit: Using OS detected language (en-US).
+[2020.06.18-23.40.06:857][  0]LogInit: Using OS detected locale (en-US).
+[2020.06.18-23.40.06:867][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.18-23.40.07:267][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.18-23.40.07:422][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.18-23.40.07:422][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.18-23.40.07:782][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.18-23.40.07:782][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.18-23.40.07:782][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.18-23.40.07:782][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.18-23.40.07:918][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.06.18-23.40.07:919][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.18-23.40.07:946][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.06.18-23.40.07:946][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.06.18-23.40.07:953][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.18-23.40.07:953][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.18-23.40.07:953][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.18-23.40.08:054][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.18-23.40.08:054][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.06.18-23.40.08:054][  0]LogWindows: EnumDisplayDevices:
+[2020.06.18-23.40.08:054][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.06.18-23.40.08:055][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.06.18-23.40.08:059][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.06.18-23.40.08:060][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.06.18-23.40.08:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.06.18-23.40.08:060][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.06.18-23.40.08:060][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.06.18-23.40.08:060][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.06.18-23.40.08:133][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.18-23.40.08:136][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.18-23.40.08:136][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.18-23.40.08:174][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.06.18-23.40.08:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.18-23.40.08:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.18-23.40.08:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.18-23.40.08:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.18-23.40.08:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.18-23.40.09:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.18-23.40.09:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.18-23.40.09:064][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.18-23.40.09:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.18-23.40.09:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.18-23.40.09:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.18-23.40.09:148][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.18-23.40.09:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.18-23.40.09:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.18-23.40.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.18-23.40.09:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.18-23.40.09:283][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.18-23.40.09:283][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.18-23.40.09:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.18-23.40.09:331][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.18-23.40.09:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.18-23.40.09:380][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.18-23.40.09:381][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.18-23.40.09:415][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.18-23.40.09:629][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Intermediate/Shaders/WorkingDirectory/9272/).
+[2020.06.18-23.40.09:629][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/2393DF4B460A8FBF0027CD9D2A1341B0/'.
+[2020.06.18-23.40.09:630][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.18-23.40.09:631][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.18-23.40.09:631][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.18-23.40.11:097][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.18-23.40.11:282][  0]LogDerivedDataCache: Loaded boot cache 0.19s 108MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.18-23.40.11:283][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.18-23.40.11:283][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.18-23.40.11:283][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.18-23.40.11:283][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.18-23.40.11:283][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.18-23.40.11:301][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.18-23.40.11:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.18-23.40.11:301][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.18-23.40.11:302][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.18-23.40.11:302][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.18-23.40.11:302][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.18-23.40.11:426][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.18-23.40.11:427][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.18-23.40.11:483][  0]LogAssetRegistry: FAssetRegistry took 0.0056 seconds to start up
+[2020.06.18-23.40.11:944][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.18-23.40.12:222][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.18-23.40.12:222][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.18-23.40.12:222][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.18-23.40.12:222][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.18-23.40.12:222][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.18-23.40.12:261][  0]LogNetVersion: UnitedPlanets 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 201480592)
+[2020.06.18-23.40.13:158][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000166E5641840), frame # 0
+[2020.06.18-23.40.13:158][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000166E556ED40), frame # 0
+[2020.06.18-23.40.13:160][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000166E56CA200), frame # 0
+[2020.06.18-23.40.13:262][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.094173 seconds
+[2020.06.18-23.40.13:273][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.18-23.40.13:273][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.18-23.40.13:273][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.18-23.40.14:585][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.18-23.40.14:602][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.18-23.40.16:146][  0]SourceControl: Source control is disabled
+[2020.06.18-23.40.16:146][  0]SourceControl: Source control is disabled
+[2020.06.18-23.40.17:341][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.18-23.40.17:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.18-23.40.17:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.18-23.40.17:612][  0]LogOcInput: OculusInput pre-init called
+[2020.06.18-23.40.17:652][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.18-23.40.17:652][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.18-23.40.17:818][  0]LogEngine: Initializing Engine...
+[2020.06.18-23.40.17:823][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.18-23.40.17:823][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.18-23.40.17:824][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.18-23.40.18:138][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.18-23.40.18:167][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.18-23.40.18:167][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000166EC6FBC00), frame # 0
+[2020.06.18-23.40.18:167][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000166EC71E5C0), frame # 0
+[2020.06.18-23.40.18:219][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-23.40.18:219][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-23.40.18:219][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-23.40.18:219][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-23.40.18:219][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-23.40.18:220][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-23.40.18:220][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-23.40.18:220][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-23.40.18:223][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-23.40.18:223][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-23.40.18:289][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-23.40.18:289][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-23.40.18:409][  0]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.06.18-23.40.18:414][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.18-23.40.18:423][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.18-23.40.18:423][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.18-23.40.18:425][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.18-23.40.18:426][  0]LogInit: FAudioDevice initialized.
+[2020.06.18-23.40.18:427][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.18-23.40.18:782][  0]LogDerivedDataCache: Saved boot cache 0.36s 108MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.18-23.40.18:783][  0]LogInit: Texture streaming: Enabled
+[2020.06.18-23.40.18:842][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.18-23.40.18:842][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.18-23.40.18:856][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.18-23.40.18:958][  0]LogInit: Transaction tracking system initialized
+[2020.06.18-23.40.19:044][  0]BlueprintLog: New page: Editor Load
+[2020.06.18-23.40.19:289][  0]LocalizationService: Localization service is disabled
+[2020.06.18-23.40.19:539][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2020.06.18-23.40.19:681][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.18-23.40.19:681][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.18-23.40.20:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/' took 0.05s
+[2020.06.18-23.40.20:728][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.280
+[2020.06.18-23.40.20:728][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.18-23.40.20:729][  0]LightingResults: New page: Lighting Build
+[2020.06.18-23.40.20:730][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-23.40.20:730][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-23.40.20:730][  0]MapCheck: New page: Map Check
+[2020.06.18-23.40.20:730][  0]LightingResults: New page: Lighting Build
+[2020.06.18-23.40.20:745][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000166EC6FBC00), frame # 0
+[2020.06.18-23.40.20:746][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000166EC71E5C0), frame # 0
+[2020.06.18-23.40.20:747][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.06.18-23.40.22:224][  0]LogMaterial: Display: Missing cached shader map for material MagGun_SightLens_Mat, compiling. 
+[2020.06.18-23.40.22:229][  0]LogMaterial: Warning: C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Content\AssetPacks\ShooterGame\Weapons\Materials\MagGun_SightLens_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.06.18-23.40.22:229][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.06.18-23.40.22:236][  0]LogMaterial: Display: Missing cached shader map for material MagGun_MatB, compiling. 
+[2020.06.18-23.40.22:249][  0]LogMaterial: Warning: C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Content\AssetPacks\ShooterGame\Weapons\Materials\MagGun_MatB.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.06.18-23.40.22:249][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node TextureSample) BaseColor in RGB Roughness in Alpha> Missing input texture
+[2020.06.18-23.40.22:249][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property BaseColor
+[2020.06.18-23.40.22:249][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property Roughness
+[2020.06.18-23.40.22:458][  0]LogMaterial: Display: Missing cached shader map for material MagGun_MatA, compiling. 
+[2020.06.18-23.40.22:466][  0]LogMaterial: Warning: C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Content\AssetPacks\ShooterGame\Weapons\Materials\MagGun_MatA.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.06.18-23.40.22:466][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node TextureSample) BaseColor in RGB Roughness in Alpha> Missing input texture
+[2020.06.18-23.40.22:466][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property BaseColor
+[2020.06.18-23.40.22:466][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property Roughness
+[2020.06.18-23.40.22:557][  0]LogAIModule: Creating AISystem for world Arena
+[2020.06.18-23.40.22:557][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000166DB02BE00), frame # 0
+[2020.06.18-23.40.22:557][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000166DB195A80), frame # 0
+[2020.06.18-23.40.22:580][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.18-23.40.22:598][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.06.18-23.40.22:598][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.18-23.40.22:599][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.537ms to complete.
+[2020.06.18-23.40.22:599][  0]LogFileHelpers: Loading map 'Arena' took 1.872
+[2020.06.18-23.40.22:609][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.161
+[2020.06.18-23.40.23:938][  0]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.06.18-23.40.23:938][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.40.23:947][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.40.23:965][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.40.23:980][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.40.24:006][  0]LogCollectionManager: Loaded 0 collections in 0.003970 seconds
+[2020.06.18-23.40.24:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Collections/' took 0.00s
+[2020.06.18-23.40.24:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Developers/TheKB1000/Collections/' took 0.00s
+[2020.06.18-23.40.24:044][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Collections/' took 0.00s
+[2020.06.18-23.40.24:044][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 3433 classes and 823 folders.
+[2020.06.18-23.40.24:060][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.06.18-23.40.24:355][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.06.18-23.40.24:363][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.06.18-23.40.24:450][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.18-23.40.24:454][  0]LogSlate: Took 0.001031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.18-23.40.24:467][  0]LogSlate: Took 0.004545 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.18-23.40.24:616][  0]LogRenderer: Reallocating scene render targets to support 964x452 Format 10 NumSamples 1 (Frame:1).
+[2020.06.18-23.40.24:743][  0]LogSlate: Took 0.001836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.18-23.40.24:848][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.18-23.40.24:848][  0]LogLoad: (Engine Initialization) Total time: 22.40 seconds
+[2020.06.18-23.40.24:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.18-23.40.25:065][  0]SourceControl: Client UPG
+[2020.06.18-23.40.25:065][  0]SourceControl: Update 2020/05/09 09:11:02
+[2020.06.18-23.40.25:065][  0]SourceControl: Access 2020/06/18 16:24:09
+[2020.06.18-23.40.25:065][  0]SourceControl: Owner TheK-B10000
+[2020.06.18-23.40.25:065][  0]SourceControl: Host LAPTOP-7TARG8CR
+[2020.06.18-23.40.25:065][  0]SourceControl: Description Created by TheK-B10000.
+
+[2020.06.18-23.40.25:065][  0]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.06.18-23.40.25:065][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.06.18-23.40.25:065][  0]SourceControl: SubmitOptions submitunchanged
+[2020.06.18-23.40.25:065][  0]SourceControl: LineEnd local
+[2020.06.18-23.40.25:065][  0]SourceControl: View0 //depot/... //UPG/...
+[2020.06.18-23.40.25:065][  0]SourceControl: Type writeable
+[2020.06.18-23.40.25:065][  0]SourceControl: Backup enable
+[2020.06.18-23.40.25:065][  0]SourceControl: specFormatted 
+[2020.06.18-23.40.25:065][  0]SourceControl: func client-FstatInfo
+[2020.06.18-23.40.25:068][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.18-23.40.25:126][  1]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_Rifle.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/BP_ShooterCharacter.uasset'
+[2020.06.18-23.40.25:457][  3]LogAssetRegistry: Asset discovery search completed in 13.9775 seconds
+[2020.06.18-23.40.25:475][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.06.18-23.40.25:946][ 17]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.18-23.40.27:688][ 72]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-23.40.27:718][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-23.40.27:720][ 72]PIE: New page: PIE session: Arena (Jun 18, 2020, 9:40:27 AM)
+[2020.06.18-23.40.27:722][ 72]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.18-23.40.27:724][ 72]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.18-23.40.27:724][ 72]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.06.18-23.40.27:771][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046833s)
+[2020.06.18-23.40.27:773][ 72]LogAIModule: Creating AISystem for world Arena
+[2020.06.18-23.40.27:773][ 72]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000167069CBE00), frame # 72
+[2020.06.18-23.40.27:773][ 72]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000166A6256200), frame # 72
+[2020.06.18-23.40.27:773][ 72]LogPlayLevel: PIE: World Init took: (0.002297s)
+[2020.06.18-23.40.27:773][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.049405s)
+[2020.06.18-23.40.27:801][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2020.06.18-23.40.27:826][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-23.40.27:826][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-23.40.27:826][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-23.40.27:826][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-23.40.27:826][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-23.40.27:827][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-23.40.27:827][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-23.40.27:827][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-23.40.27:827][ 72]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-23.40.27:827][ 72]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-23.40.27:850][ 72]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-23.40.27:850][ 72]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-23.40.27:894][ 72]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.06.18-23.40.27:894][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.18-23.40.27:894][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.18-23.40.27:894][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.18-23.40.27:895][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.18-23.40.27:932][ 72]LogInit: FAudioDevice initialized.
+[2020.06.18-23.40.27:954][ 72]LogLoad: Game class is 'BP_UnitedPlanetsGameMode_C'
+[2020.06.18-23.40.27:959][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.06.18-16.40.27
+[2020.06.18-23.40.27:960][ 72]LogWorld: Bringing up level for play took: 0.004575
+[2020.06.18-23.40.27:960][ 72]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.06.18-23.40.27:972][ 72]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 20 classes and 0 folders.
+[2020.06.18-23.40.27:976][ 72]PIE: Server logged in
+[2020.06.18-23.40.27:978][ 72]PIE: Play in editor total start time 0.264 seconds.
+[2020.06.18-23.40.28:221][ 75]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.28:567][ 86]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.28:568][ 86]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.28:776][ 92]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.28:944][ 98]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.29:141][105]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.29:311][109]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.29:312][109]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.29:469][114]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.29:470][114]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.29:647][120]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.29:648][120]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.29:833][127]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.29:834][127]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.30:045][134]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.30:049][134]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.30:206][139]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.30:208][139]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.30:385][146]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.30:385][146]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.30:776][156]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.30:776][156]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.30:994][162]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.30:995][162]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.31:145][167]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.31:146][167]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.31:344][174]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.31:345][174]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.31:515][181]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.31:517][181]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.31:712][187]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.31:713][187]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.31:878][194]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.31:879][194]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.32:093][202]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.32:093][202]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.32:286][210]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.32:287][210]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.33:145][244]Cmd: LevelEditor.ToggleImmersive
+[2020.06.18-23.40.33:656][245]LogRenderer: Reallocating scene render targets to support 1288x664 Format 10 NumSamples 1 (Frame:174).
+[2020.06.18-23.40.33:800][246]LogRenderer: Reallocating scene render targets to support 1540x828 Format 10 NumSamples 1 (Frame:176).
+[2020.06.18-23.40.34:315][262]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.34:316][262]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.34:528][269]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.34:528][269]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.34:693][275]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.34:693][275]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.34:870][282]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.34:870][282]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.35:058][287]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.35:059][287]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.36:056][321]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.36:056][321]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.36:169][324]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.36:169][324]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.36:345][330]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.36:345][330]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.36:542][337]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.36:542][337]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.36:723][345]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.36:723][345]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.36:904][354]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.36:905][354]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.37:084][362]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.37:086][362]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.37:262][370]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.37:263][370]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.37:465][378]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.37:465][378]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.37:638][385]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.37:639][385]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.37:835][394]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.37:839][394]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.38:020][402]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.38:020][402]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.38:234][412]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.38:235][412]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.38:441][418]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.38:441][418]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.38:630][426]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.38:630][426]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.38:857][436]LogTemp: Warning: You've been shot!
+[2020.06.18-23.40.38:857][436]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.40.50:126][964]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-23.40.50:137][964]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.18-23.40.50:157][964]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.18-23.40.50:163][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.40.50:163][964]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.06.18-23.40.50:163][964]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-23.40.50:164][964]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-23.40.50:164][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-23.40.50:190][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-23.40.50:198][964]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-23.40.50:213][964]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-23.40.50:250][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.40.50:252][964]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000167069CBE00), frame # 964
+[2020.06.18-23.40.50:252][964]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000166A6256200), frame # 964
+[2020.06.18-23.40.50:253][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.06.18-23.40.50:317][965]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.06.18-23.40.56:737][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.06.18-23.41.04:092][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.06.18-23.41.07:493][626]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.18-23.41.07:529][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.18-23.41.07:530][626]PIE: New page: PIE session: Arena (Jun 18, 2020, 9:41:07 AM)
+[2020.06.18-23.41.07:530][626]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Arena
+[2020.06.18-23.41.07:565][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035767s)
+[2020.06.18-23.41.07:567][626]LogAIModule: Creating AISystem for world Arena
+[2020.06.18-23.41.07:567][626]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001670E380400), frame # 1626
+[2020.06.18-23.41.07:567][626]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001670698D800), frame # 1626
+[2020.06.18-23.41.07:568][626]LogPlayLevel: PIE: World Init took: (0.002865s)
+[2020.06.18-23.41.07:568][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Arena.Arena to /Game/Maps/UEDPIE_0_Arena.Arena (0.038884s)
+[2020.06.18-23.41.07:582][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.18-23.41.07:591][626]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.18-23.41.07:591][626]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.18-23.41.07:593][626]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.18-23.41.07:593][626]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.18-23.41.07:613][626]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.18-23.41.07:613][626]LogAudioMixer: Display: 1: FrontRight
+[2020.06.18-23.41.07:660][626]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.06.18-23.41.07:660][626]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.18-23.41.07:660][626]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.18-23.41.07:661][626]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.18-23.41.07:661][626]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.18-23.41.07:693][626]LogInit: FAudioDevice initialized.
+[2020.06.18-23.41.07:707][626]LogLoad: Game class is 'BP_UnitedPlanetsGameMode_C'
+[2020.06.18-23.41.07:714][626]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Arena.Arena up for play (max tick rate 60) at 2020.06.18-16.41.07
+[2020.06.18-23.41.07:715][626]LogWorld: Bringing up level for play took: 0.006291
+[2020.06.18-23.41.07:715][626]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.06.18-23.41.07:725][626]PIE: Server logged in
+[2020.06.18-23.41.07:727][626]PIE: Play in editor total start time 0.199 seconds.
+[2020.06.18-23.41.08:019][629]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.18-23.41.25:273][477]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.25:564][491]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.25:701][498]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.25:905][507]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.26:104][514]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.26:259][520]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.26:260][520]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.26:454][527]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.26:454][527]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.26:651][537]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.26:651][537]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.26:853][549]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.26:854][549]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.27:072][562]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.27:072][562]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.27:259][573]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.27:259][573]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.27:456][585]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.27:456][585]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.27:657][597]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.27:657][597]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.27:860][609]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.27:861][609]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.28:053][619]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.28:053][619]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.28:256][629]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.28:257][629]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.28:443][638]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.28:443][638]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.28:628][648]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.28:629][648]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.28:822][659]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.28:824][659]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.29:011][670]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.29:011][670]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.29:170][679]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.29:170][679]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.29:353][689]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.29:353][689]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.29:550][700]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.29:551][700]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.29:741][710]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.29:744][710]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.29:933][720]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.29:934][720]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.30:122][731]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.30:123][731]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.30:313][742]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.30:314][742]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.30:498][753]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.30:499][753]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.30:716][766]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.30:717][766]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.30:985][782]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.30:985][782]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.31:322][802]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.31:323][802]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.31:574][817]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.31:575][817]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.31:757][828]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.31:757][828]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.31:924][838]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.31:924][838]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.32:175][853]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.32:175][853]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.32:393][866]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.32:393][866]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.32:613][879]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.32:614][879]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.32:814][891]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.32:815][891]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.44:246][574]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.44:247][574]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.45:453][637]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.18-23.41.45:713][652]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.45:713][652]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.45:895][663]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.45:898][663]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.46:097][675]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.46:098][675]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.46:259][684]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.46:259][684]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.46:430][694]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.46:430][694]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.48:681][828]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.48:681][828]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.48:865][839]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.48:866][839]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.49:033][849]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.49:033][849]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.49:216][860]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.49:216][860]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.49:416][872]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.49:416][872]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.49:584][882]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.49:584][882]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.55:099][212]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.55:365][228]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.55:366][228]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.55:566][240]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.55:566][240]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.55:766][252]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.55:766][252]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.55:949][263]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.55:949][263]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.56:133][274]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.56:133][274]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.59:128][453]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.59:128][453]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.59:309][464]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.59:309][464]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.59:494][475]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.59:495][475]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.41.59:716][488]LogTemp: Warning: You've been shot!
+[2020.06.18-23.41.59:716][488]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.05:347][825]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.05:347][825]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.05:563][838]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.05:563][838]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.05:763][850]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.05:764][850]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.05:947][861]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.05:947][861]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.06:146][873]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.06:147][873]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.06:330][884]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.06:331][884]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.06:507][894]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.06:507][894]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.06:691][905]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.06:691][905]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.06:893][917]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.06:893][917]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.07:160][933]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.07:160][933]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.07:359][945]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.07:359][945]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.07:542][956]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.07:543][956]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.07:727][967]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.07:727][967]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.07:927][979]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.07:927][979]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.08:110][990]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.08:110][990]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.08:309][  2]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.08:309][  2]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.08:510][ 14]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.08:510][ 14]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.18:211][594]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.18:212][594]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.18:462][609]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.18:463][609]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.20:312][720]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.20:313][720]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.23:787][928]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.23:787][928]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.23:969][939]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.23:969][939]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.24:153][950]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.24:153][950]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.24:335][961]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.24:335][961]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.24:519][972]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.24:519][972]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.24:693][982]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.24:693][982]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.24:875][993]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.24:875][993]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.25:045][  3]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.25:045][  3]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.28:717][222]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.28:717][222]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.30:505][329]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.30:505][329]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.30:922][354]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.30:922][354]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.31:104][365]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.31:105][365]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.31:289][376]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.31:289][376]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.32:815][467]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.32:816][467]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.33:948][535]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.33:949][535]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.34:149][547]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.34:149][547]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.34:365][560]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.34:365][560]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.34:548][571]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.34:548][571]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.34:882][591]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.34:882][591]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.35:365][620]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.35:366][620]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.35:565][632]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.35:565][632]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.35:750][643]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.35:750][643]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.35:934][654]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.35:935][654]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.36:137][666]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.36:137][666]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.36:447][684]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.36:448][684]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.36:684][698]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.36:684][698]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.36:887][710]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.36:887][710]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.37:718][760]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.37:719][760]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.38:786][824]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.38:786][824]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.38:986][836]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.38:986][836]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.39:152][846]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.39:152][846]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.39:335][857]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.39:336][857]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.39:519][868]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.39:520][868]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.39:719][880]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.39:719][880]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.39:886][890]LogTemp: Warning: You've been shot!
+[2020.06.18-23.42.39:887][890]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.42.52:059][615]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.18-23.43.26:782][635]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.26:782][635]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.26:960][645]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.26:960][645]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.27:131][655]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.27:131][655]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.27:332][667]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.27:332][667]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.27:517][678]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.27:517][678]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.27:686][688]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.27:686][688]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.27:905][701]LogTemp: Warning: You've been shot!
+[2020.06.18-23.43.27:905][701]LogTemp: Warning: You Hit Something!
+[2020.06.18-23.43.59:480][582]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.18-23.45.04:897][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-23.45.04:916][470]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.18-23.45.04:936][470]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.18-23.45.04:942][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.45.04:942][470]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Arena
+[2020.06.18-23.45.04:942][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-23.45.04:942][470]LogWorld: UWorld::CleanupWorld for Arena, bSessionEnded=true, bCleanupResources=true
+[2020.06.18-23.45.04:943][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-23.45.04:952][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.18-23.45.04:957][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.18-23.45.04:970][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.18-23.45.04:970][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.18-23.45.05:013][470]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001670698D800), frame # 15470
+[2020.06.18-23.45.05:013][470]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001670E380400), frame # 15470
+[2020.06.18-23.45.05:015][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.06.18-23.45.05:083][471]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.06.18-23.51.45:958][800]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/UnitedPlanets.Gun
+[2020.06.18-23.52.32:282][844]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.18-23.53.37:523][ 87]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-00.10.20:771][ 97]Candidate modules for hot reload:
+[2020.06.19-00.10.20:772][ 97]  UnitedPlanets
+[2020.06.19-00.10.20:772][ 97]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,4763 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.06.19-00.10.20:826][ 97]Warning: Starting HotReload took  0.2s.
+[2020.06.19-00.11.34:895][319]CompilerResultsLog: New page: Compilation - Jun 18, 2020, 10:11:34 AM
+[2020.06.19-00.11.34:898][319]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.06.19-00.11.34:898][319]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.19-00.11.34:899][319]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 16.4487761 seconds
+[2020.06.19-00.11.34:899][319]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.06.19-00.11.34:899][319]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.19-00.11.34:899][319]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:   [1/6] Gun.cpp
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:   [2/6] Gun.gen.cpp
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:   [3/6] ShooterCharacter.cpp
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:   [4/6] UE4Editor-UnitedPlanets-4763.lib
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4763.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4763.exp
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:   [5/6] UE4Editor-UnitedPlanets-4763.dll
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4763.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-4763.suppressed.exp
+[2020.06.19-00.11.34:899][319]CompilerResultsLog:   [6/6] UnitedPlanetsEditor.target
+[2020.06.19-00.11.34:899][319]CompilerResultsLog: Total time in Parallel executor: 52.62 seconds
+[2020.06.19-00.11.34:899][319]CompilerResultsLog: Total execution time: 73.27 seconds
+[2020.06.19-00.11.34:899][319]LogMainFrame: MainFrame: Module compiling took 74.148 seconds
+[2020.06.19-00.11.36:501][319]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2020.06.19-00.11.36:504][319]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.06.19-00.11.36:954][319]LogContentBrowser: Native class hierarchy populated in 0.0660 seconds. Added 3433 classes and 823 folders.
+[2020.06.19-00.11.36:956][319]Display: HotReload took 76.3s.
+[2020.06.19-00.14.06:259][788]Candidate modules for hot reload:
+[2020.06.19-00.14.06:259][788]  UnitedPlanets
+[2020.06.19-00.14.06:260][788]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,6516 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.06.19-00.14.06:319][788]Warning: Starting HotReload took  0.1s.
+[2020.06.19-00.16.05:544][705]CompilerResultsLog: New page: Compilation - Jun 18, 2020, 10:16:05 AM
+[2020.06.19-00.16.05:545][705]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.06.19-00.16.05:545][705]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.19-00.16.05:546][705]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 24.760749 seconds
+[2020.06.19-00.16.05:546][705]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.06.19-00.16.05:546][705]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.19-00.16.05:546][705]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [1/7] UnitedPlanets.init.gen.cpp
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [2/7] Gun.cpp
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [3/7] Gun.gen.cpp
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [4/7] ShooterCharacter.cpp
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [5/7] UE4Editor-UnitedPlanets-6516.lib
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6516.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6516.exp
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [6/7] UE4Editor-UnitedPlanets-6516.dll
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6516.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-6516.suppressed.exp
+[2020.06.19-00.16.05:546][705]CompilerResultsLog:   [7/7] UnitedPlanetsEditor.target
+[2020.06.19-00.16.05:546][705]CompilerResultsLog: Total time in Parallel executor: 90.26 seconds
+[2020.06.19-00.16.05:546][705]CompilerResultsLog: Total execution time: 118.81 seconds
+[2020.06.19-00.16.05:546][705]LogMainFrame: MainFrame: Module compiling took 119.302 seconds
+[2020.06.19-00.16.06:474][705]LogClass: Could not find existing class Gun in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.06.19-00.16.06:494][705]LogHotReload: Re-instancing Gun after hot-reload.
+[2020.06.19-00.16.06:582][705]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0007 seconds. Added 7 classes and 3 folders.
+[2020.06.19-00.16.06:584][705]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.06.19-00.16.06:749][705]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 3433 classes and 823 folders.
+[2020.06.19-00.16.06:749][705]Display: HotReload took 120.5s.
+[2020.06.19-00.18.27:108][560]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-00.21.17:127][561]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-00.21.39:339][437]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.19-00.28.40:198][743]Candidate modules for hot reload:
+[2020.06.19-00.28.40:198][743]  UnitedPlanets
+[2020.06.19-00.28.40:198][743]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,493 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.06.19-00.28.40:215][743]Warning: Starting HotReload took  0.1s.
+[2020.06.19-00.29.48:604][133]CompilerResultsLog: New page: Compilation - Jun 18, 2020, 10:29:48 AM
+[2020.06.19-00.29.48:605][133]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.06.19-00.29.48:606][133]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.19-00.29.48:606][133]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.19-00.29.48:606][133]CompilerResultsLog:   [1/4] Gun.cpp
+[2020.06.19-00.29.48:608][133]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\Gun.cpp(59) : error C2276: '!': illegal operation on bound member function expression
+[2020.06.19-00.29.48:608][133]LogMainFrame: MainFrame: Module compiling took 68.425 seconds
+[2020.06.19-00.29.48:611][133]Warning: HotReload failed, recompile failed
+[2020.06.19-00.30.11:361][312]LogSlate: Took 0.002377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.19-00.30.28:673][488]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultCrypto.ini'
+[2020.06.19-00.30.29:650][528]Candidate modules for hot reload:
+[2020.06.19-00.30.29:650][528]  UnitedPlanets
+[2020.06.19-00.30.29:650][528]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,2657 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.06.19-00.30.29:675][528]Warning: Starting HotReload took  0.1s.
+[2020.06.19-00.30.34:432][547]CompilerResultsLog: New page: Compilation - Jun 18, 2020, 10:30:34 AM
+[2020.06.19-00.30.34:434][547]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.06.19-00.30.34:434][547]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.19-00.30.34:434][547]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.19-00.30.34:434][547]CompilerResultsLog:   [1/4] Gun.cpp
+[2020.06.19-00.30.34:434][547]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\Gun.cpp(59) : error C3867: 'FHitResult::GetActor': non-standard syntax; use '&' to create a pointer to member
+[2020.06.19-00.30.34:434][547]LogMainFrame: MainFrame: Module compiling took 4.802 seconds
+[2020.06.19-00.30.34:434][547]Warning: HotReload failed, recompile failed
+[2020.06.19-00.31.23:783][130]Candidate modules for hot reload:
+[2020.06.19-00.31.23:783][130]  UnitedPlanets
+[2020.06.19-00.31.23:783][130]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,3337 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.06.19-00.31.23:801][130]Warning: Starting HotReload took  0.1s.
+[2020.06.19-00.31.51:234][219]CompilerResultsLog: New page: Compilation - Jun 18, 2020, 10:31:51 AM
+[2020.06.19-00.31.51:250][219]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.06.19-00.31.51:250][219]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.19-00.31.51:250][219]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.19-00.31.51:250][219]CompilerResultsLog:   [1/4] Gun.cpp
+[2020.06.19-00.31.51:250][219]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-3337.lib
+[2020.06.19-00.31.51:250][219]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3337.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3337.exp
+[2020.06.19-00.31.51:250][219]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-3337.dll
+[2020.06.19-00.31.51:250][219]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3337.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-3337.suppressed.exp
+[2020.06.19-00.31.51:250][219]CompilerResultsLog:   [4/4] UnitedPlanetsEditor.target
+[2020.06.19-00.31.51:250][219]CompilerResultsLog: Total time in Parallel executor: 24.28 seconds
+[2020.06.19-00.31.51:250][219]CompilerResultsLog: Total execution time: 26.64 seconds
+[2020.06.19-00.31.51:250][219]LogMainFrame: MainFrame: Module compiling took 27.488 seconds
+[2020.06.19-00.31.52:728][219]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.19-00.31.52:729][219]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2020.06.19-00.31.59:279][219]LogWindows: Error: === Critical error: ===
+[2020.06.19-00.31.59:279][219]LogWindows: Error: 
+[2020.06.19-00.31.59:279][219]LogWindows: Error: Fatal error: [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 2335] 
+[2020.06.19-00.31.59:279][219]LogWindows: Error: Objects have the same fully qualified name but different paths.
+[2020.06.19-00.31.59:279][219]LogWindows: Error: 	New Object: Gun /Engine/Transient.Default__Gun
+[2020.06.19-00.31.59:279][219]LogWindows: Error: 	Existing Object: HOTRELOADED_Gun_0 /Engine/Transient.Default__Gun
+[2020.06.19-00.31.59:279][219]LogWindows: Error: 
+[2020.06.19-00.31.59:279][219]LogWindows: Error: 
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe5559a799 KERNELBASE.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe21a80b06 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe21a83ee8 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe21810c0d UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe2122deba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe25cc2d3c UE4Editor-UnitedPlanets-3337.dll!AGun::__VTableCtorCaller() [C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Public\Gun.h:12]
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe20f9f2cb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe20f9c0bd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe25cc9c4b UE4Editor-UnitedPlanets-3337.dll!AGun::GetPrivateStaticClass() [C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Inc\UnitedPlanets\Gun.gen.cpp:154]
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe25cc9adf UE4Editor-UnitedPlanets-3337.dll!TClassCompiledInDefer<AGun>::Register() [C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\UObjectBase.h:288]
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe21236393 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe21215a5e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe21134315 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe2184bf4a UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe2186c0d0 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe2186b1e8 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffddb05b9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffddb059617 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffddb05a1ad UE4Editor-HotReload.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffddb06c057 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe215cd1a9 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ff79d24a213 UE4Editor.exe!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ff79d25ba7c UE4Editor.exe!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ff79d25bb5a UE4Editor.exe!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ff79d26e31d UE4Editor.exe!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ff79d27145a UE4Editor.exe!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe56757bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: [Callstack] 0x00007ffe5858ce51 ntdll.dll!UnknownFunction []
+[2020.06.19-00.31.59:280][219]LogWindows: Error: 
+[2020.06.19-00.31.59:328][219]LogExit: Executing StaticShutdownAfterError
+[2020.06.19-00.31.59:508][219]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.06.19-00.31.59:508][219]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.06.19-00.31.59:523][219]Log file closed, 06/18/20 17:31:59
