@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UNITEDPLANETS_ShooterCharacter_generated_h
 
 #define UnitedPlanets_Source_UnitedPlanets_Public_ShooterCharacter_h_14_SPARSE_DATA
-#define UnitedPlanets_Source_UnitedPlanets_Public_ShooterCharacter_h_14_RPC_WRAPPERS
-#define UnitedPlanets_Source_UnitedPlanets_Public_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnitedPlanets_Source_UnitedPlanets_Public_ShooterCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execIsDead);
+
+
+#define UnitedPlanets_Source_UnitedPlanets_Public_ShooterCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIsDead);
+
+
 #define UnitedPlanets_Source_UnitedPlanets_Public_ShooterCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterCharacter(); \
