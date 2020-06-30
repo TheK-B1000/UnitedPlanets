@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnitedPlanets.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4E31A3B8-63CC-4B63-B9D3-D8C6812F2B4F}</UniqueIdentifier>
+      <UniqueIdentifier>{65944DA2-1011-4BF7-A24B-ED5FB630C2F2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{74DAB7D4-7E10-459F-A122-20BBFAD028BE}</UniqueIdentifier>
+      <UniqueIdentifier>{BD34AFBD-425C-4AD1-9D7C-EFA61C6FAE63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnitedPlanets">
-      <UniqueIdentifier>{DDCAB9A0-B9F0-42C7-960C-00975B08C4BC}</UniqueIdentifier>
+      <UniqueIdentifier>{7D614126-CF2E-439C-A986-3FF1A35EAB78}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets\UnitedPlanets.Build.cs">
       <Filter>Source\UnitedPlanets</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\UnitedPlanets</Filter>
     </ClInclude>
     <Filter Include="Source\UnitedPlanets\Private">
-      <UniqueIdentifier>{F7F5E5DA-8041-4DA8-A035-4BFDD710AAE4}</UniqueIdentifier>
+      <UniqueIdentifier>{DE7E7493-3A73-40A8-9767-C8D3FF0103F2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\Gun.cpp">
       <Filter>Source\UnitedPlanets\Private</Filter>
@@ -74,16 +74,22 @@
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyPawn.cpp">
       <Filter>Source\UnitedPlanets\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\ShooterAIController.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\ShooterCharacter.cpp">
       <Filter>Source\UnitedPlanets\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UnitedPlanets\Public">
-      <UniqueIdentifier>{092AF10C-AF3F-4CE5-BA3F-F085B68E2DAB}</UniqueIdentifier>
+      <UniqueIdentifier>{B2AA611C-3BB6-48AB-B1DA-D8590F2AFFFB}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\Gun.h">
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyPawn.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\ShooterAIController.h">
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\ShooterCharacter.h">
