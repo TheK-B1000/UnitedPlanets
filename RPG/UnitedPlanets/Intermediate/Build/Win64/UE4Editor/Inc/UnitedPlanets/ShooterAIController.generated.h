@@ -60,7 +60,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterAIController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AShooterAIController)
 
 
-#define UnitedPlanets_Source_UnitedPlanets_Public_ShooterAIController_h_12_PRIVATE_PROPERTY_OFFSET
+#define UnitedPlanets_Source_UnitedPlanets_Public_ShooterAIController_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__AcceptanceRadius() { return STRUCT_OFFSET(AShooterAIController, AcceptanceRadius); }
+
+
 #define UnitedPlanets_Source_UnitedPlanets_Public_ShooterAIController_h_9_PROLOG
 #define UnitedPlanets_Source_UnitedPlanets_Public_ShooterAIController_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
