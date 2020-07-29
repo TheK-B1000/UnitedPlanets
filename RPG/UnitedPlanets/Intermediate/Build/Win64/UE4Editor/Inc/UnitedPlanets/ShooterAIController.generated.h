@@ -61,7 +61,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AShooterAIController); \
 
 
 #define UnitedPlanets_Source_UnitedPlanets_Public_ShooterAIController_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__AcceptanceRadius() { return STRUCT_OFFSET(AShooterAIController, AcceptanceRadius); }
+	FORCEINLINE static uint32 __PPO__AIBehavior() { return STRUCT_OFFSET(AShooterAIController, AIBehavior); }
 
 
 #define UnitedPlanets_Source_UnitedPlanets_Public_ShooterAIController_h_9_PROLOG
