@@ -16,4 +16,7 @@ class UNITEDPLANETS_API UMyBTTask_ClearBlackboardValue : public UBTTask_Blackboa
 	
 public:
 	UMyBTTask_ClearBlackboardValue();
+
+protected:
+	virtual EBTNodeResult::Type ExecuteTask(class UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 };

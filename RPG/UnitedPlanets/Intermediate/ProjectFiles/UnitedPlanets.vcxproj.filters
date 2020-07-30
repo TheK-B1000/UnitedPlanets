@@ -100,9 +100,15 @@
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyBTTask_ClearBlackboardValue.h">
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTTask_Shoot.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyBTTask_ClearBlackboardValue.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTTask_Shoot.cpp">
       <Filter>Source\UnitedPlanets\Private</Filter>
     </ClCompile>
   </ItemGroup>
