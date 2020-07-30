@@ -1,0 +1,1510 @@
+﻿Log file open, 07/29/20 12:30:25
+LogInit: Display: Running engine for game: UnitedPlanets
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.284783
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:675][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.29-16.30.25:675][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:675][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:681][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:681][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.29-16.30.25:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.29-16.30.25:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.29-16.30.25:684][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.29-16.30.25:684][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.29-16.30.25:684][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.29-16.30.25:684][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.29-16.30.25:685][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.29-16.30.25:685][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.29-16.30.25:685][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.29-16.30.25:686][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Scalability.ini]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.29-16.30.25:687][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Config/Windows/Engine.ini]
+[2020.07.29-16.30.25:688][  0]LogInit: Computer: LAPTOP-7TARG8CR
+[2020.07.29-16.30.25:688][  0]LogInit: User: TheKB1000
+[2020.07.29-16.30.25:688][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.29-16.30.25:688][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.29-16.30.25:688][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.07.29-16.30.25:688][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.29-16.30.25:688][  0]LogMemory: Process Physical Memory: 114.92 MB used, 114.92 MB peak
+[2020.07.29-16.30.25:688][  0]LogMemory: Process Virtual Memory: 103.82 MB used, 103.82 MB peak
+[2020.07.29-16.30.25:688][  0]LogMemory: Physical Memory: 7070.41 MB used,  999.81 MB free, 8070.22 MB total
+[2020.07.29-16.30.25:688][  0]LogMemory: Virtual Memory: 5136.01 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.07.29-16.30.25:698][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.29-16.30.25:791][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.29-16.30.25:792][  0]LogInit: Using OS detected language (en-US).
+[2020.07.29-16.30.25:792][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.29-16.30.25:798][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.29-16.30.26:147][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.29-16.30.26:206][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.29-16.30.26:206][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.29-16.30.26:523][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.29-16.30.26:523][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.29-16.30.26:523][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.29-16.30.26:523][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.29-16.30.26:697][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.07.29-16.30.26:697][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.29-16.30.26:729][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.07.29-16.30.26:729][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.29-16.30.26:739][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.29-16.30.26:739][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.29-16.30.26:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.29-16.30.26:852][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.29-16.30.26:852][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.07.29-16.30.26:852][  0]LogWindows: EnumDisplayDevices:
+[2020.07.29-16.30.26:853][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.07.29-16.30.26:854][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.29-16.30.26:857][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.07.29-16.30.26:858][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.29-16.30.26:858][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.07.29-16.30.26:858][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.29-16.30.26:858][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.29-16.30.26:858][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.07.29-16.30.26:959][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.29-16.30.26:965][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.29-16.30.26:965][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.29-16.30.27:002][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.07.29-16.30.27:980][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.29-16.30.28:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.29-16.30.28:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.29-16.30.28:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.29-16.30.28:094][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.29-16.30.28:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.29-16.30.28:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.29-16.30.28:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.29-16.30.28:164][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.29-16.30.28:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.29-16.30.28:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.29-16.30.28:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.29-16.30.28:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.29-16.30.28:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.29-16.30.28:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.29-16.30.28:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.29-16.30.28:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.29-16.30.28:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.29-16.30.28:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.29-16.30.28:352][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.29-16.30.28:378][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.29-16.30.28:618][  0]LogShaderCompilers: Guid format shader working directory is -52 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Intermediate/Shaders/WorkingDirectory/20860/).
+[2020.07.29-16.30.28:619][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/EA048295498244569A587D992B72FC0D/'.
+[2020.07.29-16.30.28:620][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.29-16.30.28:620][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.29-16.30.28:620][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.29-16.30.29:971][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.29-16.30.30:165][  0]LogDerivedDataCache: Loaded boot cache 0.19s 108MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.29-16.30.30:165][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.29-16.30.30:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.29-16.30.30:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.29-16.30.30:166][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.29-16.30.30:166][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.29-16.30.30:183][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.29-16.30.30:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.29-16.30.30:184][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.29-16.30.30:187][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.29-16.30.30:187][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.29-16.30.30:187][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.29-16.30.30:300][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.29-16.30.30:301][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.29-16.30.30:362][  0]LogAssetRegistry: FAssetRegistry took 0.0059 seconds to start up
+[2020.07.29-16.30.30:826][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.29-16.30.31:126][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.29-16.30.31:126][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.29-16.30.31:126][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.29-16.30.31:126][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.29-16.30.31:126][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.29-16.30.31:157][  0]LogNetVersion: UnitedPlanets 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 201480592)
+[2020.07.29-16.30.32:082][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B12C855840), frame # 0
+[2020.07.29-16.30.32:082][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B12C756D40), frame # 0
+[2020.07.29-16.30.32:087][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B12C8C2200), frame # 0
+[2020.07.29-16.30.32:176][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.078218 seconds
+[2020.07.29-16.30.32:186][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.29-16.30.32:186][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.29-16.30.32:186][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.29-16.30.33:065][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.29-16.30.33:092][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.29-16.30.33:972][  0]SourceControl: Source control is disabled
+[2020.07.29-16.30.33:972][  0]SourceControl: Source control is disabled
+[2020.07.29-16.30.34:955][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.29-16.30.35:028][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.29-16.30.35:028][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.29-16.30.35:178][  0]LogOcInput: OculusInput pre-init called
+[2020.07.29-16.30.35:214][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.29-16.30.35:214][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.29-16.30.35:359][  0]LogEngine: Initializing Engine...
+[2020.07.29-16.30.35:361][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.29-16.30.35:361][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.29-16.30.35:363][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.29-16.30.35:640][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.29-16.30.35:748][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.29-16.30.35:748][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B1338C3C00), frame # 0
+[2020.07.29-16.30.35:748][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B1338FE0C0), frame # 0
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.29-16.30.35:790][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.29-16.30.35:790][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.29-16.30.35:791][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.29-16.30.35:791][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.29-16.30.35:877][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.29-16.30.35:877][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.29-16.30.36:142][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.07.29-16.30.36:152][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.29-16.30.36:156][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.29-16.30.36:156][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.29-16.30.36:158][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.29-16.30.36:159][  0]LogInit: FAudioDevice initialized.
+[2020.07.29-16.30.36:160][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.29-16.30.36:495][  0]LogDerivedDataCache: Saved boot cache 0.34s 108MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.29-16.30.36:495][  0]LogInit: Texture streaming: Enabled
+[2020.07.29-16.30.36:542][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.29-16.30.36:542][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.29-16.30.36:551][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.29-16.30.36:641][  0]LogInit: Transaction tracking system initialized
+[2020.07.29-16.30.36:730][  0]BlueprintLog: New page: Editor Load
+[2020.07.29-16.30.36:928][  0]LocalizationService: Localization service is disabled
+[2020.07.29-16.30.37:158][  0]DDCNotifications: Shared DDC not detected, performance notification enabled
+[2020.07.29-16.30.37:302][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.29-16.30.37:303][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.29-16.30.37:758][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/' took 0.07s
+[2020.07.29-16.30.39:263][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.643
+[2020.07.29-16.30.39:266][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.29-16.30.39:268][  0]LightingResults: New page: Lighting Build
+[2020.07.29-16.30.39:269][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-16.30.39:269][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-16.30.39:269][  0]MapCheck: New page: Map Check
+[2020.07.29-16.30.39:269][  0]LightingResults: New page: Lighting Build
+[2020.07.29-16.30.39:440][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B1338C3C00), frame # 0
+[2020.07.29-16.30.39:440][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B1338FE0C0), frame # 0
+[2020.07.29-16.30.39:441][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.29-16.30.41:244][  0]LogMaterial: Display: Missing cached shader map for material MagGun_MatB, compiling. 
+[2020.07.29-16.30.41:262][  0]LogMaterial: Warning: C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Content\AssetPacks\ShooterGame\Weapons\Materials\MagGun_MatB.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.07.29-16.30.41:262][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node TextureSample) BaseColor in RGB Roughness in Alpha> Missing input texture
+[2020.07.29-16.30.41:262][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property BaseColor
+[2020.07.29-16.30.41:262][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property Roughness
+[2020.07.29-16.30.41:267][  0]LogMaterial: Display: Missing cached shader map for material MagGun_SightLens_Mat, compiling. 
+[2020.07.29-16.30.41:268][  0]LogMaterial: Warning: C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Content\AssetPacks\ShooterGame\Weapons\Materials\MagGun_SightLens_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.07.29-16.30.41:268][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.07.29-16.30.41:723][  0]LogMaterial: Display: Missing cached shader map for material MagGun_MatA, compiling. 
+[2020.07.29-16.30.41:733][  0]LogMaterial: Warning: C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Content\AssetPacks\ShooterGame\Weapons\Materials\MagGun_MatA.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.07.29-16.30.41:733][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node TextureSample) BaseColor in RGB Roughness in Alpha> Missing input texture
+[2020.07.29-16.30.41:733][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property BaseColor
+[2020.07.29-16.30.41:733][  0]LogMaterial: Display: 	Function ML_Metal_Copper: (Node MakeMaterialAttributes) Error on property Roughness
+[2020.07.29-16.30.41:782][  0]LogAIModule: Creating AISystem for world Arena
+[2020.07.29-16.30.41:782][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B121EBBE00), frame # 0
+[2020.07.29-16.30.41:782][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B122011F80), frame # 0
+[2020.07.29-16.30.41:830][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.29-16.30.41:858][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.07.29-16.30.41:859][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.29-16.30.41:859][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.276ms to complete.
+[2020.07.29-16.30.41:859][  0]LogFileHelpers: Loading map 'Arena' took 2.594
+[2020.07.29-16.30.41:871][  0]LogUnrealEdMisc: Total Editor Startup Time, took 19.251
+[2020.07.29-16.30.42:144][  0]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-16.30.42:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-16.30.42:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-16.30.42:173][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-16.30.42:188][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.29-16.30.42:210][  0]LogCollectionManager: Loaded 0 collections in 0.002840 seconds
+[2020.07.29-16.30.42:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Collections/' took 0.00s
+[2020.07.29-16.30.42:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Developers/TheKB1000/Collections/' took 0.00s
+[2020.07.29-16.30.42:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Collections/' took 0.00s
+[2020.07.29-16.30.42:273][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 3434 classes and 823 folders.
+[2020.07.29-16.30.42:290][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.07.29-16.30.42:542][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.07.29-16.30.42:559][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 0 folders.
+[2020.07.29-16.30.42:709][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.29-16.30.42:715][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.29-16.30.42:731][  0]LogSlate: Took 0.001112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.29-16.30.42:953][  0]LogRenderer: Reallocating scene render targets to support 896x452 Format 10 NumSamples 1 (Frame:1).
+[2020.07.29-16.30.43:320][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.07.29-16.30.43:321][  0]LogLoad: (Engine Initialization) Total time: 20.70 seconds
+[2020.07.29-16.30.43:321][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.29-16.30.43:401][  0]SourceControl: Client UPG
+[2020.07.29-16.30.43:401][  0]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-16.30.43:401][  0]SourceControl: Access 2020/06/30 10:45:12
+[2020.07.29-16.30.43:401][  0]SourceControl: Owner TheK-B10000
+[2020.07.29-16.30.43:401][  0]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-16.30.43:401][  0]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-16.30.43:402][  0]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-16.30.43:402][  0]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-16.30.43:402][  0]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-16.30.43:402][  0]SourceControl: LineEnd local
+[2020.07.29-16.30.43:402][  0]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-16.30.43:402][  0]SourceControl: Type writeable
+[2020.07.29-16.30.43:402][  0]SourceControl: Backup enable
+[2020.07.29-16.30.43:402][  0]SourceControl: specFormatted 
+[2020.07.29-16.30.43:402][  0]SourceControl: func client-FstatInfo
+[2020.07.29-16.30.43:403][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.29-16.30.43:443][  0]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/DefaultEngine.ini'
+[2020.07.29-16.30.43:443][  0]LogSlate: Took 0.001321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.29-16.30.43:574][  2]LogAssetRegistry: Asset discovery search completed in 13.2139 seconds
+[2020.07.29-16.30.43:589][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2020.07.29-16.36.48:134][ 90]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.44.22:822][503]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.44.50:027][584]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.49.22:169][384]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.50.15:517][543]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.51.28:464][760]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.52.34:621][957]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.53.47:955][404]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.55.00:820][626]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.55.39:119][762]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_MyPawn.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_Rifle.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterCharacter.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_UnitedPlanetsGameMode.uasset'
+[2020.07.29-16.56.06:924][207]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-16.56.44:303][360]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT.uasset'
+[2020.07.29-16.56.44:304][360]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT.uasset'
+[2020.07.29-16.56.48:345][548]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-16.56.48:345][548]SourceControl: Client UPG
+[2020.07.29-16.56.48:345][548]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-16.56.48:345][548]SourceControl: Access 2020/06/30 10:45:12
+[2020.07.29-16.56.48:345][548]SourceControl: Owner TheK-B10000
+[2020.07.29-16.56.48:345][548]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-16.56.48:345][548]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-16.56.48:345][548]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-16.56.48:345][548]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-16.56.48:345][548]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-16.56.48:345][548]SourceControl: LineEnd local
+[2020.07.29-16.56.48:345][548]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-16.56.48:345][548]SourceControl: Type writeable
+[2020.07.29-16.56.48:345][548]SourceControl: Backup enable
+[2020.07.29-16.56.48:345][548]SourceControl: specFormatted 
+[2020.07.29-16.56.48:345][548]SourceControl: func client-FstatInfo
+[2020.07.29-16.56.48:434][548]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT.uasset'
+[2020.07.29-16.56.48:434][548]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT.uasset'
+[2020.07.29-16.56.48:434][548]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT.uasset'
+[2020.07.29-16.56.48:457][548]LogSlate: Took 0.001480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.29-16.56.48:557][548]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BT_Enemy9FBA88224544DEC58762B3A56E38C9AE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-16.56.48:598][548]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-16.56.48:636][548]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT.uasset'
+[2020.07.29-16.56.48:824][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.07.29-16.56.48:853][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.07.29-16.56.48:866][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.07.29-16.56.49:011][548]AssetCheck: New page: Asset Save: BT_Enemy
+[2020.07.29-16.56.49:011][548]LogContentValidation: Display: Validating BehaviorTree /Game/Shooter/BT_Enemy.BT_Enemy
+[2020.07.29-17.01.03:369][ 55]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-17.01.39:607][159]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-17.02.45:851][353]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-17.31.03:613][525]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-17.31.03:613][525]SourceControl: Client UPG
+[2020.07.29-17.31.03:613][525]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-17.31.03:613][525]SourceControl: Access 2020/07/29 12:56:48
+[2020.07.29-17.31.03:613][525]SourceControl: Owner TheK-B10000
+[2020.07.29-17.31.03:613][525]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-17.31.03:613][525]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-17.31.03:613][525]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-17.31.03:613][525]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-17.31.03:613][525]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-17.31.03:613][525]SourceControl: LineEnd local
+[2020.07.29-17.31.03:613][525]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-17.31.03:613][525]SourceControl: Type writeable
+[2020.07.29-17.31.03:613][525]SourceControl: Backup enable
+[2020.07.29-17.31.03:613][525]SourceControl: specFormatted 
+[2020.07.29-17.31.03:613][525]SourceControl: func client-FstatInfo
+[2020.07.29-17.31.03:730][525]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-17.31.03:731][525]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-17.31.03:731][525]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-17.31.03:846][525]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BT_EnemyAIC35DFC36410C5D0980E3DFBE2041E339.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset'
+[2020.07.29-17.31.03:881][525]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset'
+[2020.07.29-17.31.03:943][525]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-17.31.04:078][525]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-17.31.04:143][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.07.29-17.31.04:188][525]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.07.29-17.31.04:209][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.07.29-17.31.04:416][525]LogSourceControl: Attempting 'p4 revert C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_Enemy.uasset'
+[2020.07.29-17.31.04:416][525]AssetCheck: New page: Asset Save: BT_EnemyAI
+[2020.07.29-17.31.04:417][525]LogContentValidation: Display: Validating BehaviorTree /Game/Shooter/BT_EnemyAI.BT_EnemyAI
+[2020.07.29-17.31.20:372][209]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_MyPawn.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_Rifle.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterCharacter.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_UnitedPlanetsGameMode.uasset'
+[2020.07.29-17.31.52:245][778]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/NewBlackboardData.uasset'
+[2020.07.29-17.31.52:297][780]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/NewBlackboardData.uasset'
+[2020.07.29-17.32.13:600][ 63]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-17.32.13:600][ 63]SourceControl: Client UPG
+[2020.07.29-17.32.13:600][ 63]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-17.32.13:600][ 63]SourceControl: Access 2020/07/29 13:31:03
+[2020.07.29-17.32.13:600][ 63]SourceControl: Owner TheK-B10000
+[2020.07.29-17.32.13:600][ 63]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-17.32.13:600][ 63]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-17.32.13:600][ 63]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-17.32.13:600][ 63]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-17.32.13:600][ 63]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-17.32.13:600][ 63]SourceControl: LineEnd local
+[2020.07.29-17.32.13:600][ 63]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-17.32.13:600][ 63]SourceControl: Type writeable
+[2020.07.29-17.32.13:600][ 63]SourceControl: Backup enable
+[2020.07.29-17.32.13:600][ 63]SourceControl: specFormatted 
+[2020.07.29-17.32.13:600][ 63]SourceControl: func client-FstatInfo
+[2020.07.29-17.32.13:691][ 63]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/NewBlackboardData.uasset'
+[2020.07.29-17.32.13:691][ 63]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/NewBlackboardData.uasset'
+[2020.07.29-17.32.13:691][ 63]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/NewBlackboardData.uasset'
+[2020.07.29-17.32.13:776][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shooter/BB" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset" SILENT=true
+[2020.07.29-17.32.13:780][ 63]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BBFDED01B24ADC45A7056C67B0B99B2BCB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.13:816][ 63]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.13:862][ 63]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/NewBlackboardData.uasset'
+[2020.07.29-17.32.14:017][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.07.29-17.32.14:052][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.07.29-17.32.14:064][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.07.29-17.32.14:219][ 63]AssetCheck: New page: Asset Save: BB
+[2020.07.29-17.32.14:219][ 63]LogContentValidation: Display: Validating BlackboardData /Game/Shooter/BB.BB
+[2020.07.29-17.32.23:407][509]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-17.32.23:407][509]SourceControl: Client UPG
+[2020.07.29-17.32.23:407][509]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-17.32.23:407][509]SourceControl: Access 2020/07/29 13:31:03
+[2020.07.29-17.32.23:407][509]SourceControl: Owner TheK-B10000
+[2020.07.29-17.32.23:407][509]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-17.32.23:407][509]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-17.32.23:407][509]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-17.32.23:407][509]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-17.32.23:407][509]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-17.32.23:407][509]SourceControl: LineEnd local
+[2020.07.29-17.32.23:407][509]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-17.32.23:407][509]SourceControl: Type writeable
+[2020.07.29-17.32.23:407][509]SourceControl: Backup enable
+[2020.07.29-17.32.23:407][509]SourceControl: specFormatted 
+[2020.07.29-17.32.23:407][509]SourceControl: func client-FstatInfo
+[2020.07.29-17.32.23:485][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.23:485][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.23:485][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.23:554][509]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BB_EnemyAI48B3B3C047BC1EBA825D09B7239C1050.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset'
+[2020.07.29-17.32.23:590][509]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset'
+[2020.07.29-17.32.23:631][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.23:724][509]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.23:777][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2020.07.29-17.32.23:800][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.07.29-17.32.23:813][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2020.07.29-17.32.23:980][509]LogSourceControl: Attempting 'p4 revert C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB.uasset'
+[2020.07.29-17.32.23:980][509]AssetCheck: New page: Asset Save: BB_EnemyAI
+[2020.07.29-17.32.23:980][509]LogContentValidation: Display: Validating BlackboardData /Game/Shooter/BB_EnemyAI.BB_EnemyAI
+[2020.07.29-17.32.42:682][805]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_ShooterCharacter_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_ShooterCharacter_C_0
+	Function /Game/Animation/ABP_ShooterCharacter.ABP_ShooterCharacter_C:ExecuteUbergraph_ABP_ShooterCharacter:020A
+[2020.07.29-17.32.59:474][707]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-17.32.59:474][707]SourceControl: Client UPG
+[2020.07.29-17.32.59:474][707]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-17.32.59:474][707]SourceControl: Access 2020/07/29 13:31:03
+[2020.07.29-17.32.59:474][707]SourceControl: Owner TheK-B10000
+[2020.07.29-17.32.59:474][707]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-17.32.59:474][707]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-17.32.59:474][707]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-17.32.59:474][707]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-17.32.59:474][707]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-17.32.59:474][707]SourceControl: LineEnd local
+[2020.07.29-17.32.59:474][707]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-17.32.59:474][707]SourceControl: Type writeable
+[2020.07.29-17.32.59:474][707]SourceControl: Backup enable
+[2020.07.29-17.32.59:474][707]SourceControl: specFormatted 
+[2020.07.29-17.32.59:474][707]SourceControl: func client-FstatInfo
+[2020.07.29-17.32.59:617][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset'
+[2020.07.29-17.32.59:617][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset'
+[2020.07.29-17.32.59:617][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset'
+[2020.07.29-17.32.59:617][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset'
+[2020.07.29-17.32.59:708][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_EnemyAI" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset" SILENT=true
+[2020.07.29-17.32.59:710][707]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BT_EnemyAIBE8D0DE342F3893B287AD5ADA3F6E895.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset'
+[2020.07.29-17.32.59:746][707]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset'
+[2020.07.29-17.32.59:746][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_EnemyAI" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset" SILENT=true
+[2020.07.29-17.32.59:748][707]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BB_EnemyAI2A50233C4EBA454281B8C48B03B1D17D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-17.32.59:783][707]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-17.32.59:837][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset'
+[2020.07.29-17.32.59:837][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset'
+[2020.07.29-17.33.00:014][707]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset'
+[2020.07.29-17.33.00:066][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.07.29-17.33.00:080][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.07.29-17.33.00:104][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.07.29-17.33.00:116][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.07.29-17.33.00:296][707]LogSourceControl: Attempting 'p4 revert C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BB_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BT_EnemyAI.uasset'
+[2020.07.29-17.33.00:296][707]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.29-17.33.00:296][707]LogContentValidation: Display: Validating BehaviorTree /Game/AI/BT_EnemyAI.BT_EnemyAI
+[2020.07.29-17.33.00:296][707]LogContentValidation: Display: Validating BlackboardData /Game/AI/BB_EnemyAI.BB_EnemyAI
+[2020.07.29-17.33.10:849][874]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-17.40.18:939][329]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/BT_EnemyAI.BT_EnemyAI
+[2020.07.29-17.40.19:270][329]LogSlate: Took 0.001648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.29-17.45.20:846][412]LogSlate: Window 'BT_EnemyAI' being destroyed
+[2020.07.29-17.45.23:043][508]LogSlate: Window 'BT_EnemyAI' being destroyed
+[2020.07.29-17.45.25:062][609]LogSlate: Window 'BT_EnemyAI' being destroyed
+[2020.07.29-17.46.36:580][714]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/UnitedPlanets.UnitedPlanetsCharacter
+[2020.07.29-18.15.40:062][986]Candidate modules for hot reload:
+[2020.07.29-18.15.40:067][986]  UnitedPlanets
+[2020.07.29-18.15.40:076][986]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,1052 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.07.29-18.15.40:136][986]Warning: Starting HotReload took  0.3s.
+[2020.07.29-18.17.31:203][301]CompilerResultsLog: New page: Compilation - Jul 29, 2020, 10:17:30 AM
+[2020.07.29-18.17.31:636][301]CompilerResultsLog: Parsing headers for UnitedPlanetsEditor
+[2020.07.29-18.17.31:648][301]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UnitedPlanetsEditor\Development\UnitedPlanetsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.07.29-18.17.31:659][301]CompilerResultsLog: Reflection code generated for UnitedPlanetsEditor in 24.2607001 seconds
+[2020.07.29-18.17.31:659][301]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.07.29-18.17.31:659][301]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-18.17.31:659][301]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:   [1/6] UnitedPlanets.init.gen.cpp
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:   [2/6] ShooterAIController.gen.cpp
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:   [3/6] ShooterAIController.cpp
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:   [4/6] UE4Editor-UnitedPlanets-1052.lib
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-1052.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-1052.exp
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:   [5/6] UE4Editor-UnitedPlanets-1052.dll
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-1052.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-1052.suppressed.exp
+[2020.07.29-18.17.31:660][301]CompilerResultsLog:   [6/6] UnitedPlanetsEditor.target
+[2020.07.29-18.17.31:660][301]CompilerResultsLog: Total time in Parallel executor: 81.35 seconds
+[2020.07.29-18.17.31:661][301]CompilerResultsLog: Total execution time: 109.42 seconds
+[2020.07.29-18.17.31:782][301]LogMainFrame: MainFrame: Module compiling took 111.818 seconds
+[2020.07.29-18.17.34:403][301]LogClass: Could not find existing class ShooterAIController in package /Script/UnitedPlanets for HotReload, assuming new class
+[2020.07.29-18.17.38:248][301]LogHotReload: Re-instancing ShooterAIController after hot-reload.
+[2020.07.29-18.17.39:420][301]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0237 seconds. Added 8 classes and 3 folders.
+[2020.07.29-18.17.39:426][301]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.07.29-18.17.40:528][301]LogContentBrowser: Native class hierarchy populated in 0.0681 seconds. Added 3434 classes and 823 folders.
+[2020.07.29-18.17.40:531][301]Display: HotReload took 120.7s.
+[2020.07.29-18.23.47:470][419]LogSlate: Took 0.003486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.29-18.24.31:536][981]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset'
+[2020.07.29-18.24.33:387][ 52]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_MyPawn.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_Rifle.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterCharacter.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_UnitedPlanetsGameMode.uasset'
+[2020.07.29-18.24.36:281][167]LogSourceControl: Attempting 'p4 client -o UPG'
+[2020.07.29-18.24.36:281][167]SourceControl: Client UPG
+[2020.07.29-18.24.36:281][167]SourceControl: Update 2020/05/09 12:11:02
+[2020.07.29-18.24.36:281][167]SourceControl: Access 2020/07/29 13:31:03
+[2020.07.29-18.24.36:281][167]SourceControl: Owner TheK-B10000
+[2020.07.29-18.24.36:281][167]SourceControl: Host LAPTOP-7TARG8CR
+[2020.07.29-18.24.36:281][167]SourceControl: Description Created by TheK-B10000.
+
+[2020.07.29-18.24.36:281][167]SourceControl: Root C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets
+[2020.07.29-18.24.36:281][167]SourceControl: Options noallwrite noclobber nocompress unlocked nomodtime normdir
+[2020.07.29-18.24.36:282][167]SourceControl: SubmitOptions submitunchanged
+[2020.07.29-18.24.36:282][167]SourceControl: LineEnd local
+[2020.07.29-18.24.36:282][167]SourceControl: View0 //depot/... //UPG/...
+[2020.07.29-18.24.36:282][167]SourceControl: Type writeable
+[2020.07.29-18.24.36:282][167]SourceControl: Backup enable
+[2020.07.29-18.24.36:282][167]SourceControl: specFormatted 
+[2020.07.29-18.24.36:284][167]SourceControl: func client-FstatInfo
+[2020.07.29-18.24.36:446][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.36:446][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.36:446][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.43:894][167]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.07.29-18.24.44:005][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:006][167]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.BP_ShooterAIController_C' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.BP_ShooterAIController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.BP_ShooterAIController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.BP_ShooterAIController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.SKEL_BP_ShooterAIController_C:ReceiveBeginPlay' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.SKEL_BP_ShooterAIController_C:ReceiveTick' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.SKEL_BP_ShooterAIController_C:UserConstructionScript' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:119][167]LogMetaData: Removing '/Game/AI/BP_ShooterAIController.SKEL_BP_ShooterAIController_C' ref from Metadata '/Game/Shooter/BP_ShooterAIController.PackageMetaData'
+[2020.07.29-18.24.44:298][167]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_ShooterAIController5E5F2A71463EB5D5A36B3796CC626C55.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:386][167]LogSourceControl: Attempting 'p4 add C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:386][167]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_ShooterAIControllerEB76225C457CE6BAEAE1BFB223792F03.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:710][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:710][167]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:710][167]LogSourceControl: Attempting 'p4 integrate C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:710][167]LogSourceControl: Attempting 'p4 resolve -ay C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.44:710][167]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BP_ShooterAIController.
+[2020.07.29-18.24.44:741][167]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.29-18.24.44:741][167]LogContentValidation: Display: Validating Blueprint /Game/AI/BP_ShooterAIController.BP_ShooterAIController
+[2020.07.29-18.24.44:742][167]LogContentValidation: Display: Validating ObjectRedirector /Game/Shooter/BP_ShooterAIController.BP_ShooterAIController_C
+[2020.07.29-18.24.44:742][167]LogContentValidation: Display: Validating ObjectRedirector /Game/Shooter/BP_ShooterAIController.Default__BP_ShooterAIController_C
+[2020.07.29-18.24.44:742][167]LogContentValidation: Display: Validating ObjectRedirector /Game/Shooter/BP_ShooterAIController.BP_ShooterAIController
+[2020.07.29-18.24.44:790][169]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.24.47:058][256]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BP_ShooterAIController.BP_ShooterAIController
+[2020.07.29-18.24.48:090][256]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 125 classes and 0 folders.
+[2020.07.29-18.25.00:707][798]BlueprintLog: New page: Compile BP_ShooterAIController
+[2020.07.29-18.25.00:818][798]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.07.29-18.25.02:059][859]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.25.02:132][859]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BP_ShooterAIControllerB5D87077403DD0F7B58E91B765C399E1.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset'
+[2020.07.29-18.25.02:151][859]AssetCheck: New page: Asset Save: BP_ShooterAIController
+[2020.07.29-18.25.02:151][859]LogContentValidation: Display: Validating Blueprint /Game/AI/BP_ShooterAIController.BP_ShooterAIController
+[2020.07.29-18.26.00:081][ 45]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-18.26.21:567][140]LogSourceControl: Attempting 'p4 fstat -Or C:/Program Files/Epic Games/UE_4.25/Engine/Content/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content/... C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content/ C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Config/... C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject'
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content/' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.21:628][141]SourceControl: Path 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content/...' is not under client's root 'C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets'.
+
+[2020.07.29-18.26.35:939][141]LogSlate: Window 'Submit Files' being destroyed
+[2020.07.29-18.26.36:141][141]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.26.36:141][141]LogSourceControl: Attempting 'p4 diff -sa C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.26.36:141][141]SourceControl: C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset - file(s) not opened for edit.
+
+[2020.07.29-18.26.36:141][141]SourceControl: C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset - file(s) not opened for edit.
+
+[2020.07.29-18.26.36:141][141]SourceControl: C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset - file(s) not opened for edit.
+
+[2020.07.29-18.26.37:256][141]LogSourceControl: Attempting 'p4 reopen -c 52 C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BP_ShooterAIController.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BT_EnemyAI.uasset C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Shooter/BP_ShooterAIController.uasset'
+[2020.07.29-18.26.37:256][141]LogSourceControl: Attempting 'p4 submit -c 52'
+[2020.07.29-18.26.37:284][141]SourceControl: Submitted changelist 52
+[2020.07.29-18.37.41:759][104]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-18.43.41:023][166]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-18.47.37:327][866]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-18.48.38:619][ 39]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-18.49.51:828][257]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.29-18.54.17:053][ 84]Candidate modules for hot reload:
+[2020.07.29-18.54.17:053][ 84]  UnitedPlanets
+[2020.07.29-18.54.17:060][ 84]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnitedPlanets,8578 UnitedPlanetsEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/UnitedPlanets.uproject"  -IgnoreJunk]
+[2020.07.29-18.54.17:125][ 84]Warning: Starting HotReload took  0.3s.
+[2020.07.29-18.55.45:793][334]CompilerResultsLog: New page: Compilation - Jul 29, 2020, 10:55:45 AM
+[2020.07.29-18.55.45:814][334]CompilerResultsLog: Building UnitedPlanetsEditor...
+[2020.07.29-18.55.45:816][334]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.07.29-18.55.45:816][334]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.07.29-18.55.45:816][334]CompilerResultsLog:   [1/4] ShooterAIController.cpp
+[2020.07.29-18.55.45:817][334]CompilerResultsLog:   [2/4] UE4Editor-UnitedPlanets-8578.lib
+[2020.07.29-18.55.45:817][334]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8578.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8578.exp
+[2020.07.29-18.55.45:817][334]CompilerResultsLog:   [3/4] UE4Editor-UnitedPlanets-8578.dll
+[2020.07.29-18.55.45:817][334]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8578.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\UE4Editor-UnitedPlanets-8578.suppressed.exp
+[2020.07.29-18.55.45:817][334]CompilerResultsLog:   [4/4] UnitedPlanetsEditor.target
+[2020.07.29-18.55.45:817][334]CompilerResultsLog: Total time in Parallel executor: 84.62 seconds
+[2020.07.29-18.55.45:817][334]CompilerResultsLog: Total execution time: 87.63 seconds
+[2020.07.29-18.55.45:820][334]LogMainFrame: MainFrame: Module compiling took 88.867 seconds
+[2020.07.29-18.55.48:620][334]LogContentBrowser: Native class hierarchy updated for 'UnitedPlanets' in 0.0297 seconds. Added 8 classes and 3 folders.
+[2020.07.29-18.55.48:626][334]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.07.29-18.55.50:262][334]LogContentBrowser: Native class hierarchy populated in 0.0832 seconds. Added 3434 classes and 823 folders.
+[2020.07.29-18.55.50:267][334]Display: HotReload took 93.4s.
+[2020.07.29-18.56.22:513][896]LogBehaviorTree: Warning: Blackboard asset (BB_EnemyAI) has (BB_EnemyAI) in parent chain! Clearing value to avoid cycle.
+[2020.07.29-18.56.22:582][900]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.56.22:601][900]SourceControl: Error: The filesystem 'P4LOG' has only 174.8M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.57.11:416][373]LogUObjectHash: Compacting FUObjectHashTables data took   7.08ms
+[2020.07.29-18.57.11:509][373]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Arena' took 0.688
+[2020.07.29-18.57.11:521][373]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BB_EnemyAI] ([1] browsable assets)...
+[2020.07.29-18.57.11:521][373]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BB_EnemyAI]
+[2020.07.29-18.57.11:563][373]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BB_EnemyAI_Auto12387283944C9AC2D43AA099E623A0A6B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Autosaves/Game/AI/BB_EnemyAI_Auto1.uasset'
+[2020.07.29-18.57.11:572][373]LogFileHelpers: Auto-saving content packages took 0.061
+[2020.07.29-18.58.17:082][564]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.29-18.58.17:082][564]SourceControl: Error: The filesystem 'P4LOG' has only 234.2M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.17:346][564]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.07.29-18.58.17:632][564]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena77A6A75C4B675EBCA3A503A4EB3A3904.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.29-18.58.17:715][564]AssetCheck: New page: Asset Save: Arena
+[2020.07.29-18.58.17:715][564]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.07.29-18.58.18:046][572]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.29-18.58.18:226][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.07.29-18.58.19:150][574]LogSlate: Window 'Save Content' being destroyed
+[2020.07.29-18.58.19:168][574]SourceControl: Error: The filesystem 'P4LOG' has only 215.5M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.19:278][574]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.19:278][574]SourceControl: Error: The filesystem 'P4LOG' has only 217.5M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.20:499][574]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.07.29-18.58.20:586][574]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.20:586][574]SourceControl: Error: The filesystem 'P4LOG' has only 217.7M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.20:653][574]LogSourceControl: Attempting 'p4 edit C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.20:653][574]SourceControl: Error: The filesystem 'P4LOG' has only 217.7M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.23:678][574]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.07.29-18.58.23:687][574]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/AI/BB_EnemyAI
+[2020.07.29-18.58.23:746][576]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.23:746][576]SourceControl: Error: The filesystem 'P4LOG' has only 219.4M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.26:074][612]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.29-18.58.26:074][612]SourceControl: Error: The filesystem 'P4LOG' has only 223.7M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.26:202][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.07.29-18.58.26:298][612]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena46B410AA4BFE3A6C500AC98737F11F1A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.29-18.58.26:372][612]AssetCheck: New page: Asset Save: Arena
+[2020.07.29-18.58.26:372][612]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.07.29-18.58.26:417][613]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.29-18.58.26:418][613]SourceControl: Error: The filesystem 'P4LOG' has only 223.4M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.27:414][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.29-18.58.29:070][639]LogSlate: Window 'Save Content' being destroyed
+[2020.07.29-18.58.29:126][639]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.29:126][639]SourceControl: Error: The filesystem 'P4LOG' has only 233.5M free, but the server configuration requires at least 250M available.
+
+[2020.07.29-18.58.30:276][639]LogSlate: Window 'Check Out Assets' being destroyed
+[2020.07.29-18.58.30:328][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_EnemyAI" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset" SILENT=true
+[2020.07.29-18.58.30:346][639]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/BB_EnemyAI831DFBAB46849885A07C9F9B3D16CC63.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.30:360][639]LogFileHelpers: Warning: The following assets are writable on disk but not checked out from source control:
+/Game/AI/BB_EnemyAI
+[2020.07.29-18.58.31:603][639]LogSlate: Window 'Writable Assets Not Checked Out' being destroyed
+[2020.07.29-18.58.31:865][639]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-18.58.31:868][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.29-18.58.32:850][639]LogSlate: Window 'UnitedPlanets - Unreal Editor' being destroyed
+[2020.07.29-18.58.32:873][639]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.29-18.58.38:601][639]AssetCheck: New page: Asset Save: BB_EnemyAI
+[2020.07.29-18.58.38:601][639]LogContentValidation: Display: Validating BlackboardData /Game/AI/BB_EnemyAI.BB_EnemyAI
+[2020.07.29-18.58.38:669][640]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/AI/BB_EnemyAI.uasset'
+[2020.07.29-18.58.38:671][640]Cmd: QUIT_EDITOR
+[2020.07.29-18.58.38:671][640]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.07.29-18.58.46:899][640]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.07.29-18.58.46:979][640]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.07.29-18.58.57:414][640]LogExit: Preparing to exit.
+[2020.07.29-18.59.01:376][640]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-18.59.01:504][640]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-18.59.01:540][640]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-18.59.01:592][640]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-18.59.05:604][640]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.07.29-18.59.09:907][640]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.07.29-18.59.09:978][640]LogExit: Editor shut down
+[2020.07.29-18.59.10:309][640]LogExit: Transaction tracking system shut down
+[2020.07.29-18.59.18:574][640]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001B12C855840), frame # 47640
+[2020.07.29-18.59.18:574][640]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B12C756D40), frame # 47640
+[2020.07.29-18.59.18:579][640]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B12C8C2200), frame # 47640
+[2020.07.29-18.59.20:356][640]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B121EBBE00), frame # 47640
+[2020.07.29-18.59.20:356][640]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B122011F80), frame # 47640
+[2020.07.29-18.59.21:985][640]LogExit: Object subsystem successfully closed.
+[2020.07.29-18.59.22:125][640]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.07.29-18.59.23:784][640]LogModuleManager: Shutting down and abandoning module UnitedPlanets (796)
+[2020.07.29-18.59.23:784][640]LogModuleManager: Shutting down and abandoning module BlueprintGraph (795)
+[2020.07.29-18.59.23:784][640]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.07.29-18.59.23:785][640]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.07.29-18.59.23:786][640]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.07.29-18.59.24:086][640]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.07.29-18.59.24:087][640]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.07.29-18.59.24:087][640]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.07.29-18.59.24:088][640]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.07.29-18.59.24:112][640]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.07.29-18.59.24:112][640]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.07.29-18.59.24:115][640]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.07.29-18.59.24:152][640]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.07.29-18.59.24:155][640]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.07.29-18.59.24:155][640]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.07.29-18.59.24:155][640]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.07.29-18.59.24:168][640]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.07.29-18.59.24:168][640]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.07.29-18.59.24:171][640]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.07.29-18.59.24:172][640]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.07.29-18.59.24:172][640]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.07.29-18.59.24:173][640]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.07.29-18.59.24:174][640]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.07.29-18.59.24:187][640]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.07.29-18.59.24:200][640]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.07.29-18.59.24:237][640]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.07.29-18.59.24:239][640]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.07.29-18.59.24:239][640]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.07.29-18.59.24:239][640]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.07.29-18.59.24:244][640]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.07.29-18.59.24:244][640]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.07.29-18.59.24:244][640]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.07.29-18.59.24:251][640]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.07.29-18.59.24:253][640]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.07.29-18.59.24:254][640]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.07.29-18.59.24:255][640]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.07.29-18.59.24:268][640]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.07.29-18.59.24:268][640]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.07.29-18.59.24:270][640]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.07.29-18.59.24:270][640]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.07.29-18.59.24:270][640]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.07.29-18.59.24:272][640]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.07.29-18.59.24:272][640]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.07.29-18.59.24:272][640]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.07.29-18.59.24:289][640]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.07.29-18.59.24:289][640]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.07.29-18.59.24:301][640]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.07.29-18.59.24:319][640]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.07.29-18.59.24:320][640]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.07.29-18.59.24:320][640]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.07.29-18.59.24:354][640]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.07.29-18.59.24:372][640]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.07.29-18.59.24:382][640]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.07.29-18.59.24:397][640]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.07.29-18.59.24:402][640]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.07.29-18.59.24:404][640]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.07.29-18.59.24:415][640]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.07.29-18.59.24:415][640]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.07.29-18.59.25:701][640]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.07.29-18.59.25:702][640]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.07.29-18.59.25:702][640]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.07.29-18.59.25:702][640]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.07.29-18.59.25:702][640]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.07.29-18.59.26:064][640]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.07.29-18.59.26:074][640]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.07.29-18.59.26:075][640]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.07.29-18.59.26:076][640]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.07.29-18.59.26:080][640]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.07.29-18.59.26:082][640]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.07.29-18.59.26:084][640]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.07.29-18.59.26:085][640]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.07.29-18.59.26:085][640]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.07.29-18.59.26:085][640]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.07.29-18.59.26:086][640]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.07.29-18.59.26:087][640]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.07.29-18.59.26:087][640]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.07.29-18.59.26:088][640]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.07.29-18.59.26:112][640]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.07.29-18.59.26:117][640]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.07.29-18.59.26:121][640]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.07.29-18.59.26:139][640]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.07.29-18.59.26:141][640]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.07.29-18.59.26:167][640]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.07.29-18.59.26:169][640]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.07.29-18.59.26:275][640]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.07.29-18.59.26:319][640]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.07.29-18.59.26:369][640]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.07.29-18.59.26:413][640]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.07.29-18.59.26:413][640]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.07.29-18.59.26:421][640]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.07.29-18.59.26:433][640]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.07.29-18.59.26:451][640]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.07.29-18.59.26:504][640]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.07.29-18.59.26:505][640]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.07.29-18.59.26:508][640]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.07.29-18.59.26:697][640]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.07.29-18.59.26:702][640]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.07.29-18.59.26:714][640]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.07.29-18.59.26:721][640]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.07.29-18.59.26:781][640]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.07.29-18.59.26:785][640]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.07.29-18.59.26:786][640]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.07.29-18.59.26:789][640]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.07.29-18.59.26:799][640]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.07.29-18.59.26:799][640]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.07.29-18.59.26:800][640]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.07.29-18.59.26:800][640]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.07.29-18.59.26:801][640]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.07.29-18.59.26:801][640]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.07.29-18.59.26:802][640]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.07.29-18.59.26:806][640]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.07.29-18.59.26:809][640]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.07.29-18.59.26:809][640]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.07.29-18.59.26:809][640]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.07.29-18.59.26:817][640]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.07.29-18.59.26:819][640]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.07.29-18.59.26:819][640]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.07.29-18.59.26:819][640]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.07.29-18.59.26:833][640]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.07.29-18.59.26:834][640]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.07.29-18.59.26:834][640]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.07.29-18.59.26:834][640]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.07.29-18.59.26:835][640]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.07.29-18.59.26:835][640]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.07.29-18.59.26:835][640]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.07.29-18.59.26:835][640]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.07.29-18.59.26:836][640]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.07.29-18.59.26:837][640]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.07.29-18.59.26:839][640]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.07.29-18.59.26:839][640]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.07.29-18.59.26:840][640]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.07.29-18.59.26:841][640]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.07.29-18.59.26:841][640]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.07.29-18.59.26:844][640]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.07.29-18.59.26:844][640]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.07.29-18.59.26:845][640]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.07.29-18.59.26:846][640]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.07.29-18.59.26:846][640]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.07.29-18.59.26:846][640]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.07.29-18.59.26:846][640]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.07.29-18.59.26:846][640]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.07.29-18.59.26:847][640]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.07.29-18.59.26:847][640]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.07.29-18.59.26:847][640]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.07.29-18.59.26:850][640]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.07.29-18.59.26:851][640]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.07.29-18.59.26:852][640]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.07.29-18.59.26:853][640]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.07.29-18.59.26:854][640]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.07.29-18.59.26:854][640]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.07.29-18.59.26:854][640]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.07.29-18.59.26:854][640]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.07.29-18.59.26:854][640]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.07.29-18.59.26:854][640]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.07.29-18.59.26:855][640]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.07.29-18.59.26:855][640]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.07.29-18.59.26:855][640]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.07.29-18.59.26:855][640]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.07.29-18.59.26:855][640]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.07.29-18.59.26:867][640]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.07.29-18.59.26:868][640]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.07.29-18.59.26:869][640]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.07.29-18.59.26:870][640]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.07.29-18.59.26:870][640]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.07.29-18.59.26:872][640]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.07.29-18.59.26:873][640]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.07.29-18.59.26:880][640]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.07.29-18.59.26:881][640]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.07.29-18.59.26:888][640]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.07.29-18.59.26:888][640]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.07.29-18.59.26:889][640]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.07.29-18.59.26:901][640]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.07.29-18.59.26:902][640]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.07.29-18.59.26:902][640]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.07.29-18.59.26:905][640]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.07.29-18.59.26:905][640]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.07.29-18.59.26:915][640]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.07.29-18.59.26:917][640]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.07.29-18.59.26:918][640]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.07.29-18.59.26:918][640]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.07.29-18.59.26:919][640]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.07.29-18.59.26:921][640]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.07.29-18.59.27:051][640]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.07.29-18.59.27:219][640]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.07.29-18.59.27:219][640]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.07.29-18.59.27:220][640]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.07.29-18.59.27:220][640]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.07.29-18.59.27:220][640]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.07.29-18.59.27:250][640]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.07.29-18.59.27:250][640]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.07.29-18.59.27:251][640]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.07.29-18.59.27:251][640]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.07.29-18.59.27:253][640]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.07.29-18.59.27:253][640]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.07.29-18.59.27:282][640]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.07.29-18.59.27:284][640]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.07.29-18.59.27:285][640]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.07.29-18.59.27:286][640]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.07.29-18.59.27:286][640]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.07.29-18.59.27:286][640]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.07.29-18.59.27:303][640]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.07.29-18.59.27:304][640]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.07.29-18.59.27:332][640]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.07.29-18.59.27:332][640]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.07.29-18.59.27:333][640]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.07.29-18.59.27:334][640]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.07.29-18.59.27:334][640]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.07.29-18.59.27:334][640]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.07.29-18.59.27:337][640]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.07.29-18.59.27:354][640]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.07.29-18.59.27:372][640]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.07.29-18.59.27:381][640]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.07.29-18.59.27:382][640]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.07.29-18.59.27:383][640]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.07.29-18.59.27:383][640]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.07.29-18.59.27:384][640]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.07.29-18.59.27:384][640]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.07.29-18.59.27:384][640]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.07.29-18.59.27:385][640]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.07.29-18.59.28:616][640]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.07.29-18.59.28:619][640]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.07.29-18.59.28:620][640]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.07.29-18.59.28:620][640]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.07.29-18.59.28:631][640]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.07.29-18.59.28:666][640]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.07.29-18.59.28:668][640]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.07.29-18.59.28:668][640]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.07.29-18.59.28:668][640]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.07.29-18.59.28:669][640]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.07.29-18.59.28:671][640]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.07.29-18.59.28:672][640]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.07.29-18.59.28:680][640]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.07.29-18.59.28:684][640]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.07.29-18.59.28:721][640]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.07.29-18.59.28:727][640]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.07.29-18.59.28:751][640]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.07.29-18.59.28:753][640]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.07.29-18.59.28:766][640]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.07.29-18.59.28:769][640]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.07.29-18.59.28:818][640]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.07.29-18.59.28:834][640]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.07.29-18.59.28:835][640]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.07.29-18.59.28:835][640]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.07.29-18.59.28:835][640]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.07.29-18.59.28:835][640]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.07.29-18.59.28:835][640]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.07.29-18.59.28:835][640]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.07.29-18.59.28:837][640]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.07.29-18.59.28:837][640]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.07.29-18.59.28:837][640]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.07.29-18.59.28:837][640]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.07.29-18.59.28:852][640]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.07.29-18.59.28:865][640]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.07.29-18.59.28:868][640]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.07.29-18.59.28:919][640]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.07.29-18.59.28:919][640]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.07.29-18.59.28:920][640]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.07.29-18.59.28:921][640]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.07.29-18.59.28:932][640]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.07.29-18.59.28:933][640]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.07.29-18.59.28:934][640]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.07.29-18.59.28:935][640]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.07.29-18.59.28:948][640]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.07.29-18.59.28:949][640]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.07.29-18.59.28:950][640]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.07.29-18.59.28:950][640]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.07.29-18.59.28:950][640]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.07.29-18.59.28:951][640]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.07.29-18.59.28:968][640]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.07.29-18.59.28:969][640]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.07.29-18.59.28:980][640]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.07.29-18.59.28:981][640]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.07.29-18.59.28:982][640]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.07.29-18.59.28:983][640]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.07.29-18.59.28:984][640]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.07.29-18.59.28:984][640]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.07.29-18.59.28:985][640]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.07.29-18.59.29:002][640]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.07.29-18.59.29:002][640]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.07.29-18.59.29:002][640]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.07.29-18.59.29:004][640]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.07.29-18.59.29:004][640]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.07.29-18.59.29:014][640]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.07.29-18.59.29:014][640]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.07.29-18.59.29:015][640]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.07.29-18.59.29:015][640]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.07.29-18.59.29:015][640]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.07.29-18.59.29:015][640]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.07.29-18.59.29:149][640]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.07.29-18.59.29:249][640]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.07.29-18.59.29:250][640]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.07.29-18.59.29:250][640]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.07.29-18.59.29:250][640]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.07.29-18.59.29:250][640]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.07.29-18.59.29:251][640]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.07.29-18.59.29:251][640]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.07.29-18.59.29:251][640]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.07.29-18.59.29:251][640]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.07.29-18.59.29:300][640]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.07.29-18.59.29:953][640]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.07.29-18.59.29:971][640]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.07.29-18.59.29:971][640]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.07.29-18.59.29:984][640]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.07.29-18.59.30:003][640]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.07.29-18.59.30:003][640]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.07.29-18.59.30:005][640]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.07.29-18.59.30:005][640]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.07.29-18.59.30:015][640]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.07.29-18.59.30:015][640]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.07.29-18.59.30:020][640]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.07.29-18.59.30:031][640]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.07.29-18.59.30:035][640]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.07.29-18.59.30:036][640]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.07.29-18.59.30:047][640]LogHMD: Freeing OpenVRDLLHandle.
+[2020.07.29-18.59.30:047][640]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.07.29-18.59.30:060][640]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.07.29-18.59.30:060][640]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.07.29-18.59.30:060][640]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.07.29-18.59.30:061][640]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.07.29-18.59.30:101][640]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.07.29-18.59.30:112][640]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.07.29-18.59.30:168][640]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.07.29-18.59.30:171][640]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.29-18.59.30:171][640]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B84AD1A14-4D14-CB91-D4C6-888E5830561E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.07.29-18.59.30:200][640]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.07.29-18.59.30:333][640]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.07.29-18.59.30:432][640]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.07.29-18.59.30:456][640]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.07.29-18.59.30:457][640]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.07.29-18.59.30:457][640]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.07.29-18.59.30:457][640]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.07.29-18.59.30:457][640]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.07.29-18.59.30:458][640]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.07.29-18.59.30:458][640]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.07.29-18.59.30:483][640]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.07.29-18.59.30:513][640]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.07.29-18.59.30:513][640]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.07.29-18.59.30:549][640]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.07.29-18.59.30:592][640]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.07.29-18.59.31:002][640]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.07.29-18.59.31:135][640]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.07.29-18.59.31:148][640]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.07.29-18.59.31:148][640]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.07.29-18.59.31:153][640]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.07.29-18.59.31:201][640]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.07.29-18.59.31:201][640]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.07.29-18.59.31:201][640]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.07.29-18.59.31:201][640]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.07.29-18.59.31:203][640]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.07.29-18.59.31:203][640]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.07.29-18.59.31:203][640]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.07.29-18.59.31:203][640]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.07.29-18.59.31:203][640]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.07.29-18.59.31:204][640]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.07.29-18.59.31:212][640]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.07.29-18.59.31:218][640]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.07.29-18.59.31:233][640]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.07.29-18.59.31:370][640]LogD3D11RHI: Shutdown
+[2020.07.29-18.59.31:370][640]LogD3D11RHI: CleanupD3DDevice
+[2020.07.29-18.59.31:584][640]LogExit: Exiting.
+[2020.07.29-18.59.31:662][640]Log file closed, 07/29/20 14:59:31

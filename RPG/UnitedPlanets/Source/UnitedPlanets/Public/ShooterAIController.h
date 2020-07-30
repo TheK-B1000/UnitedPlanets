@@ -20,4 +20,7 @@ protected:
 private:
 	UPROPERTY(EditAnywhere)
 	class UBehaviorTree* AIBehavior;
+
+	//UPROPERTY(EditAnywhere)
+	//FBlackboardKeySelector VectorKey;
 };
