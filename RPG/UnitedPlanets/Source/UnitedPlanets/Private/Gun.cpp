@@ -1,11 +1,11 @@
 // 2020 Social Cube Media
 
 
+#include "Gun.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 #include "ShooterCharacter.h"
-#include "Gun.h"
 
 #define OUT
 

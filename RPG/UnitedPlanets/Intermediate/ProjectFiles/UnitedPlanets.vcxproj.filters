@@ -96,4 +96,14 @@
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyBTTask_ClearBlackboardValue.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyBTTask_ClearBlackboardValue.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
