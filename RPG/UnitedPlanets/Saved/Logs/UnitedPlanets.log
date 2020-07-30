@@ -1319,3 +1319,64 @@ Script Stack (0 frames):
 [2020.07.30-04.22.14:316][321]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/ArenaE8244AA049721BFBE85D3EA313197521.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
 [2020.07.30-04.22.14:371][321]AssetCheck: New page: Asset Save: Arena
 [2020.07.30-04.22.14:371][321]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.07.30-04.22.51:449][492]LogSourceControl: Attempting 'p4 fstat -Or C:/Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.30-04.22.51:554][492]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.07.30-04.22.51:615][492]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Saved/Arena43DCEF5A46D3BD6C6E36F5AF22176AB9.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/United Planets of Galaxies/RPG/UnitedPlanets/Content/Maps/Arena.umap'
+[2020.07.30-04.22.51:661][492]AssetCheck: New page: Asset Save: Arena
+[2020.07.30-04.22.51:661][492]LogContentValidation: Display: Validating World /Game/Maps/Arena.Arena
+[2020.07.30-04.22.58:277][746]LogTemp: Resetting audio stream to device id 
+[2020.07.30-04.22.58:571][746]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-04.22.58:571][746]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-04.22.59:251][747]LogTemp: Resetting audio stream to device id 
+[2020.07.30-04.22.59:594][747]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-04.22.59:594][747]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-04.23.01:405][748]LogTemp: Resetting audio stream to device id 
+[2020.07.30-04.23.01:910][748]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-04.23.01:910][748]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-06.01.40:257][749]LogTemp: Resetting audio stream to device id 
+[2020.07.30-06.01.40:727][749]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-06.01.40:727][749]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-06.01.41:648][750]LogTemp: Resetting audio stream to device id 
+[2020.07.30-06.01.42:009][750]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-06.01.42:009][750]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-06.01.43:382][751]LogTemp: Resetting audio stream to device id 
+[2020.07.30-06.01.43:899][751]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-06.01.43:899][751]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-06.01.44:645][752]LogTemp: Resetting audio stream to device id 
+[2020.07.30-06.01.45:000][752]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.30-06.01.45:000][752]LogAudioMixer: Display: 1: FrontRight
+[2020.07.30-06.02.01:056][800]LogHttp: Warning: 000002CD80CE6400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B611993A2-4714-E337-889E-E98F62958147%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.07.30-06.02.01:057][800]LogHttp: Warning: 000002CD80CE6400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2cd4a7b3f70 [can pipeline])
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 1 (Re-using existing connection! (#28) with host datarouter.ol.epicgames.com)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.225.112.225) port 443 (#28))
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: 000002CD80CE6400: libcurl info message cache 7 (Closing connection 28)
+[2020.07.30-06.02.01:058][800]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B611993A2-4714-E337-889E-E98F62958147%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.07.30-14.44.05:133][243]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.44.31:348][812]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.45.37:547][767]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.46.44:145][749]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.47.50:325][703]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.50.16:015][429]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.50.52:591][619]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.51.59:195][609]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.53.05:397][573]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.54.11:633][539]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.55.17:822][502]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.56.24:480][489]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-14.57.37:592][845]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.02.57:446][  4]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.03.30:555][984]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.04.43:664][362]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.05.56:785][743]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.07.09:909][125]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.18.31:833][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.07.30-15.18.35:390][107]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.19.44:748][306]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.20.51:294][502]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.40.43:229][933]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.07.30-15.41.15:474][485]LogTemp: IOS device listing is disabled (too many failed attempts)!
