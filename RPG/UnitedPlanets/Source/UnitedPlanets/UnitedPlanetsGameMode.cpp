@@ -15,3 +15,8 @@ AUnitedPlanetsGameMode::AUnitedPlanetsGameMode()
 	// use our custom HUD class
 	HUDClass = AUnitedPlanetsHUD::StaticClass();
 }
+
+void AUnitedPlanetsGameMode::PawnKilled(APawn* PawnKilled)
+{
+
+}

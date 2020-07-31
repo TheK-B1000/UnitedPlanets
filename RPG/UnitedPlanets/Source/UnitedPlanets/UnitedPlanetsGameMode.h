@@ -13,6 +13,7 @@ class AUnitedPlanetsGameMode : public AGameModeBase
 
 public:
 	AUnitedPlanetsGameMode();
+	virtual void PawnKilled(APawn* PawnKilled);
 };
 
 

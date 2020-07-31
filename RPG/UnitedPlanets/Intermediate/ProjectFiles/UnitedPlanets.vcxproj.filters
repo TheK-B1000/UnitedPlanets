@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnitedPlanets.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{65944DA2-1011-4BF7-A24B-ED5FB630C2F2}</UniqueIdentifier>
+      <UniqueIdentifier>{AA6B3E16-E5AA-467B-90CA-77510698D3C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BD34AFBD-425C-4AD1-9D7C-EFA61C6FAE63}</UniqueIdentifier>
+      <UniqueIdentifier>{596C5842-FF86-4FD5-AFCB-4794073203CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnitedPlanets">
-      <UniqueIdentifier>{7D614126-CF2E-439C-A986-3FF1A35EAB78}</UniqueIdentifier>
+      <UniqueIdentifier>{83BF9192-A987-42BD-8599-98433D516289}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnitedPlanets\UnitedPlanets.Build.cs">
       <Filter>Source\UnitedPlanets</Filter>
@@ -66,9 +66,21 @@
       <Filter>Source\UnitedPlanets</Filter>
     </ClInclude>
     <Filter Include="Source\UnitedPlanets\Private">
-      <UniqueIdentifier>{DE7E7493-3A73-40A8-9767-C8D3FF0103F2}</UniqueIdentifier>
+      <UniqueIdentifier>{A90A9BA0-0C72-487E-8358-4EFB15ED3466}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTService_PlayerLocation.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTService_PlayerLocationIfSeen.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTTask_Shoot.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\Gun.cpp">
+      <Filter>Source\UnitedPlanets\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyBTTask_ClearBlackboardValue.cpp">
       <Filter>Source\UnitedPlanets\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyPawn.cpp">
@@ -81,9 +93,21 @@
       <Filter>Source\UnitedPlanets\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UnitedPlanets\Public">
-      <UniqueIdentifier>{B2AA611C-3BB6-48AB-B1DA-D8590F2AFFFB}</UniqueIdentifier>
+      <UniqueIdentifier>{D2A100C5-9384-466C-9C70-9B541BE9291E}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTService_PlayerLocation.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTService_PlayerLocationIfSeen.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTTask_Shoot.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\Gun.h">
+      <Filter>Source\UnitedPlanets\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyBTTask_ClearBlackboardValue.h">
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyPawn.h">
@@ -95,33 +119,5 @@
     <ClInclude Include="..\..\Source\UnitedPlanets\Public\ShooterCharacter.h">
       <Filter>Source\UnitedPlanets\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\UnitedPlanets\Public\MyBTTask_ClearBlackboardValue.h">
-      <Filter>Source\UnitedPlanets\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTTask_Shoot.h">
-      <Filter>Source\UnitedPlanets\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTService_PlayerLocation.h">
-      <Filter>Source\UnitedPlanets\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UnitedPlanets\Public\BTService_PlayerLocationIfSeen.h">
-      <Filter>Source\UnitedPlanets\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\UnitedPlanets\Private\MyBTTask_ClearBlackboardValue.cpp">
-      <Filter>Source\UnitedPlanets\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTTask_Shoot.cpp">
-      <Filter>Source\UnitedPlanets\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTService_PlayerLocation.cpp">
-      <Filter>Source\UnitedPlanets\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\UnitedPlanets\Private\BTService_PlayerLocationIfSeen.cpp">
-      <Filter>Source\UnitedPlanets\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

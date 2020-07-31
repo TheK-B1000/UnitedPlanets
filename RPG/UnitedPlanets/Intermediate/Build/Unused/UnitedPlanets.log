@@ -1,8 +1,0 @@
-﻿  Building UnitedPlanetsEditor...
-  Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 4 processes...
-    [1/5] ShooterCharacter.cpp
-C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\ShooterCharacter.cpp(38): error C2001: newline in constant
-C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\Source\UnitedPlanets\Private\ShooterCharacter.cpp(38): fatal error C1057: unexpected end of file in macro expansion
-    [2/5] Gun.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" UnitedPlanetsEditor Win64 Development -Project="C:\Users\TheK-B1000\Desktop\The K-B Folder\United Planets of Galaxies\RPG\UnitedPlanets\UnitedPlanets.uproject" -WaitMutex -FromMsBuild" exited with code 6.
