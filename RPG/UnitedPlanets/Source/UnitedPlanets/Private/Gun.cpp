@@ -42,12 +42,17 @@ void AGun::PullTrigger()
 	
 	FVector LineTraceEnd = Location + Rotation.Vector() * Direction;
 	FHitResult Hit;
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+	Params.AddIgnoredActor(GetOwner());
+	
 	bool bLineTraceHit = GetWorld()->LineTraceSingleByChannel
 	(
 		Hit,
 		Location,
 		LineTraceEnd,
-		ECollisionChannel::ECC_GameTraceChannel1
+		ECollisionChannel::ECC_GameTraceChannel1,
+		Params
 	);
 
 	if (bLineTraceHit)
