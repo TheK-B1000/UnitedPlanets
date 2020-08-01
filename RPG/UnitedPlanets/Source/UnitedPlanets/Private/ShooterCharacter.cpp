@@ -3,6 +3,7 @@
 #include "ShooterCharacter.h"
 #include "Components/CapsuleComponent.h"
 #include "Gun.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter()
@@ -10,6 +11,7 @@ AShooterCharacter::AShooterCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	maxRiseSpeed = 420;
 }
 
 // Called when the game starts or when spawned
@@ -41,6 +43,11 @@ float AShooterCharacter::GetHealthPercent() const
 void AShooterCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (isSpacebarDown)
+	{
+		GetMovementComponent()->Velocity.Z = maxRiseSpeed;
+		GetCharacterMovement()->SetMovementMode(MOVE_Falling);
+	}
 
 }
 
@@ -57,6 +64,7 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAxis(TEXT("LookRightRate"), this, &APawn::AddControllerYawInput);
 
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &AShooterCharacter::Shoot);
 }
 
@@ -94,6 +102,18 @@ void AShooterCharacter::LookUpRate(float AxisValue)
 void AShooterCharacter::LookRightRate(float AxisValue)
 {
 	AddControllerYawInput(AxisValue * RotationRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AShooterCharacter::Jump()
+{
+	isSpacebarDown = true;
+	UE_LOG(LogTemp, Warning, TEXT("Hello There"));
+} 
+
+void AShooterCharacter::StopJumping()
+{
+	isSpacebarDown = false;
+	UE_LOG(LogTemp, Warning, TEXT("Happy Landing"));
 }
 
 void AShooterCharacter::Shoot()

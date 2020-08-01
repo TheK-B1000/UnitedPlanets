@@ -43,6 +43,8 @@ private:
 	void MoveRight(float AxisValue);
 	void LookUpRate(float AxisValue);
 	void LookRightRate(float AxisValue);
+	virtual void Jump() override;
+	virtual void StopJumping() override;
 
 	UPROPERTY(EditAnywhere)
 	float RotationRate = 75;
@@ -58,4 +60,9 @@ private:
 	float MaxHealth = 100;
 	UPROPERTY(VisibleAnywhere)
 	float Health;
+
+	UPROPERTY(EditAnywhere)
+	float maxRiseSpeed;
+
+	bool isSpacebarDown;
 };
