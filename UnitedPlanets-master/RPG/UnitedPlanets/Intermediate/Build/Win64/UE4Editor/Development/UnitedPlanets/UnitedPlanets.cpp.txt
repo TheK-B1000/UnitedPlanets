@@ -1,0 +1,2 @@
+C:\Users\K-B\Desktop\K-B Folder\UnitedPlanets\UnitedPlanets-master\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\Definitions.UnitedPlanets.h
+C:\Users\K-B\Desktop\K-B Folder\UnitedPlanets\UnitedPlanets-master\RPG\UnitedPlanets\Source\UnitedPlanets\UnitedPlanets.h

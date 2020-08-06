@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnitedPlanets",
+			"Path": "C:\\Users\\K-B\\Desktop\\K-B Folder\\UnitedPlanets\\UnitedPlanets-master\\RPG\\UnitedPlanets\\Source\\UnitedPlanets.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnitedPlanetsEditor",
+			"Path": "C:\\Users\\K-B\\Desktop\\K-B Folder\\UnitedPlanets\\UnitedPlanets-master\\RPG\\UnitedPlanets\\Source\\UnitedPlanetsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

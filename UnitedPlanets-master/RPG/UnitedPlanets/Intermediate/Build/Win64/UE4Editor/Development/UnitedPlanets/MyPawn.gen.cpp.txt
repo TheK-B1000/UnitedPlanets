@@ -1,0 +1,5 @@
+C:\Users\K-B\Desktop\K-B Folder\UnitedPlanets\UnitedPlanets-master\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Development\UnitedPlanets\Definitions.UnitedPlanets.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\K-B\Desktop\K-B Folder\UnitedPlanets\UnitedPlanets-master\RPG\UnitedPlanets\Source\UnitedPlanets/Public/MyPawn.h
+C:\Users\K-B\Desktop\K-B Folder\UnitedPlanets\UnitedPlanets-master\RPG\UnitedPlanets\Intermediate\Build\Win64\UE4Editor\Inc\UnitedPlanets\MyPawn.generated.h
