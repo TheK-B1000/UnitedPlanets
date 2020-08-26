@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// K-B 2020
 
 
 #include "Ch_Human.h"
@@ -30,5 +30,20 @@ void ACh_Human::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	InputComponent->BindAxis(TEXT("MoveForward"), this, &ACh_Human::MoveForward);
+	InputComponent->BindAxis(TEXT("MoveRight"), this, &ACh_Human::MoveRight);
+	InputComponent->BindAxis(TEXT("LookUp"), this, &APawn::AddControllerPitchInput);
+	InputComponent->BindAxis(TEXT("LookRight"), this, &APawn::AddControllerYawInput);
+	InputComponent->BindAction(TEXT("Jump"), EInputEvent::IE_Pressed, this, &ACharacter::Jump);
+}
+
+void ACh_Human::MoveForward(float AxisValue)
+{
+	AddMovementInput(GetActorForwardVector(), AxisValue);
+}
+
+void ACh_Human::MoveRight(float AxisValue)
+{
+	AddMovementInput(GetActorRightVector(), AxisValue);
 }
 
