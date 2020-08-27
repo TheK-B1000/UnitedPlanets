@@ -8,7 +8,7 @@
 
 UCLASS()
 class SIMPLESHOOTER_API ACh_Human : public ACharacter
-{
+{	
 	GENERATED_BODY()
 
 public:
