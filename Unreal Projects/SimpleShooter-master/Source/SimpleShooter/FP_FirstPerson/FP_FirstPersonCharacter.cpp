@@ -54,6 +54,11 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 
 	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P are set in the
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	// Set the default player variables
+	isSprinting = false;
+	isAiming = false;
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -76,6 +81,10 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFP_FirstPersonCharacter::OnFire);
+
+	// Bind Aim events
+	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AFP_FirstPersonCharacter::AimIn);
+	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AFP_FirstPersonCharacter::StopAim);
 	
 	// Attempt to enable touch screen movement
 	TryEnableTouchscreenMovement(PlayerInputComponent);
@@ -269,12 +278,36 @@ void AFP_FirstPersonCharacter::TryEnableTouchscreenMovement(UInputComponent* Pla
 
 void AFP_FirstPersonCharacter::Sprint()
 {
-	UE_LOG(LogTemp, Warning, TEXT("You are now sprinting"))
-		GetCharacterMovement()->MaxWalkSpeed = 1500.0f;
+	if (auto characterMovement = GetCharacterMovement())
+	{
+		characterMovement->MaxWalkSpeed = 1500.0f;
+		isSprinting = true;
+	}
 }
 
 void AFP_FirstPersonCharacter::StopSprinting()
 {
-	UE_LOG(LogTemp, Warning, TEXT("You are no longer sprinting"))
-		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	if (auto characterMovement = GetCharacterMovement())
+	{
+		characterMovement->MaxWalkSpeed = 600.0f;
+		isSprinting = false;
+	}
+}
+
+void AFP_FirstPersonCharacter::AimIn()
+{
+	if (auto firstPersonCamera = GetFirstPersonCameraComponent())
+	{
+		firstPersonCamera->SetFieldOfView(70.0f);
+		isAiming = true;
+	}
+}
+
+void AFP_FirstPersonCharacter::StopAim()
+{
+	if (auto firstPersonCamera = GetFirstPersonCameraComponent())
+	{
+		firstPersonCamera->SetFieldOfView(90.0f);
+		isAiming = false;
+	}
 }

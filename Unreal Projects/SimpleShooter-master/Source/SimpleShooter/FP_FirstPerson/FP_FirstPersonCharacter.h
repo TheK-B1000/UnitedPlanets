@@ -60,6 +60,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float WeaponDamage;
 
+	/* Determines if the character is currently sprinting */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	bool isSprinting;
+
+	/* Determines if the character is zoomed-in to their weapon */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	bool isAiming;
+
 protected:
 
 	/** Handler for a touch input beginning. */
@@ -91,6 +99,13 @@ protected:
 
 	// Allows the player to stop sprinting
 	void StopSprinting();
+
+	// Zoom the camera in (aim-down sights)
+	void AimIn();
+
+	// Zoom the camera out (blind-fire)
+	void StopAim();
+
 
 	/* 
 	 * Performs a trace between two points
