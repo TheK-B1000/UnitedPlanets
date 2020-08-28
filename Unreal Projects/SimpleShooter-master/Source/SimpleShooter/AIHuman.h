@@ -11,12 +11,9 @@
  * 
  */
 UCLASS()
-class SIMPLESHOOTER_API AAIHuman : public AAIController, public IAI
+class SIMPLESHOOTER_API AAIHuman : public AAIController
 {
 	GENERATED_BODY()
 
 public:
-	FVector TargetLocation;
-	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "AI")
-	void GoToLocation(FVector* TargetLocation);
 };
