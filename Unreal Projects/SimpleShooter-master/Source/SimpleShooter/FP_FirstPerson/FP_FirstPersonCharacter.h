@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Weapon.h"
 #include "FP_FirstPersonCharacter.generated.h"
 
 class UInputComponent;
@@ -49,24 +50,30 @@ public:
 	USoundBase* FireSound;
 
 	/** AnimMontage to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	UAnimMontage* FireAnimation;
 
 	/* This is when calculating the trace to determine what the weapon has hit */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	float WeaponRange;
 	
 	/* This is multiplied by the direction vector when the weapon trace hits something to apply velocity to the component that is hit */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	float WeaponDamage;
 
 	/* Determines if the character is currently sprinting */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	bool isSprinting;
 
 	/* Determines if the character is zoomed-in to their weapon */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	bool isAiming;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AWeapon> WeaponClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	AWeapon* weapon;
 
 protected:
 
@@ -100,11 +107,29 @@ protected:
 	// Allows the player to stop sprinting
 	void StopSprinting();
 
+	// Allows the character to equip an item they are close to
+	void EquipItem();
+
 	// Zoom the camera in (aim-down sights)
 	void AimIn();
 
 	// Zoom the camera out (blind-fire)
 	void StopAim();
+
+	// Reloads the current weapon
+	void ReloadWeapon();
+
+	void TakeDamage(float damageAmount);
+
+	void Heal(float healAmount);
+
+	void UseStamina(float staminaAmount);
+
+	void RestoreStamina(float restoreAmount);
+
+	// Triggers the pop-up notification to tell the player they are fully out of ammo with that weapon
+	UFUNCTION(BlueprintImplementableEvent, Category = "HUD")
+	void TriggerOutOfAmmoPopUp();
 
 
 	/* 
@@ -167,6 +192,19 @@ protected:
 	 * @returns true if touch controls were enabled.
 	 */
 	void TryEnableTouchscreenMovement(UInputComponent* InputComponent);
+
+	// Determines if the character is overlapping an equippable item
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float isOverlappingItem;
+
+
+	// The amount of health the character currently has
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float playerHealth;
+
+	// The amount of Stamina the character currently has
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	float playerStamina;
 
 public:
 	/** Returns Mesh1P subobject **/

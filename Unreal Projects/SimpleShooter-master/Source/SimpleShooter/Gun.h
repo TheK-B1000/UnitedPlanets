@@ -17,6 +17,27 @@ public:
 
 	void PullTrigger();
 
+	// The total amount of ammo that can be carried for the weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+	int maxTotalAmmo;
+
+	// The total amount of ammo that can be in weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+	int maxClipAmmo;
+
+	// The total amount of ammo being carried for the weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+	int totalAmmo;
+
+	// The total amount of ammo in the weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+	int clipAmmo;
+
+	// The time it takes to reload the weapon
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
+	int reloadTime;
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

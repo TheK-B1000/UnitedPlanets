@@ -56,8 +56,12 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
 	// Set the default player variables
+	isOverlappingItem = false;
 	isSprinting = false;
 	isAiming = false;
+	weapon = nullptr;
+	playerHealth = 1.00f;
+	playerStamina = 1.00f;
 
 }
 
@@ -79,10 +83,12 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AFP_FirstPersonCharacter::Sprint);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AFP_FirstPersonCharacter::StopSprinting);
 	
+	// Bind equiping events
+	PlayerInputComponent->BindAction("Equip", IE_Pressed, this, &AFP_FirstPersonCharacter::EquipItem);
+
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFP_FirstPersonCharacter::OnFire);
-
-	// Bind Aim events
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AFP_FirstPersonCharacter::ReloadWeapon);
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AFP_FirstPersonCharacter::AimIn);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AFP_FirstPersonCharacter::StopAim);
 	
@@ -104,55 +110,89 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 
 void AFP_FirstPersonCharacter::OnFire()
 {
-	// Play a sound if there is one
-	if (FireSound != NULL)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
-
-	// Try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
+	// try and fire a projectile
+	// if (ProjectileClass != NULL)
+	//{ 
+		UWorld* const World = GetWorld();
+		if (World != NULL)
 		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
+			if (weapon)
+			{
+				if (weapon->clipAmmo > 0)
+				{
+					const FRotator SpawnRotation = GetControlRotation();
+					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+					//const FVector SpawnLocation = (FP_MuzzleLocation != nullptr) / FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+
+					// Set Spawn Collision Handling Override
+					FActorSpawnParameters ActorSpawnParams;
+					ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+					// spawn the projectile at the muzzle
+					//World->SpawnActor<AFP_Projectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+
+					weapon->clipAmmo -= 1;
+				}
+				else if (weapon->totalAmmo > 0)
+				{
+					ReloadWeapon();
+				}
+				else
+				{
+					TriggerOutOfAmmoPopUp();
+				}
+			}
 		}
-	}
+		// Play a sound if there is one
+		/* if (FireSound != NULL)
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		} */
 
-	// Now send a trace from the end of our gun to see if we should hit anything
-	APlayerController* PlayerController = Cast<APlayerController>(GetController());
-	
-	FVector ShootDir = FVector::ZeroVector;
-	FVector StartTrace = FVector::ZeroVector;
+		// Try and play a firing animation if specified
+		if (FireAnimation != NULL)
+		{
+			// Get the animation object for the arms mesh
+			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
+			}
+		}
 
-	if (PlayerController)
-	{
-		// Calculate the direction of fire and the start location for trace
-		FRotator CamRot;
-		PlayerController->GetPlayerViewPoint(StartTrace, CamRot);
-		ShootDir = CamRot.Vector();
+		// Now send a trace from the end of our gun to see if we should hit anything
+		APlayerController* PlayerController = Cast<APlayerController>(GetController());
 
-		// Adjust trace so there is nothing blocking the ray between the camera and the pawn, and calculate distance from adjusted start
-		StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
-	}
+		FVector ShootDir = FVector::ZeroVector;
+		FVector StartTrace = FVector::ZeroVector;
 
-	// Calculate endpoint of trace
-	const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
+		if (PlayerController)
+		{
+			// Calculate the direction of fire and the start location for trace
+			FRotator CamRot;
+			PlayerController->GetPlayerViewPoint(StartTrace, CamRot);
+			ShootDir = CamRot.Vector();
 
-	// Check for impact
-	const FHitResult Impact = WeaponTrace(StartTrace, EndTrace);
+			// Adjust trace so there is nothing blocking the ray between the camera and the pawn, and calculate distance from adjusted start
+			StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
+		}
 
-	// Deal with impact
-	AActor* DamagedActor = Impact.GetActor();
-	UPrimitiveComponent* DamagedComponent = Impact.GetComponent();
+		// Calculate endpoint of trace
+		const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
 
-	// If we hit an actor, with a component that is simulating physics, apply an impulse
-	if ((DamagedActor != NULL) && (DamagedActor != this) && (DamagedComponent != NULL) && DamagedComponent->IsSimulatingPhysics())
-	{
-		DamagedComponent->AddImpulseAtLocation(ShootDir * WeaponDamage, Impact.Location);
-	}
+		// Check for impact
+		const FHitResult Impact = WeaponTrace(StartTrace, EndTrace);
+
+		// Deal with impact
+		AActor* DamagedActor = Impact.GetActor();
+		UPrimitiveComponent* DamagedComponent = Impact.GetComponent();
+
+		// If we hit an actor, with a component that is simulating physics, apply an impulse
+		if ((DamagedActor != NULL) && (DamagedActor != this) && (DamagedComponent != NULL) && DamagedComponent->IsSimulatingPhysics())
+		{
+			DamagedComponent->AddImpulseAtLocation(ShootDir * WeaponDamage, Impact.Location);
+		}
+	//}
 }
 
 
@@ -294,6 +334,14 @@ void AFP_FirstPersonCharacter::StopSprinting()
 	}
 }
 
+void AFP_FirstPersonCharacter::EquipItem()
+{
+	if (isOverlappingItem)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("We picked up an item"));
+	}
+}
+
 void AFP_FirstPersonCharacter::AimIn()
 {
 	if (auto firstPersonCamera = GetFirstPersonCameraComponent())
@@ -309,5 +357,69 @@ void AFP_FirstPersonCharacter::StopAim()
 	{
 		firstPersonCamera->SetFieldOfView(90.0f);
 		isAiming = false;
+	}
+}
+
+void AFP_FirstPersonCharacter::ReloadWeapon()
+{
+	if (weapon)
+	{
+		if (weapon->clipAmmo != weapon->maxClipAmmo)
+		{
+			if (weapon->totalAmmo - (weapon->maxClipAmmo - weapon->clipAmmo) >= 0)
+			{
+				weapon->totalAmmo -= (weapon->maxClipAmmo - weapon->clipAmmo);
+				weapon->clipAmmo = weapon->maxClipAmmo;
+			}
+			else
+			{
+				weapon->clipAmmo += weapon->totalAmmo;
+				weapon->totalAmmo = 0;
+			}
+		}
+	}
+}
+
+void AFP_FirstPersonCharacter::TakeDamage(float damageAmount)
+{
+	UE_LOG(LogTemp, Warning, TEXT("We are taking damage for %f points."), damageAmount);
+	playerHealth -= damageAmount;
+
+	if (playerHealth < 0.00f)
+	{
+		playerHealth = 0.00f;
+	}
+}
+
+void AFP_FirstPersonCharacter::Heal(float healAmount)
+{
+	UE_LOG(LogTemp, Warning, TEXT("We are healing for %f points."), healAmount);
+	playerHealth += healAmount;
+
+	if (playerHealth < 1.00f)
+	{
+		playerHealth = 1.00f;
+	}
+}
+
+void AFP_FirstPersonCharacter::UseStamina(float staminaAmount)
+{
+	UE_LOG(LogTemp, Warning, TEXT("We are using stamina for %f points."), staminaAmount);
+	playerStamina -= staminaAmount;
+
+	if (playerStamina < 0.00f)
+	{
+		playerStamina = 0.00f;
+	}
+}
+
+void AFP_FirstPersonCharacter::RestoreStamina(float restoreAmount)
+{
+	UE_LOG(LogTemp, Warning, TEXT("We are restoring stamina for %f points."), restoreAmount);
+	playerStamina += restoreAmount;
+
+	if (playerStamina < 1.00f)
+	{
+		playerStamina = 1.00f;
 	}
 }

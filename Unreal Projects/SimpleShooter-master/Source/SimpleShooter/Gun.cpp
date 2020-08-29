@@ -2,7 +2,6 @@
 
 
 #include "Gun.h"
-
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
@@ -18,6 +17,13 @@ AGun::AGun()
 
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(Root);
+
+	// Set the default values for variables
+	maxTotalAmmo = 100;
+	maxClipAmmo = 12;
+	totalAmmo = 64;
+	clipAmmo = 12;
+	reloadTime = 1.0f;
 
 }
 
