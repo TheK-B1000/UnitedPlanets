@@ -156,6 +156,9 @@ void AFP_FirstPersonCharacter::OnFire()
 		StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
 	}
 
+	// Shoot the gun
+	Gun->PullTrigger();
+
 	// Calculate endpoint of trace
 	const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
 
