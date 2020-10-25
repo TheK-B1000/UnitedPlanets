@@ -73,7 +73,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 		bool isAiming;
 
-
 	// The character's current level
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
 		float currentLevel;
@@ -94,8 +93,19 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
 		float intellectValue;
 
+	UPROPERTY(EditAnywhere)
+		UParticleSystem* MuzzleFlash;
+
+	UPROPERTY(EditAnywhere)
+		UParticleSystem* ImpactEffect;
+
+	UPROPERTY(EditAnywhere)
+		USoundBase* ImpactSound;
 
 protected:
+
+	// Starts at runtime
+	virtual void BeginPlay() override;
 
 	/** Handler for a touch input beginning. */
 	void TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location);
@@ -214,15 +224,15 @@ protected:
 
 	// Determines if the character is overlapping an equippable item
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float isOverlappingItem;
+	float isOverlappingItem;
 
 	// The amount of health the character currently has
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float playerHealth;
+	float playerHealth;
 
 	// The amount of Stamina the character currently has
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-		float playerStamina;
+	float playerStamina;
 
 public:
 	/** Returns Mesh1P subobject **/
@@ -231,13 +241,19 @@ public:
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
 	UPROPERTY(EditAnywhere)
-		float RotationRate = 10;
+	float RotationRate = 10;
 
 	UPROPERTY(EditDefaultsOnly)
-		float MaxHealth = 100;
+	float MaxHealth = 100;
 
 	UPROPERTY(VisibleAnywhere)
-		float Health;
+	float Health;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AUPGGun> GunClass;
+
+	UPROPERTY()
+	AUPGGun* Gun;
 
 };
 

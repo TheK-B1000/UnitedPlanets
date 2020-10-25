@@ -111,6 +111,13 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AFP_FirstPersonCharacter::LookUpAtRate);
 }
 
+void AFP_FirstPersonCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	GetWorld()->SpawnActor<AUPGGun>(GunClass);
+}
+
 void AFP_FirstPersonCharacter::OnFire()
 {
 	// Play a sound if there is one
