@@ -39,12 +39,20 @@ void ACh_Human::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void ACh_Human::MoveForward(float AxisValue)
 {
-	AddMovementInput(GetActorForwardVector(), AxisValue);
+	if (AxisValue != 0.0f)
+	{
+		// Add movement in that direction
+		AddMovementInput(GetActorForwardVector(), AxisValue);
+	}
 }
 
 void ACh_Human::MoveRight(float AxisValue)
 {
-	AddMovementInput(GetActorRightVector(), AxisValue);
+	if (AxisValue != 0.0f)
+	{
+		// Add movement in that direction
+		AddMovementInput(GetActorRightVector(), AxisValue);
+	}
 }
 
 

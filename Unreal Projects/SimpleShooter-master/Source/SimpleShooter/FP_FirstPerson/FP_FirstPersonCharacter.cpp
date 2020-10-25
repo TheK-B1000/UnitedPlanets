@@ -1,15 +1,15 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// K-B 2020
 
 #include "FP_FirstPersonCharacter.h"
 #include "Animation/AnimInstance.h"
+#include "UPGGun.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerController.h"
-#include "GameFramework/CharacterMovementComponent.h"
 
-#define COLLISION_WEAPON		ECC_GameTraceChannel1
+#define COLLISION_UPGGun		ECC_GameTraceChannel1
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -39,13 +39,21 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	Mesh1P->CastShadow = false;				// Disallow mesh to cast other shadows
 
 	// Create a gun mesh component
-	FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
-	FP_Gun->SetOnlyOwnerSee(true);			// Only the owning player will see this mesh
-	FP_Gun->bCastDynamicShadow = false;		// Disallow mesh to cast dynamic shadows
-	FP_Gun->CastShadow = false;			// Disallow mesh to cast other shadows
-	FP_Gun->SetupAttachment(Mesh1P, TEXT("GripPoint"));
+	UPGGun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("UPGGun"));
+	UPGGun->SetOnlyOwnerSee(true);			// Only the owning player will see this mesh
+	UPGGun->bCastDynamicShadow = false;		// Disallow mesh to cast dynamic shadows
+	UPGGun->CastShadow = false;			// Disallow mesh to cast other shadows
+	UPGGun->SetupAttachment(Mesh1P, TEXT("GripPoint"));
 
-	// Set weapon damage and range
+	// Create a Aim-Down Sights CameraComponent	
+	ADSFirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ADSCamera"));
+	ADSFirstPersonCameraComponent->SetupAttachment(UPGGun);
+	ADSFirstPersonCameraComponent->SetRelativeLocation(FVector(0, 20.0f, 20.0f)); // Position the camera
+	ADSFirstPersonCameraComponent->SetRelativeScale3D(FVector(0.2f, 0.2f, 0.2f)); // Size the camera
+	ADSFirstPersonCameraComponent->SetRelativeRotation(FRotator(0, 90.0f, 0)); // Rotate the camera
+	ADSFirstPersonCameraComponent->bUsePawnControlRotation = true;
+
+	// Set UPGGun damage and range
 	WeaponRange = 5000.0f;
 	WeaponDamage = 500000.0f;
 
@@ -59,10 +67,8 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	isOverlappingItem = false;
 	isSprinting = false;
 	isAiming = false;
-	weapon = nullptr;
 	playerHealth = 1.00f;
 	playerStamina = 1.00f;
-
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -80,15 +86,12 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind sprinting events
-	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AFP_FirstPersonCharacter::Sprint);
-	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AFP_FirstPersonCharacter::StopSprinting);
-	
-	// Bind equiping events
-	PlayerInputComponent->BindAction("Equip", IE_Pressed, this, &AFP_FirstPersonCharacter::EquipItem);
+	//PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AUnitedPlanetsCharacter::Sprint);
+	//PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AUnitedPlanetsCharacter::StopSprinting);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFP_FirstPersonCharacter::OnFire);
-	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AFP_FirstPersonCharacter::ReloadWeapon);
+	//PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AFP_FirstPersonCharacter::ReloadWeapon);
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AFP_FirstPersonCharacter::AimIn);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AFP_FirstPersonCharacter::StopAim);
 	
@@ -110,89 +113,55 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 
 void AFP_FirstPersonCharacter::OnFire()
 {
-	// try and fire a projectile
-	// if (ProjectileClass != NULL)
-	//{ 
-		UWorld* const World = GetWorld();
-		if (World != NULL)
+	// Play a sound if there is one
+	if (FireSound != NULL)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
+
+	// Try and play a firing animation if specified
+	if (FireAnimation != NULL)
+	{
+		// Get the animation object for the arms mesh
+		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+		if (AnimInstance != NULL)
 		{
-			if (weapon)
-			{
-				if (weapon->clipAmmo > 0)
-				{
-					const FRotator SpawnRotation = GetControlRotation();
-					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-					//const FVector SpawnLocation = (FP_MuzzleLocation != nullptr) / FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
-
-					// Set Spawn Collision Handling Override
-					FActorSpawnParameters ActorSpawnParams;
-					ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-
-					// spawn the projectile at the muzzle
-					//World->SpawnActor<AFP_Projectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-
-					weapon->clipAmmo -= 1;
-				}
-				else if (weapon->totalAmmo > 0)
-				{
-					ReloadWeapon();
-				}
-				else
-				{
-					TriggerOutOfAmmoPopUp();
-				}
-			}
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
-		// Play a sound if there is one
-		/* if (FireSound != NULL)
-		{
-			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-		} */
+	}
 
-		// Try and play a firing animation if specified
-		if (FireAnimation != NULL)
-		{
-			// Get the animation object for the arms mesh
-			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-			if (AnimInstance != NULL)
-			{
-				AnimInstance->Montage_Play(FireAnimation, 1.f);
-			}
-		}
+	// Now send a trace from the end of our gun to see if we should hit anything
+	APlayerController* PlayerController = Cast<APlayerController>(GetController());
+	
+	FVector ShootDir = FVector::ZeroVector;
+	FVector StartTrace = FVector::ZeroVector;
 
-		// Now send a trace from the end of our gun to see if we should hit anything
-		APlayerController* PlayerController = Cast<APlayerController>(GetController());
+	if (PlayerController)
+	{
+		// Calculate the direction of fire and the start location for trace
+		FRotator CamRot;
+		PlayerController->GetPlayerViewPoint(StartTrace, CamRot);
+		ShootDir = CamRot.Vector();
 
-		FVector ShootDir = FVector::ZeroVector;
-		FVector StartTrace = FVector::ZeroVector;
+		// Adjust trace so there is nothing blocking the ray between the camera and the pawn, and calculate distance from adjusted start
+		StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
+	}
 
-		if (PlayerController)
-		{
-			// Calculate the direction of fire and the start location for trace
-			FRotator CamRot;
-			PlayerController->GetPlayerViewPoint(StartTrace, CamRot);
-			ShootDir = CamRot.Vector();
+	// Calculate endpoint of trace
+	const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
 
-			// Adjust trace so there is nothing blocking the ray between the camera and the pawn, and calculate distance from adjusted start
-			StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
-		}
+	// Check for impact
+	const FHitResult Impact = WeaponTrace(StartTrace, EndTrace);
 
-		// Calculate endpoint of trace
-		const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
+	// Deal with impact
+	AActor* DamagedActor = Impact.GetActor();
+	UPrimitiveComponent* DamagedComponent = Impact.GetComponent();
 
-		// Check for impact
-		const FHitResult Impact = WeaponTrace(StartTrace, EndTrace);
-
-		// Deal with impact
-		AActor* DamagedActor = Impact.GetActor();
-		UPrimitiveComponent* DamagedComponent = Impact.GetComponent();
-
-		// If we hit an actor, with a component that is simulating physics, apply an impulse
-		if ((DamagedActor != NULL) && (DamagedActor != this) && (DamagedComponent != NULL) && DamagedComponent->IsSimulatingPhysics())
-		{
-			DamagedComponent->AddImpulseAtLocation(ShootDir * WeaponDamage, Impact.Location);
-		}
-	//}
+	// If we hit an actor, with a component that is simulating physics, apply an impulse
+	if ((DamagedActor != NULL) && (DamagedActor != this) && (DamagedComponent != NULL) && DamagedComponent->IsSimulatingPhysics())
+	{
+		DamagedComponent->AddImpulseAtLocation(ShootDir * WeaponDamage, Impact.Location);
+	}
 }
 
 
@@ -300,11 +269,11 @@ void AFP_FirstPersonCharacter::LookUpAtRate(float Rate)
 FHitResult AFP_FirstPersonCharacter::WeaponTrace(const FVector& StartTrace, const FVector& EndTrace) const
 {
 	// Perform trace to retrieve hit info
-	FCollisionQueryParams TraceParams(SCENE_QUERY_STAT(WeaponTrace), true, GetInstigator());
+	FCollisionQueryParams TraceParams(SCENE_QUERY_STAT(UPGGunTrace), true, GetInstigator());
 	TraceParams.bReturnPhysicalMaterial = true;
 
 	FHitResult Hit(ForceInit);
-	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, COLLISION_WEAPON, TraceParams);
+	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, COLLISION_UPGGun, TraceParams);
 
 	return Hit;
 }
@@ -316,7 +285,8 @@ void AFP_FirstPersonCharacter::TryEnableTouchscreenMovement(UInputComponent* Pla
 	PlayerInputComponent->BindTouch(EInputEvent::IE_Repeat, this, &AFP_FirstPersonCharacter::TouchUpdate);	
 }
 
-void AFP_FirstPersonCharacter::Sprint()
+// TODO fix sprint functionality
+/* void AFP_FirstPersonCharacter::Sprint()
 {
 	if (auto characterMovement = GetCharacterMovement())
 	{
@@ -332,7 +302,7 @@ void AFP_FirstPersonCharacter::StopSprinting()
 		characterMovement->MaxWalkSpeed = 600.0f;
 		isSprinting = false;
 	}
-}
+} */
 
 void AFP_FirstPersonCharacter::EquipItem()
 {
@@ -344,6 +314,10 @@ void AFP_FirstPersonCharacter::EquipItem()
 
 void AFP_FirstPersonCharacter::AimIn()
 {
+	FViewTargetTransitionParams Params;
+	//APlayerController* Controller = Cast<APlayerController>(GetController());
+	//Controller->SetViewTarget(ADSCamera, Params);
+
 	if (auto firstPersonCamera = GetFirstPersonCameraComponent())
 	{
 		firstPersonCamera->SetFieldOfView(70.0f);
@@ -360,25 +334,26 @@ void AFP_FirstPersonCharacter::StopAim()
 	}
 }
 
-void AFP_FirstPersonCharacter::ReloadWeapon()
+// TODO fix Reload functionality
+/* void AFP_FirstPersonCharacter::ReloadUPGGun()
 {
-	if (weapon)
+	if (UPGGun)
 	{
-		if (weapon->clipAmmo != weapon->maxClipAmmo)
+		if (UPGGun->clipAmmo != UPGGun->maxClipAmmo)
 		{
-			if (weapon->totalAmmo - (weapon->maxClipAmmo - weapon->clipAmmo) >= 0)
+			if (UPGGun->totalAmmo - (UPGGun->maxClipAmmo - UPGGun->clipAmmo) >= 0)
 			{
-				weapon->totalAmmo -= (weapon->maxClipAmmo - weapon->clipAmmo);
-				weapon->clipAmmo = weapon->maxClipAmmo;
+				UPGGun->totalAmmo -= (UPGGun->maxClipAmmo - UPGGun->clipAmmo);
+				UPGGun->clipAmmo = UPGGun->maxClipAmmo;
 			}
 			else
 			{
-				weapon->clipAmmo += weapon->totalAmmo;
-				weapon->totalAmmo = 0;
+				UPGGun->clipAmmo += UPGGun->totalAmmo;
+				UPGGun->totalAmmo = 0;
 			}
 		}
 	}
-}
+} */
 
 void AFP_FirstPersonCharacter::TakeDamage(float damageAmount)
 {
