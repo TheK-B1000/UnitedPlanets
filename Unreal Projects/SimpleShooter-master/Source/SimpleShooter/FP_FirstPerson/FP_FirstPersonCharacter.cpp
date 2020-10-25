@@ -115,7 +115,9 @@ void AFP_FirstPersonCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	GetWorld()->SpawnActor<AUPGGun>(GunClass);
+	Gun = GetWorld()->SpawnActor<AUPGGun>(GunClass);
+	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+	Gun->SetOwner(this);
 }
 
 void AFP_FirstPersonCharacter::OnFire()
