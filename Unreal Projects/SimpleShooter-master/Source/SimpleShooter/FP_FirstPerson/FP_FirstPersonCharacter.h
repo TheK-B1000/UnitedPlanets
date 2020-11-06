@@ -67,40 +67,40 @@ public:
 
 	/* Determines if the character is currently sprinting */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
-		bool isSprinting;
+	bool isSprinting;
 
 	/* Determines if the character is zoomed-in to their weapon */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
-		bool isAiming;
+	bool isAiming;
 
 	// The character's current level
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
-		float currentLevel;
+	float currentLevel;
 
 	// The amount of available upgrade points the character currently has
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
-		float upgradePoints;
+	float upgradePoints;
 
 	// The amount of strength the character currently has
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
-		float strengthValue;
+	float strengthValue;
 
 	// The amount of intellect the character currently has
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
-		float dexterityValue;
+	float dexterityValue;
 
 	// The amount of strength the character currently has
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stats")
-		float intellectValue;
+	float intellectValue;
 
 	UPROPERTY(EditAnywhere)
-		UParticleSystem* MuzzleFlash;
+	UParticleSystem* MuzzleFlash;
 
 	UPROPERTY(EditAnywhere)
-		UParticleSystem* ImpactEffect;
+	UParticleSystem* ImpactEffect;
 
 	UPROPERTY(EditAnywhere)
-		USoundBase* ImpactSound;
+	USoundBase* ImpactSound;
 
 protected:
 

@@ -15,28 +15,26 @@ public:
 	// Sets default values for this actor's properties
 	AUPGGun();
 
-	void PullTrigger();
+	void OnFire();
 
-	// The total amount of ammo that can be carried for the weapon
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
-		int maxTotalAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+		bool isFiring = true;
 
-	// The total amount of ammo that can be in weapon
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
-		int maxClipAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+		int AmmoCurrent = 15;
 
-	// The total amount of ammo being carried for the weapon
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
-		int totalAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+		int AmmoMax = 100;
 
-	// The total amount of ammo in the weapon
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
-		int clipAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+		int ClipSize = 15;
 
-	// The time it takes to reload the weapon
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Weapon)
-		int reloadTime;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+		float FireRate = 0.15f;
 
+	/** Barrel Reference Point */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
+		USceneComponent* Barrel_refpoint;
 
 protected:
 	// Called when the game starts or when spawned
@@ -51,7 +49,7 @@ private:
 		USceneComponent* Root;
 
 	UPROPERTY(VisibleAnywhere)
-		USkeletalMeshComponent* Mesh;
+		USkeletalMeshComponent* GunMesh;
 
 	UPROPERTY(EditAnywhere)
 		UParticleSystem* MuzzleFlash;

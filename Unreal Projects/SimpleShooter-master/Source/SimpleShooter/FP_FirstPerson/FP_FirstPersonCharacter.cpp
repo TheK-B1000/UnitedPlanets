@@ -116,7 +116,7 @@ void AFP_FirstPersonCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	Gun = GetWorld()->SpawnActor<AUPGGun>(GunClass);
-	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("WeaponSocket"));
+	Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules::KeepRelativeTransform, TEXT("GripPoint"));
 	Gun->SetOwner(this);
 }
 
@@ -156,8 +156,8 @@ void AFP_FirstPersonCharacter::OnFire()
 		StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
 	}
 
-	// Shoot the gun
-	Gun->PullTrigger();
+	// Shoot the gun - moved to UPGGun
+	//Gun->PullTrigger();
 
 	// Calculate endpoint of trace
 	const FVector EndTrace = StartTrace + ShootDir * WeaponRange;

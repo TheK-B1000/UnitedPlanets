@@ -4,6 +4,7 @@
 #include "UPGGun.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "FP_FirstPersonCharacter.h"
 #include "DrawDebugHelpers.h"
 
 
@@ -16,40 +17,58 @@ AUPGGun::AUPGGun()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	SetRootComponent(Root);
 
-	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
-	Mesh->SetupAttachment(Root);
+	GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
+	GunMesh->SetupAttachment(Root);
 
-	// Set the default values for variables
-	maxTotalAmmo = 100;
-	maxClipAmmo = 12;
-	totalAmmo = 64;
-	clipAmmo = 12;
-	reloadTime = 1.0f;
+	// Create a barrel_refpoint scene component
+	Barrel_refpoint = CreateDefaultSubobject<USceneComponent>(TEXT("Barrel_refpoint"));
+	Barrel_refpoint->SetupAttachment(GunMesh);
 
 }
 
-void AUPGGun::PullTrigger()
+void AUPGGun::OnFire()
 {
-	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("MuzzleFlashSocket"));
-	UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlashSocket"));
-
-	FHitResult Hit;
-	FVector ShotDirection;
-	bool bSuccess = GunTrace(Hit, ShotDirection);
-	if (bSuccess)
+	/* try and fire a projectile
+	if (ProjectileClass != nullptr)
 	{
-		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
-		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
+		// try and play the emitter if specified
+		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GunMesh, TEXT("MuzzleFlashSocket"));
+		// try and play the sound if specified
+		UGameplayStatics::SpawnSoundAttached(MuzzleSound, GunMesh, TEXT("MuzzleFlashSocket"));
 
-		AActor* HitActor = Hit.GetActor();
-		if (HitActor != nullptr)
+		const FRotator SpwanRotation = GetControlRotation();
+		const FVector SpawnLocation = ((Barrel_refpoint != nullptr) ? Barrel_refpoint->GetComponentLocation());
+
+		// I need to setup the gun to shoot bullets but right now it is using line tracing. This works but not what I want.
+		UWorld* const World = GetWorld();
+		if (World != nullptr)
 		{
-			FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
-			AController* OwnerController = GetOwnerController();
-			HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
-		}
-	}
+			FHitResult Hit;
+			FVector ShotDirection;
+			bool bSuccess = GunTrace(Hit, ShotDirection);
+		
+			if (bSuccess)
+				{
+					// spawn the projectile at the barrel ref point
+					World->SpawnActor<ABallProjectile>(ProjectileClass, SpawnLocation, SpawnRotation)
+					// try and play the emitter if specified
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
+					// try and play the sound if specified
+					UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 
+					AActor* HitActor = Hit.GetActor();
+					if (HitActor != nullptr)
+					{
+						FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
+						AController* OwnerController = GetOwnerController();
+						HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
+					}
+				}
+		}
+
+	
+		
+	}*/
 }
 
 // Called when the game starts or when spawned
