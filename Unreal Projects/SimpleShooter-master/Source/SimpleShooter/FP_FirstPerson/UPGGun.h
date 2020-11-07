@@ -15,8 +15,6 @@ public:
 	// Sets default values for this actor's properties
 	AUPGGun();
 
-	void OnFire();
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
 		bool isFiring = true;
 
@@ -34,11 +32,30 @@ public:
 
 	/** Barrel Reference Point */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gun)
-		USceneComponent* Barrel_refpoint;
+		USceneComponent* Barrel_refpoint;\
+
+	// TODO - determine which sound design I should keep
+	/** Sound to play each time we fire - different way of doing it */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		class USoundBase* FireSound;
+
+	/** Projectile class to spawn */
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class AProjectile> ProjectileClass;
+
+	/** AnimMontage to play each time we fire */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		class UAnimMontage* FireAnimation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		class UAnimInstance* AnimInstance;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	/** Fires a projectile */
+	void OnFire();
 
 public:
 	// Called every frame
