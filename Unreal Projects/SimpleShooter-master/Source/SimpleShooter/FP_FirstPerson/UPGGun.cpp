@@ -11,6 +11,8 @@
 #include "Animation/AnimInstance.h"
 #include "DrawDebugHelpers.h"
 
+#define COLLISION_UPGGun		ECC_GameTraceChannel1
+
 // Sets default values
 AUPGGun::AUPGGun()
 {
@@ -27,61 +29,84 @@ AUPGGun::AUPGGun()
 	Barrel_refpoint = CreateDefaultSubobject<USceneComponent>(TEXT("Barrel_refpoint"));
 	Barrel_refpoint->SetupAttachment(GunMesh);
 
+	// Set UPGGun damage and range
+	WeaponRange = 5000.0f;
+	WeaponDamage = 500000.0f;
 }
 
 void AUPGGun::OnFire()
 {
+	UE_LOG(LogTemp, Warning, TEXT("On Fire Pressed!"));
 	UWorld* const World = GetWorld();
 	// try and fire a projectile
 	if (ProjectileClass != nullptr)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Projectile Shot!"));
 		// try and play the emitter if specified
 		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GunMesh, TEXT("MuzzleFlashSocket"));
 		// try and play the sound if specified
 		UGameplayStatics::SpawnSoundAttached(MuzzleSound, GunMesh, TEXT("MuzzleFlashSocket"));
 
-		 //AFP_FirstPersonCharacter* const Character = Cast<AFP_FirstPersonCharacter>(this);
+		 AFP_FirstPersonCharacter* const Character = Cast<AFP_FirstPersonCharacter>(this);
 
+		// reference to spawn the projectile
 		const FRotator SpawnRotation = Barrel_refpoint->GetComponentRotation();
 		const FVector SpawnLocation = Barrel_refpoint->GetComponentLocation();
 
-		// I need to setup the gun to shoot bullets but right now it is using line tracing. This works but not what I want.
 		if (World != nullptr)
 		{
 			// spawn the projectile at the muzzle
-
+			UE_LOG(LogTemp, Warning, TEXT("Projectile Spawned!"));
 			AProjectile* Projectile = World->SpawnActor<AProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
 
 			auto multiplier = 5000.0f; // tamper with amount for desired results
 			FVector NewVelocity = SpawnRotation.Vector() * multiplier;
 			Projectile->Velocity = FVector(NewVelocity);
 			FHitResult Hit;
-			FVector ShotDirection;
-			bool bSuccess = GunTrace(Hit, ShotDirection);
-		
+			FVector ShootDir = FVector::ZeroVector;
+			FVector StartTrace = FVector::ZeroVector;
+			bool bSuccess = GunTrace(Hit, ShootDir);
+
 			if (bSuccess)
-				{
+			{
+				// Now send a trace from the end of our gun to see if we should hit anything
+				if (Character)
+				{ 
 					// spawn the projectile at the barrel ref point
-				World->SpawnActor<AProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+					World->SpawnActor<AProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
 					// try and play the emitter if specified
-					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
+					UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShootDir.Rotation());
 					// try and play the sound if specified
 					UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 
-					AActor* HitActor = Hit.GetActor();
-					if (HitActor != nullptr)
-					{
-						FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
-						AController* OwnerController = GetOwnerController();
-						HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
-					}
+					// TODO - do I need this trace if it is built in the projectile class??
+					// Calculate endpoint of trace
+					const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
 
-					// try and play a firing animation if specified
-					if (FireSound != nullptr)
+					// Calculate the direction of fire and the start location for trace
+					FRotator CamRot;
+					ShootDir = CamRot.Vector();
+
+					// Adjust trace so there is nothing blocking the ray between the camera and the pawn, and calculate distance from adjusted start
+					StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
+
+					// Check for impact
+					const FHitResult Impact = WeaponTrace(StartTrace, EndTrace);
+
+					// Deal with impact
+					AActor* DamagedActor = Impact.GetActor();
+					UPrimitiveComponent* DamagedComponent = Impact.GetComponent();
+
+					// If we hit an actor, with a component that is simulating physics, apply an impulse
+					if ((DamagedActor != NULL) && (DamagedActor != this) && (DamagedComponent != NULL) && DamagedComponent->IsSimulatingPhysics())
 					{
-						// TODO setup animaiton and firing sound
-					}
-				}
+						DamagedComponent->AddImpulseAtLocation(ShootDir * WeaponDamage, Impact.Location);
+						FPointDamageEvent DamageEvent(Damage, Hit, ShootDir, nullptr);
+						AController* OwnerController = GetOwnerController();
+						DamagedActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
+					}		
+				}	
+			}
 		}
 	}
 }
@@ -126,5 +151,15 @@ AController* AUPGGun::GetOwnerController() const
 	return OwnerPawn->GetController();
 }
 
+FHitResult AUPGGun::WeaponTrace(const FVector& StartTrace, const FVector& EndTrace) const
+{
+	// Perform trace to retrieve hit info
+	FCollisionQueryParams TraceParams(SCENE_QUERY_STAT(UPGGunTrace), true, GetInstigator());
+	TraceParams.bReturnPhysicalMaterial = true;
 
+	FHitResult Hit(ForceInit);
+	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, COLLISION_UPGGun, TraceParams);
+
+	return Hit;
+}
 

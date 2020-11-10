@@ -9,8 +9,6 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerController.h"
 
-#define COLLISION_UPGGun		ECC_GameTraceChannel1
-
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -53,10 +51,6 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	ADSFirstPersonCameraComponent->SetRelativeRotation(FRotator(0, 90.0f, 0)); // Rotate the camera
 	ADSFirstPersonCameraComponent->bUsePawnControlRotation = true;
 
-	// Set UPGGun damage and range
-	WeaponRange = 5000.0f;
-	WeaponDamage = 500000.0f;
-
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 30.0f, 10.0f);
 
@@ -69,6 +63,7 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	isAiming = false;
 	playerHealth = 1.00f;
 	playerStamina = 1.00f;
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -89,8 +84,6 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	//PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AUnitedPlanetsCharacter::Sprint);
 	//PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AUnitedPlanetsCharacter::StopSprinting);
 
-	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFP_FirstPersonCharacter::OnFire);
 	//PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AFP_FirstPersonCharacter::ReloadWeapon);
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AFP_FirstPersonCharacter::AimIn);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &AFP_FirstPersonCharacter::StopAim);
@@ -115,68 +108,14 @@ void AFP_FirstPersonCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Gun = GetWorld()->SpawnActor<AUPGGun>(GunClass);
-	Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules::KeepRelativeTransform, TEXT("GripPoint"));
-	Gun->SetOwner(this);
+		Gun = GetWorld()->SpawnActor<AUPGGun>(GunClass);
+		Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules::KeepRelativeTransform, TEXT("GripPoint"));
+		Gun->SetOwner(this);
+
+		// Bind fire event
+		InputComponent->BindAction("Fire", IE_Pressed, Gun, &AUPGGun::OnFire);
 }
-
-void AFP_FirstPersonCharacter::OnFire()
-{
-	// Play a sound if there is one
-	if (FireSound != NULL)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
-
-	// Try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
-		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
-		}
-	}
-
-	// Now send a trace from the end of our gun to see if we should hit anything
-	APlayerController* PlayerController = Cast<APlayerController>(GetController());
-	
-	FVector ShootDir = FVector::ZeroVector;
-	FVector StartTrace = FVector::ZeroVector;
-
-	if (PlayerController)
-	{
-		// Calculate the direction of fire and the start location for trace
-		FRotator CamRot;
-		PlayerController->GetPlayerViewPoint(StartTrace, CamRot);
-		ShootDir = CamRot.Vector();
-
-		// Adjust trace so there is nothing blocking the ray between the camera and the pawn, and calculate distance from adjusted start
-		StartTrace = StartTrace + ShootDir * ((GetActorLocation() - StartTrace) | ShootDir);
-	}
-
-	// Shoot the gun - moved to UPGGun
-	//Gun->PullTrigger();
-
-	// Calculate endpoint of trace
-	const FVector EndTrace = StartTrace + ShootDir * WeaponRange;
-
-	// Check for impact
-	const FHitResult Impact = WeaponTrace(StartTrace, EndTrace);
-
-	// Deal with impact
-	AActor* DamagedActor = Impact.GetActor();
-	UPrimitiveComponent* DamagedComponent = Impact.GetComponent();
-
-	// If we hit an actor, with a component that is simulating physics, apply an impulse
-	if ((DamagedActor != NULL) && (DamagedActor != this) && (DamagedComponent != NULL) && DamagedComponent->IsSimulatingPhysics())
-	{
-		DamagedComponent->AddImpulseAtLocation(ShootDir * WeaponDamage, Impact.Location);
-	}
-}
-
-
+ 
 void AFP_FirstPersonCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
 	// If touch is already pressed check the index. If it is not the same as the current touch assume a second touch and thus we want to fire
@@ -184,7 +123,6 @@ void AFP_FirstPersonCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, c
 	{
 		if( TouchItem.FingerIndex != FingerIndex)
 		{
-			OnFire();			
 		}
 	}
 	else 
@@ -208,7 +146,6 @@ void AFP_FirstPersonCharacter::EndTouch(const ETouchIndex::Type FingerIndex, con
 	// If the index matches the start index and we didn't process any movement we assume we want to fire
 	if ((FingerIndex == TouchItem.FingerIndex) && (TouchItem.bMoved == false))
 	{
-		OnFire();
 	}
 
 	// Flag we are no longer processing the touch event
@@ -276,18 +213,6 @@ void AFP_FirstPersonCharacter::LookUpAtRate(float Rate)
 {
 	// Calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-FHitResult AFP_FirstPersonCharacter::WeaponTrace(const FVector& StartTrace, const FVector& EndTrace) const
-{
-	// Perform trace to retrieve hit info
-	FCollisionQueryParams TraceParams(SCENE_QUERY_STAT(UPGGunTrace), true, GetInstigator());
-	TraceParams.bReturnPhysicalMaterial = true;
-
-	FHitResult Hit(ForceInit);
-	GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, COLLISION_UPGGun, TraceParams);
-
-	return Hit;
 }
 
 void AFP_FirstPersonCharacter::TryEnableTouchscreenMovement(UInputComponent* PlayerInputComponent)

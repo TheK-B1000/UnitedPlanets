@@ -43,12 +43,29 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = Projectile)
 		TSubclassOf<class AProjectile> ProjectileClass;
 
+	/* This is when calculating the trace to determine what the weapon has hit */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		float WeaponRange;
+
+	/* This is multiplied by the direction vector when the weapon trace hits something to apply velocity to the component that is hit */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		float WeaponDamage;
+
+	/** Fires a projectile */
+	void OnFire();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	/** Fires a projectile */
-	void OnFire();
+	/*
+	 * Performs a trace between two points
+	 *
+	 * @param	StartTrace	Trace starting point
+	 * @param	EndTrac		Trace end point
+	 * @returns FHitResult returns a struct containing trace result - who/what the trace hit etc.
+	 */
+	FHitResult WeaponTrace(const FVector& StartTrace, const FVector& EndTrace) const;
 
 public:
 	// Called every frame

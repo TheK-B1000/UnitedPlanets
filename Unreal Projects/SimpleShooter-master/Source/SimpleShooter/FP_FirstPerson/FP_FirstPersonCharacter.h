@@ -37,6 +37,9 @@ class AFP_FirstPersonCharacter : public ACharacter
 public:
 	AFP_FirstPersonCharacter();
 
+	// Setup OnFire inside BeginPlay
+	void OnFire();
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -56,14 +59,6 @@ public:
 	/** AnimMontage to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	UAnimMontage* FireAnimation;
-
-	/* This is when calculating the trace to determine what the weapon has hit */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	float WeaponRange;
-	
-	/* This is multiplied by the direction vector when the weapon trace hits something to apply velocity to the component that is hit */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	float WeaponDamage;
 
 	/* Determines if the character is currently sprinting */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
@@ -107,12 +102,6 @@ protected:
 	// Starts at runtime
 	virtual void BeginPlay() override;
 
-	/** Handler for a touch input beginning. */
-	void TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location);
-
-	/** Fires a virtual projectile. */
-	void OnFire();
-
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
 
@@ -130,15 +119,6 @@ protected:
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
 	void LookUpAtRate(float Rate);
-
-	/* 
-	 * Performs a trace between two points
-	 * 
-	 * @param	StartTrace	Trace starting point
-	 * @param	EndTrac		Trace end point
-	 * @returns FHitResult returns a struct containing trace result - who/what the trace hit etc.
-	 */
-	FHitResult WeaponTrace(const FVector& StartTrace, const FVector& EndTrace) const;
 
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
@@ -254,6 +234,8 @@ public:
 
 	UPROPERTY()
 	AUPGGun* Gun;
+
+
 
 };
 

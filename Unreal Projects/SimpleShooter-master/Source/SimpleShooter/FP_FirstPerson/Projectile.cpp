@@ -50,15 +50,18 @@ void AProjectile::Tick(float DeltaTime)
 	// TODO - Should this be an if statement?
 	if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECollisionChannel::ECC_Destructible, CollisionParams))
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Line trace is successful!!"));
 		// If we do hit something
 		// check to see if our hit result hit an actor
 		if (HitResult.GetActor())
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Hit result is successful!!"));
 			// Create a Debug Box 
 			DrawDebugSolidBox(GetWorld(), HitResult.ImpactPoint, FVector(10.0f), FColor::Blue, true);
 			ADestructibleActor* Mesh = Cast<ADestructibleActor>(HitResult.GetActor());
 			if (Mesh)
 			{
+				UE_LOG(LogTemp, Warning, TEXT("Found a mesh!"));
 				Mesh->GetDestructibleComponent()->ApplyRadiusDamage(10.0f, HitResult.ImpactPoint, 32.0f, 10.0f, false); // TODO - Play around with the values
 			}
 		}
@@ -72,6 +75,7 @@ void AProjectile::Tick(float DeltaTime)
 	}
 	else
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Line trace failed!"));
 		// if we do not hit something
 		BulletExpiry += DeltaTime;
 
