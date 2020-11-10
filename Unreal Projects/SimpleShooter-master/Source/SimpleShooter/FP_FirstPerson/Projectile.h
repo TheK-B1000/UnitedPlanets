@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "Projectile.generated.h"
 
+class UDestructibleComponent;
+
 UCLASS()
 class SIMPLESHOOTER_API AProjectile : public AActor
 {
@@ -15,8 +17,13 @@ public:
 	// Sets default values for this actor's properties
 	AProjectile();
 
+	USceneComponent* RootComp;
+
 	UPROPERTY(EditAnywhere)
-	FVector Velocity;
+	FVector Velocity = FVector(100.0f);
+
+	// remove our bullet from screen it has not hit anything
+	float BulletExpiry = 0.0f;
 
 protected:
 	// Called when the game starts or when spawned
@@ -25,5 +32,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
 
 };
